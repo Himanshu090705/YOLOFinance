@@ -1,11 +1,12 @@
 # YOLO Finance
 
+The Finance Portfolio Management System is a full-featured web application designed to help users efficiently manage and track their financial portfolios, including mutual funds, LIC insurance policies, and other investments. This project provides a centralized dashboard to monitor the performance, returns, and maturity details of different financial instruments in a secure and organized manner.
 
 ## Setup this project
 
 ### 📃 Prerequisites
 
-- Node: v20.x.x
+- NodeJS, MongoDB
 
 ---
 
@@ -14,24 +15,23 @@
 1. **Clone the repository**:
 
    ```sh
-   git clone https://github.com/your-username/TripPlanner.git
-   cd TripPlanner
+   git clone https://github.com/devanshkansagra/YOLOFinance
+   cd YOLOFinance
    ```
 
 2. **Set up the backend**:
 
    ```sh
    cd backend
-   yarn install
+   npm install
    cp .env.example .env  
    ```
 
 3. **Set up the frontend**:
 
    ```sh
-   cd ../frontend
-   yarn install
-   cp .env.example .env  
+   cd ../FrontEnd/yoloFinance
+   npm install --legacy-peer-deps
    ```
 
 ---
@@ -42,14 +42,14 @@
 
    ```sh
    cd backend
-   npm start
+   npm run start
    ```
 
 2. **Start the frontend development server**:
 
    ```sh
-   cd frontend
-   npm run dev
+   cd ../FrontEnd/yoloFinance
+   ng serve
    ```
 
 ### 💡 Create your own Google OAuth Client
@@ -67,7 +67,7 @@ This is how you can create your own Google OAuth [Watch This](https://github-pro
 
 ### 🎨 Frontend
 
-- Vite + TypeScript
+- Angular JS
 
 
 ### 🗄️ Database
