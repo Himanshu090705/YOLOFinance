@@ -1,0 +1,34 @@
+export async function fetchNAVData() {
+  const url = 'https://www.amfiindia.com/spages/NAVAll.txt';
+
+  try {
+    const response = await fetch(url);
+    const text = await response.text();
+
+    const lines = text.split('\n').map(line => line.trim());
+    const headerIndex = lines.findIndex(line => line.includes('Scheme Code'));
+    const headers = lines[headerIndex].split(';').map(h => h.trim());
+
+    const data = [];
+
+    for (let i = headerIndex + 1; i < lines.length; i++) {
+      const line = lines[i];
+
+      if (line === '' || !line.includes(';')) continue;
+
+      const values = line.split(';').map(v => v.trim());
+
+      if (values.length === headers.length) {
+        const row: any = {};
+        headers.forEach((key, idx) => {
+          row[key] = values[idx];
+        });
+        data.push(row);
+      }
+    }
+
+    return data
+  } catch (err) {
+    console.error('Failed to fetch NAV data:', err);
+  }
+}
