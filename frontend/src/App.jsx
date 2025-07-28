@@ -3,11 +3,12 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import Login from './components/Auth/Login';
 import SignUp from './components/Auth/SignUp';
 import Dashboard from './components/Dashboard/Dashboard';
+import MarketingPage from './components/Home/MarketingPage';
 
 const App = () => (
   <Router>
     <Routes>
-      <Route path="/" element={<Navigate to="/Login" />} />
+      <Route path="/" element={<MarketingPage />} />
       <Route path="/Login" element={<Login />} />
       <Route path="/Signup" element={<SignUp />} />
       <Route path="/Dashboard" element={<Dashboard />} />

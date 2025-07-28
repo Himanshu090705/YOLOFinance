@@ -17,6 +17,10 @@ import AppTheme from "../shared-theme/AppTheme";
 import ColorModeSelect from "../shared-theme/ColorModeSelect";
 import { GoogleIcon, FacebookIcon, SitemarkIcon } from "./views/CustomIcons";
 import axios from "axios";
+import InputAdornment from "@mui/material/InputAdornment";
+import IconButton from "@mui/material/IconButton";
+import Visibility from "@mui/icons-material/Visibility";
+import VisibilityOff from "@mui/icons-material/VisibilityOff";
 
 const Card = styled(MuiCard)(({ theme }) => ({
   display: "flex",
@@ -67,6 +71,8 @@ export default function SignUp(props) {
   const [passwordErrorMessage, setPasswordErrorMessage] = React.useState("");
   const [nameError, setNameError] = React.useState(false);
   const [nameErrorMessage, setNameErrorMessage] = React.useState("");
+  const [showPassword, setShowPassword] = React.useState(false);
+  const togglePasswordVisibility = () => setShowPassword((prev) => !prev);
 
   const validateInputs = () => {
     const email = document.getElementById("email");
@@ -182,13 +188,27 @@ export default function SignUp(props) {
                 fullWidth
                 name="password"
                 placeholder="••••••"
-                type="password"
+                type={showPassword ? "text" : "password"}
                 id="password"
                 autoComplete="new-password"
                 variant="outlined"
                 error={passwordError}
                 helperText={passwordErrorMessage}
                 color={passwordError ? "error" : "primary"}
+                InputProps={{
+                  endAdornment: (
+                    <InputAdornment position="end">
+                      <IconButton
+                        onClick={togglePasswordVisibility}
+                        edge="end"
+                        aria-label="toggle password visibility"
+                        style={{marginRight: "10px", border: "none", height: "10px", width: "10px"}}
+                      >
+                        {showPassword ? <VisibilityOff /> : <Visibility />}
+                      </IconButton>
+                    </InputAdornment>
+                  ),
+                }}
               />
             </FormControl>
             <FormControlLabel
