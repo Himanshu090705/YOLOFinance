@@ -9,7 +9,19 @@ export async function login(req: Request, res: Response) {
   try {
     const response = await User.find({ username, password });
     if (response.length > 0) {
-      res.status(200).send({ data: response[0] });
+      const { id_token, accessToken } = await generateAuthTokens(response[0]);
+      res.cookie("id_token", id_token, {
+        httpOnly: false, // prevents JS access
+        maxAge: 7 * 24 * 60 * 60 * 1000,
+        secure: false,
+        path: "/",
+      }).cookie("access_token", accessToken, {
+          httpOnly: false,
+          maxAge: 24 * 60 * 60 * 1000,
+          secure: false,
+          path: "/"
+        })
+      .status(200).send({ data: response[0] });;
     } else {
       res.status(404).send({ message: "No users found" });
     }
@@ -19,17 +31,27 @@ export async function login(req: Request, res: Response) {
 }
 
 export async function signup(req: Request, res: Response) {
-  const { fullname, email, username, password } = req.body;
+  const { name, email, username, password } = req.body;
   try {
     const doesExists = await User.findOne({ email });
     if (doesExists) {
       res.status(409).send({ message: "User already exists" });
     } else {
-      const user = new User({ fullname, email, password, username });
+      const user = new User({ name, email, password, username });
       const response = await user.save();
-      const { accessToken, refreshToken, id_token } =
-        await generateAuthTokens(user);
+      const { id_token, accessToken } = await generateAuthTokens(user);
       if (response) {
+        res.cookie("id_token", id_token, {
+          httpOnly: false, // prevents JS access
+          maxAge: 7 * 24 * 60 * 60 * 1000,
+          secure: false,
+          path: "/",
+        }).cookie("access_token", accessToken, {
+          httpOnly: false,
+          maxAge: 24 * 60 * 60 * 1000,
+          secure: false,
+          path: "/"
+        })
         res.status(201).send({ message: "New User Created" });
       }
     }
@@ -61,7 +83,7 @@ export async function googleOAuthCallback(req: Request, res: Response) {
   try {
     const doesExists = await User.findOne({ email: userInfo.email });
     if (doesExists) {
-      return res.redirect(`${process.env.ORIGIN}/signup?error=exists`);
+      return res.redirect(`${process.env.ORIGIN}/Dashboard`);
     } else {
       const user = new User({
         fullname: userInfo.name,
@@ -74,9 +96,13 @@ export async function googleOAuthCallback(req: Request, res: Response) {
       });
       const response1 = await user.save();
       if (response1) {
-        return res.redirect(
-          `${process.env.ORIGIN}/signup?id_token=${accessToken.id_token}`,
-        );
+        res.cookie("id_token", accessToken?.id_token, {
+          httpOnly: false, // prevents JS access
+          maxAge: 7 * 24 * 60 * 60 * 1000,
+          secure: false,
+          path: "/",
+        });
+        return res.redirect(`${process.env.ORIGIN}/Dashboard`);
       }
     }
   } catch (error) {
@@ -93,7 +119,7 @@ async function getOauthUserInfo(token: string) {
           Authorization: `Bearer ${token}`,
         },
         method: "GET",
-      },
+      }
     );
 
     return await response.json();
@@ -115,5 +141,20 @@ async function getGoogleOauthAccessToken(code: string) {
     return await response.json();
   } catch (error) {
     console.log(error);
+  }
+}
+
+export async function userLogout(req: Request, res: Response) {
+  try {
+    res.clearCookie("id_token", {
+      httpOnly: false, // must match your original cookie
+      secure: false, // match same as when you set it
+      path: "/", // match same path
+      sameSite: "lax", // if you used sameSite when setting
+    });
+    res.status(200).json({ message: "User Logout" });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: "Logout failed" });
   }
 }

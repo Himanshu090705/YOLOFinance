@@ -1,5 +1,5 @@
 export interface IUser extends Document {
-    fullname: string,
+    name: string,
     email: string,
     username: string,
     phone: Number,

@@ -21,6 +21,7 @@ import InputAdornment from "@mui/material/InputAdornment";
 import IconButton from "@mui/material/IconButton";
 import Visibility from "@mui/icons-material/Visibility";
 import VisibilityOff from "@mui/icons-material/VisibilityOff";
+import { useNavigate } from 'react-router-dom';
 
 const Card = styled(MuiCard)(({ theme }) => ({
   display: "flex",
@@ -74,6 +75,7 @@ export default function SignUp(props) {
   const [showPassword, setShowPassword] = React.useState(false);
   const togglePasswordVisibility = () => setShowPassword((prev) => !prev);
 
+  const navigate = useNavigate();
   const validateInputs = () => {
     const email = document.getElementById("email");
     const password = document.getElementById("password");
@@ -120,17 +122,17 @@ export default function SignUp(props) {
     const data = new FormData(event.currentTarget);
     const body = {
       name: data.get("name"),
-      lastName: data.get("lastName"),
       email: data.get("email"),
       password: data.get("password"),
     };
 
     const response = await axios.post(
       "http://localhost:4000/api/users/signup",
-      body
+      body,
+      {withCredentials: true}
     );
     if (response) {
-      window.alert("User Registered");
+      navigate('/Dashboard')
     }
   };
 

@@ -21,6 +21,8 @@ import InputAdornment from "@mui/material/InputAdornment";
 import IconButton from "@mui/material/IconButton";
 import Visibility from "@mui/icons-material/Visibility";
 import VisibilityOff from "@mui/icons-material/VisibilityOff";
+import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 const Card = styled(MuiCard)(({ theme }) => ({
   display: "flex",
@@ -72,6 +74,7 @@ export default function Login(props) {
   const [open, setOpen] = React.useState(false);
   const [showPassword, setShowPassword] = React.useState(false);
   const togglePasswordVisibility = () => setShowPassword((prev) => !prev);
+  const navigate = useNavigate()
 
   const handleClickOpen = () => {
     setOpen(true);
@@ -81,16 +84,26 @@ export default function Login(props) {
     setOpen(false);
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     if (emailError || passwordError) {
       event.preventDefault();
       return;
     }
     const data = new FormData(event.currentTarget);
-    console.log({
+    const body = {
       email: data.get("email"),
       password: data.get("password"),
-    });
+    };
+
+    const response = await axios.post(
+      "http://localhost:4000/api/users/login",
+      body,
+      { withCredentials: true }
+    );
+
+    if(response) {
+      navigate('/Dashboard');
+    }
   };
 
   const validateInputs = () => {
@@ -184,7 +197,12 @@ export default function Login(props) {
                         onClick={togglePasswordVisibility}
                         edge="end"
                         aria-label="toggle password visibility"
-                        style={{marginRight: "10px", border: "none", height: "10px", width: "10px"}}
+                        style={{
+                          marginRight: "10px",
+                          border: "none",
+                          height: "10px",
+                          width: "10px",
+                        }}
                       >
                         {showPassword ? <VisibilityOff /> : <Visibility />}
                       </IconButton>

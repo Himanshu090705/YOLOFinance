@@ -10,6 +10,8 @@ import ListItemIcon, { listItemIconClasses } from '@mui/material/ListItemIcon';
 import LogoutRoundedIcon from '@mui/icons-material/LogoutRounded';
 import MoreVertRoundedIcon from '@mui/icons-material/MoreVertRounded';
 import MenuButton from './MenuButton';
+import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
 
 const MenuItem = styled(MuiMenuItem)({
   margin: '2px 0',
@@ -17,6 +19,7 @@ const MenuItem = styled(MuiMenuItem)({
 
 export default function OptionsMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);
+  const navigate = useNavigate();
   const open = Boolean(anchorEl);
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
@@ -24,6 +27,13 @@ export default function OptionsMenu() {
   const handleClose = () => {
     setAnchorEl(null);
   };
+
+  async function handleLogout () {
+    const response = await axios.get('http://localhost:4000/api/users/logout', {withCredentials: true});
+    if(response) {
+      navigate('/');    
+    }
+  }
   return (
     <React.Fragment>
       <MenuButton
@@ -60,7 +70,7 @@ export default function OptionsMenu() {
         <MenuItem onClick={handleClose}>Settings</MenuItem>
         <Divider />
         <MenuItem
-          onClick={handleClose}
+          onClick={handleLogout}
           sx={{
             [`& .${listItemIconClasses.root}`]: {
               ml: 'auto',

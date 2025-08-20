@@ -3,6 +3,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 import routes from "./routes/routes";
 import { connectToMongodb } from "./database/config";
+import cookieParser from "cookie-parser";
 
 const app = express();
 dotenv.config();
@@ -10,15 +11,18 @@ connectToMongodb(process.env.CONNECTION_STRING as string);
 
 app.use(
   cors({
-    origin: process.env.ORIGIN,
+    origin: process.env.ORIGIN as string,
     methods: ["GET", "POST"],
+    credentials: true
   }),
 );
 
 const port = 4000;
 
 app.use(express.json());
+app.use(cookieParser());
 app.use(express.urlencoded({ extended: true }));
+
 app.use("/api", routes);
 
 app.listen(port, function () {
