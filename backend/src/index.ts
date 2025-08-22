@@ -4,6 +4,7 @@ import dotenv from "dotenv";
 import routes from "./routes/routes";
 import { connectToMongodb } from "./database/config";
 import cookieParser from "cookie-parser";
+import { fetchNAVData } from "./controllers/fetchNavController";
 
 const app = express();
 dotenv.config();
@@ -24,6 +25,7 @@ app.use(cookieParser());
 app.use(express.urlencoded({ extended: true }));
 
 app.use("/api", routes);
+app.get("/fetch-mf-data", fetchNAVData);
 
 app.listen(port, function () {
   console.log(`Server started at port ${port}`);

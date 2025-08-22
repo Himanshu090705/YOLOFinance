@@ -9,6 +9,7 @@ import Header from './components/Header.jsx';
 import MainGrid from './components/MainGrid.jsx';
 import SideMenu from './components/SideMenu.jsx';
 import AppTheme from '../shared-theme/AppTheme';
+import MutualFundDashboard from './MutualFundDashboard.jsx';
 import {
   chartsCustomizations,
   dataGridCustomizations,

@@ -1,4 +1,6 @@
-export async function fetchNAVData() {
+import { Request, Response } from "express";
+
+export async function fetchNAVData(req: Request, res: Response) {
   const url = 'https://www.amfiindia.com/spages/NAVAll.txt';
 
   try {
@@ -11,7 +13,7 @@ export async function fetchNAVData() {
 
     const data = [];
 
-    for (let i = headerIndex + 1; i < lines.length; i++) {
+    for (let i = headerIndex + 1; i < 200; i++) {
       const line = lines[i];
 
       if (line === '' || !line.includes(';')) continue;
@@ -27,7 +29,7 @@ export async function fetchNAVData() {
       }
     }
 
-    return data
+    res.send(data);
   } catch (err) {
     console.error('Failed to fetch NAV data:', err);
   }

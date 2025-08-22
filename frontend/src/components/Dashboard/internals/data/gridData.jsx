@@ -75,7 +75,7 @@ export function renderAvatar(params) {
 }
 
 export const columns = [
-  { field: 'pageTitle', headerName: 'Page Title', flex: 1.5, minWidth: 200 },
+  { field: 'pageTitle', headerName: 'Page Title2', flex: 1.5, minWidth: 200 },
   {
     field: 'status',
     headerName: 'Status',
