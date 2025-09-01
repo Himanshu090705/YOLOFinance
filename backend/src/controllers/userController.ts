@@ -3,30 +3,48 @@ import { User } from "../model/user";
 import { ACCESSS_TOKEN_URI, REDIRECT_URI } from "../constants/constants";
 import { getAuthorizationURL } from "../helpers/getAuthorizationURL";
 import { generateAuthTokens } from "../helpers/generateAuthTokens";
+import jwt from "jsonwebtoken";
+import bcrypt from "bcrypt";
 
-export async function login(req: Request, res: Response) {
-  const { username, password } = req.body;
+export async function login(req: Request, res: Response): Promise<void> {
+  const { email, password } = req.body;
+
   try {
-    const response = await User.find({ username, password });
-    if (response.length > 0) {
-      const { id_token, accessToken } = await generateAuthTokens(response[0]);
-      res.cookie("id_token", id_token, {
-        httpOnly: false, // prevents JS access
-        maxAge: 7 * 24 * 60 * 60 * 1000,
-        secure: false,
-        path: "/",
-      }).cookie("access_token", accessToken, {
-          httpOnly: false,
-          maxAge: 24 * 60 * 60 * 1000,
-          secure: false,
-          path: "/"
-        })
-      .status(200).send({ data: response[0] });;
-    } else {
-      res.status(404).send({ message: "No users found" });
+    const user = await User.findOne({ email });
+    if (!user) {
+      res.status(404).send({ message: "User not found" });
+      return;
     }
+
+
+    const isMatch = user.isPasswordCorrect(password);
+    if (!isMatch) {
+      res.status(401).send({ message: "Invalid credentials" });
+      return;
+    }
+
+    const {id_token, refreshToken, accessToken} = await generateAuthTokens(user);
+
+    res.cookie("id_token", id_token, {
+      httpOnly: false,
+      secure: false, // set true in prod with HTTPS
+      path: "/",
+      maxAge: 7 * 24 * 60 * 60 * 1000,
+    });
+    res.cookie("access_token", accessToken, {
+      httpOnly: false,
+      secure: false,
+      path: "/",
+      maxAge: 24 * 60 * 60 * 1000,
+    });
+
+    res.status(200).json({
+      message: "Login successful",
+      user: { id: user._id, email: user.email },
+    });
   } catch (error) {
-    console.log(error);
+    console.error(error);
+    res.status(500).json({ message: "Server error" });
   }
 }
 
@@ -41,17 +59,19 @@ export async function signup(req: Request, res: Response) {
       const response = await user.save();
       const { id_token, accessToken } = await generateAuthTokens(user);
       if (response) {
-        res.cookie("id_token", id_token, {
-          httpOnly: false, // prevents JS access
-          maxAge: 7 * 24 * 60 * 60 * 1000,
-          secure: false,
-          path: "/",
-        }).cookie("access_token", accessToken, {
-          httpOnly: false,
-          maxAge: 24 * 60 * 60 * 1000,
-          secure: false,
-          path: "/"
-        })
+        res
+          .cookie("id_token", id_token, {
+            httpOnly: false, // prevents JS access
+            maxAge: 7 * 24 * 60 * 60 * 1000,
+            secure: false,
+            path: "/",
+          })
+          .cookie("access_token", accessToken, {
+            httpOnly: false,
+            maxAge: 24 * 60 * 60 * 1000,
+            secure: false,
+            path: "/",
+          });
         res.status(201).send({ message: "New User Created" });
       }
     }

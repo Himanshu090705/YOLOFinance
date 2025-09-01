@@ -135,22 +135,31 @@ export default function MutualFundDashboardPurchased() {
             spacing={1}
             alignItems="center"
             sx={{
-              maxWidth: "100%", // keep within column
-              overflowX: "scroll", // scroll horizontally if too long
-              whiteSpace: "nowrap", // prevent wrapping
-              "&::-webkit-scrollbar": {
-                height: 6, // small scrollbar
+              height: "100%",
+              maxWidth: "100%",
+              overflow: "hidden", // hide overflowing text
+              position: "relative",
+              "&:hover .scrollText": {
+                animation: "scrollText 6s linear infinite", // start scroll on hover
+              },
+              "@keyframes scrollText": {
+                "0%": { transform: "translateX(0%)" },
+                "100%": { transform: "translateX(-100%)" },
               },
             }}
           >
             <Typography
               variant="body2"
               fontWeight={600}
-              sx={{ lineHeight: 1.2 }}
+              className="scrollText"
+              sx={{
+                lineHeight: 1.2,
+                whiteSpace: "nowrap",
+                display: "inline-block",
+              }}
             >
               {params.value}
             </Typography>
-            <Chip label="IDCW" size="small" variant="outlined" />
           </Stack>
         ),
       },

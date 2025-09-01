@@ -74,7 +74,7 @@ export default function Login(props) {
   const [open, setOpen] = React.useState(false);
   const [showPassword, setShowPassword] = React.useState(false);
   const togglePasswordVisibility = () => setShowPassword((prev) => !prev);
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   const handleClickOpen = () => {
     setOpen(true);
@@ -85,24 +85,29 @@ export default function Login(props) {
   };
 
   const handleSubmit = async (event) => {
-    if (emailError || passwordError) {
-      event.preventDefault();
-      return;
-    }
+    event.preventDefault(); // prevent reload
+
+    if (!validateInputs()) return;
+
     const data = new FormData(event.currentTarget);
     const body = {
       email: data.get("email"),
       password: data.get("password"),
     };
 
-    const response = await axios.post(
-      "http://localhost:4000/api/users/login",
-      body,
-      { withCredentials: true }
-    );
+    try {
+      const response = await axios.post(
+        "http://localhost:4000/api/users/login",
+        body,
+        { withCredentials: true } // important to receive cookies
+      );
 
-    if(response) {
-      navigate('/Dashboard');
+      if (response.status === 200) {
+        navigate("/Dashboard");
+      }
+    } catch (err) {
+      console.error(err);
+      alert("Login failed");
     }
   };
 

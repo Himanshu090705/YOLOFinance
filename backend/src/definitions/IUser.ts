@@ -11,5 +11,6 @@ export interface IUser extends Document {
     generateAccessToken(): string,
     generateRefreshToken(): string,
     generateIdToken(): string,
+    isPasswordCorrect(password: string): boolean,
     save(params: any): Promise<Document>
 }

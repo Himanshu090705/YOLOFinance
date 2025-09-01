@@ -17,6 +17,9 @@ import {
   Tooltip,
   Typography,
   createTheme,
+  Button,
+  Snackbar,
+  Alert,
 } from "@mui/material";
 import { DataGrid, GridToolbar } from "@mui/x-data-grid";
 import SearchIcon from "@mui/icons-material/Search";
@@ -32,8 +35,6 @@ import {
   treeViewCustomizations,
 } from "./theme/customizations";
 
-import { Button } from "@mui/material";
-
 const xThemeComponents = {
   ...chartsCustomizations,
   ...dataGridCustomizations,
@@ -42,7 +43,6 @@ const xThemeComponents = {
 };
 
 function normalizeRow(raw, id) {
-  // Safely read properties with spaces and normalize types
   const schemeCode = raw["Scheme Code"] ?? raw.schemeCode ?? "";
   const isinGrowth =
     raw["ISIN Div Payout/ ISIN Growth"] ?? raw.isinGrowth ?? "";
@@ -51,15 +51,12 @@ function normalizeRow(raw, id) {
   const navStr = raw["Net Asset Value"] ?? raw.nav ?? "";
   const dateStr = raw["Date"] ?? raw.date ?? raw.Date ?? "";
 
-  // Keep original date text but also a Date object for sorting
   let dateParsed = null;
   if (dateStr) {
-    // Supports formats like 20-Aug-2025 or ISO
     const tryISO = new Date(dateStr);
     if (!isNaN(tryISO)) {
       dateParsed = tryISO;
     } else {
-      // Attempt parsing DD-MMM-YYYY
       const m = String(dateStr).match(/(\d{1,2})-([A-Za-z]{3})-(\d{4})/);
       if (m) {
         const months = {
@@ -106,6 +103,10 @@ export default function MutualFundDashboard({ apiUrl }) {
   const [rows, setRows] = useState([]);
   const [query, setQuery] = useState("");
 
+  const [showPurchase, setShowPurchase] = useState(false);
+  const [purchasedItem, setPurchasedItem] = useState(null);
+  const [purchasedIds, setPurchasedIds] = useState([]);
+
   const fetchData = React.useCallback(async () => {
     setLoading(true);
     setError(null);
@@ -113,14 +114,12 @@ export default function MutualFundDashboard({ apiUrl }) {
       const res = await fetch(apiUrl);
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
-      // Expecting an array; if a single object is returned, wrap it
       const arr = Array.isArray(data) ? data : [data];
       const normalized = arr.map((it, idx) => normalizeRow(it, idx + 1));
       setRows(normalized);
     } catch (e) {
       setError(e.message || String(e));
-      // Fallback to mock data for usability
-      setRows(makeMockRows(50));
+      setRows([]); // fallback if needed
     } finally {
       setLoading(false);
     }
@@ -157,11 +156,12 @@ export default function MutualFundDashboard({ apiUrl }) {
             spacing={1}
             alignItems="center"
             sx={{
-              maxWidth: "100%", // keep within column
-              overflowX: "scroll", // scroll horizontally if too long
-              whiteSpace: "nowrap", // prevent wrapping
+              height: "100%", // ✅ stretch to full cell height
+              maxWidth: "100%",
+              overflowX: "auto", // ✅ scroll if too long
+              whiteSpace: "nowrap",
               "&::-webkit-scrollbar": {
-                height: 6, // small scrollbar
+                height: 6,
               },
             }}
           >
@@ -232,15 +232,21 @@ export default function MutualFundDashboard({ apiUrl }) {
         disableExport: true,
         renderCell: (params) => {
           const addToCart = useCartStore((s) => s.addToCart);
+          const isPurchased = purchasedIds.includes(params.row.id); // ✅ check if purchased
           return (
             <Button
               variant="contained"
               size="small"
+              color={isPurchased ? "success" : "primary"}
+              disabled={isPurchased} // ✅ disable after purchase
               onClick={() => {
-                addToCart(params.row); // ✅ push fund info to stores
+                addToCart(params.row);
+                setPurchasedItem(params.row.schemeName);
+                setShowPurchase(true);
+                setPurchasedIds((prev) => [...prev, params.row.id]); // ✅ mark as purchased
               }}
             >
-              Buy Now
+              {isPurchased ? "Purchased" : "Buy Now"}
             </Button>
           );
         },
@@ -300,7 +306,7 @@ export default function MutualFundDashboard({ apiUrl }) {
               slots={{ toolbar: GridToolbar }}
               slotProps={{
                 toolbar: {
-                  showQuickFilter: false, // we use our own search box
+                  showQuickFilter: false,
                   csvOptions: { fileName: "mutual-fund-dashboard" },
                   printOptions: { disableToolbarButton: false },
                 },
@@ -330,6 +336,25 @@ export default function MutualFundDashboard({ apiUrl }) {
           </Typography>
         </Stack>
       </Box>
+
+      {/* Snackbar for purchase confirmation */}
+      <Snackbar
+        open={showPurchase}
+        autoHideDuration={3000}
+        onClose={() => setShowPurchase(false)}
+        anchorOrigin={{ vertical: "top", horizontal: "center" }}
+      >
+        <Alert
+          severity="success"
+          variant="filled"
+          onClose={() => setShowPurchase(false)}
+          sx={{ borderRadius: 2 }}
+        >
+          {purchasedItem
+            ? `${purchasedItem} purchased successfully!`
+            : "Item purchased!"}
+        </Alert>
+      </Snackbar>
     </AppTheme>
   );
 }

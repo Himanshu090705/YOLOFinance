@@ -6,7 +6,7 @@ import {
   googleOAuth,
   userLogout,
 } from "../controllers/userController";
-import { verifyJWT } from "../middleware/authMiddleware";
+import { verifyJWT } from "../middleware/auth.middleware";
 const userRoutes = express.Router();
 
 userRoutes.post("/login", verifyJWT, login);
