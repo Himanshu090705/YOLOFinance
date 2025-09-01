@@ -67,35 +67,6 @@ export default function SideMenu() {
         <MenuContent />
         <CardAlert />
       </Box>
-      <Stack
-        direction="row"
-        sx={{
-          p: 2,
-          gap: 1,
-          alignItems: "center",
-          borderTop: "1px solid",
-          borderColor: "divider",
-        }}
-      >
-        <Avatar
-          sizes="small"
-          alt="Riley Carter"
-          src={details ? details.picture : "/static/images/avatar/7.jpg"}
-          sx={{ width: 36, height: 36 }}
-        />
-        <Box sx={{ mr: "auto" }}>
-          <Typography
-            variant="body2"
-            sx={{ fontWeight: 500, lineHeight: "16px" }}
-          >
-            {details? details?.name : "John Doe"}
-          </Typography>
-          <Typography variant="caption" sx={{ color: "text.secondary" }}>
-            {details ? details.email : "johnDoe@gmail.com"}
-          </Typography>
-        </Box>
-        <OptionsMenu />
-      </Stack>
     </Drawer>
   );
 }

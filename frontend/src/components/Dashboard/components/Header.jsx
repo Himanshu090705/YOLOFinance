@@ -1,23 +1,36 @@
-import * as React from 'react';
-import Stack from '@mui/material/Stack';
-import NotificationsRoundedIcon from '@mui/icons-material/NotificationsRounded';
-import CustomDatePicker from './CustomDatePicker';
-import NavbarBreadcrumbs from './NavbarBreadcrumbs';
-import MenuButton from './MenuButton';
-import ColorModeIconDropdown from '../../shared-theme/ColorModeIconDropdown';
+import * as React from "react";
+import Stack from "@mui/material/Stack";
+import NotificationsRoundedIcon from "@mui/icons-material/NotificationsRounded";
+import CustomDatePicker from "./CustomDatePicker";
+import NavbarBreadcrumbs from "./NavbarBreadcrumbs";
+import MenuButton from "./MenuButton";
+import ColorModeIconDropdown from "../../shared-theme/ColorModeIconDropdown";
+import { Avatar } from "@mui/material";
+import Cookies from "js-cookie";
+import { jwtDecode } from "jwt-decode";
 
-import Search from './Search';
+import Search from "./Search";
+import OptionsMenu from "./OptionsMenu";
 
 export default function Header() {
+  const token = Cookies.get("id_token");
+  const [details, setDetails] = React.useState({});
+
+  React.useEffect(() => {
+    if (token) {
+      const decoded = jwtDecode(token);
+      setDetails(decoded);
+    }
+  }, [token]); //
   return (
     <Stack
       direction="row"
       sx={{
-        display: { xs: 'none', md: 'flex' },
-        width: '100%',
-        alignItems: { xs: 'flex-start', md: 'center' },
-        justifyContent: 'space-between',
-        maxWidth: { sm: '100%', md: '1700px' },
+        display: { xs: "none", md: "flex" },
+        width: "100%",
+        alignItems: { xs: "flex-start", md: "center" },
+        justifyContent: "space-between",
+        maxWidth: { sm: "100%", md: "1700px" },
         pt: 1.5,
       }}
       spacing={2}
@@ -30,6 +43,13 @@ export default function Header() {
           <NotificationsRoundedIcon />
         </MenuButton>
         <ColorModeIconDropdown />
+        <Avatar
+          sizes="small"
+          alt="Riley Carter"
+          src={details ? details.picture : ""}
+          sx={{ width: 36, height: 36 }}
+        />
+        <OptionsMenu />
       </Stack>
     </Stack>
   );
