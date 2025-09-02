@@ -125,6 +125,9 @@ export default function MutualFundDashboard({ apiUrl }) {
     }
   }, [apiUrl]);
 
+  function paymentGateway() {
+    
+  }
   useEffect(() => {
     fetchData();
   }, [fetchData]);
@@ -244,6 +247,7 @@ export default function MutualFundDashboard({ apiUrl }) {
                 setPurchasedItem(params.row.schemeName);
                 setShowPurchase(true);
                 setPurchasedIds((prev) => [...prev, params.row.id]); // ✅ mark as purchased
+                paymentGateway() // Payment Gateway
               }}
             >
               {isPurchased ? "Purchased" : "Buy Now"}
