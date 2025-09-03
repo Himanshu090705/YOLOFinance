@@ -8,6 +8,7 @@ import MutualFundDashboard from './components/Dashboard/MutualFundDashboard';
 import MutualFunds from './components/Dashboard/MutualFunds';
 import SipCalculator from './components/Home/SipCalculator';
 import GoalTracker from './components/Dashboard/GoalTracker';
+import Profile from './components/Auth/Profile';
 
 const App = () => (
   <Router>
@@ -19,6 +20,7 @@ const App = () => (
       <Route path='/MutualFunds' element={<MutualFunds />}></Route>
       <Route path="/SipCalculator" element={<SipCalculator />} />
       <Route path="/GoalTracker" element={<GoalTracker />} />
+      <Route path="/profile" element={<Profile />} />
     </Routes>
   </Router>
 );
