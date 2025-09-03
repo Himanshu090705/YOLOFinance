@@ -3,12 +3,11 @@ import { User } from "../model/user";
 import { ACCESSS_TOKEN_URI, REDIRECT_URI } from "../constants/constants";
 import { getAuthorizationURL } from "../helpers/getAuthorizationURL";
 import { generateAuthTokens } from "../helpers/generateAuthTokens";
-import jwt from "jsonwebtoken";
-import bcrypt from "bcrypt";
 
-export async function login(req: Request, res: Response): Promise<void> {
+import { AuthRequest } from "../definitions/AuthRequest";
+
+export async function login(req: AuthRequest, res: Response): Promise<void> {
   const { email, password } = req.body;
-
   try {
     const user = await User.findOne({ email });
     if (!user) {
@@ -16,14 +15,14 @@ export async function login(req: Request, res: Response): Promise<void> {
       return;
     }
 
-
     const isMatch = user.isPasswordCorrect(password);
     if (!isMatch) {
       res.status(401).send({ message: "Invalid credentials" });
       return;
     }
 
-    const {id_token, refreshToken, accessToken} = await generateAuthTokens(user);
+    const { id_token, refreshToken, accessToken } =
+      await generateAuthTokens(user);
 
     res.cookie("id_token", id_token, {
       httpOnly: false,
@@ -89,39 +88,60 @@ export async function googleOAuthCallback(req: Request, res: Response) {
   const { code } = req.query;
   const response = await getGoogleOauthAccessToken(code as string);
 
-  const accessToken = {
+  const access_token = {
     token: response?.access_token,
     refresh_token: response?.refresh_token,
     scope: response?.scope,
     id_token: response?.id_token,
   };
 
-  const userInfo = await getOauthUserInfo(accessToken?.token as string);
+  const userInfo = await getOauthUserInfo(access_token?.token as string);
 
   const username = userInfo.email.split("@")[0];
 
   try {
     const doesExists = await User.findOne({ email: userInfo.email });
     if (doesExists) {
-      return res.redirect(`${process.env.ORIGIN}/Dashboard`);
-    } else {
-      const user = new User({
-        fullname: userInfo.name,
-        email: userInfo.email,
-        username,
-        authProvider: "Google",
-        accessToken: accessToken?.token,
-        refreshToken: accessToken?.refresh_token,
-        id_token: accessToken?.id_token,
-      });
-      const response1 = await user.save();
-      if (response1) {
-        res.cookie("id_token", accessToken?.id_token, {
-          httpOnly: false, // prevents JS access
+      const { id_token, accessToken } = await generateAuthTokens(doesExists);
+      res
+        .cookie("id_token", id_token, {
+          httpOnly: false,
           maxAge: 7 * 24 * 60 * 60 * 1000,
           secure: false,
           path: "/",
+        })
+        .cookie("access_token", accessToken, {
+          httpOnly: false,
+          maxAge: 24 * 60 * 60 * 1000,
+          secure: false,
+          path: "/",
         });
+      return res.redirect(`${process.env.ORIGIN}/Dashboard`);
+    } else {
+      const user = new User({
+        name: userInfo.name,
+        email: userInfo.email,
+        username,
+        authProvider: "Google",
+        avatar: userInfo.picture,
+      });
+
+      const { id_token, accessToken } = await generateAuthTokens(user);
+      const response1 = await user.save();
+      if (response1) {
+        res
+          .cookie("id_token", id_token, {
+            httpOnly: false,
+            maxAge: 7 * 24 * 60 * 60 * 1000,
+            secure: false,
+            path: "/",
+          })
+          .cookie("access_token", accessToken, {
+            httpOnly: false,
+            maxAge: 24 * 60 * 60 * 1000,
+            secure: false,
+            path: "/",
+          });
         return res.redirect(`${process.env.ORIGIN}/Dashboard`);
       }
     }
