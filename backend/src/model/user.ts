@@ -21,9 +21,6 @@ const UserSchema = new Schema<IUser>({
   authProvider: {
     type: String,
   },
-  avatar: {
-    type: String,
-  },
   accessToken: {
     type: String,
   },
@@ -73,7 +70,7 @@ UserSchema.methods.generateIdToken = async function () {
       _id: this._id,
       name: this.name,
       email: this.email,
-      avatar: this?.avatar,
+      username: this.username,
     },
     process.env.CLIENT_SECRET as string,
     {

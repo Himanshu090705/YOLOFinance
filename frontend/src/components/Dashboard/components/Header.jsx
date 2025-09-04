@@ -8,7 +8,6 @@ import ColorModeIconDropdown from "../../shared-theme/ColorModeIconDropdown";
 import { Avatar } from "@mui/material";
 import Cookies from "js-cookie";
 import { jwtDecode } from "jwt-decode";
-import { Chip } from "@mui/material";
 
 import Search from "./Search";
 import OptionsMenu from "./OptionsMenu";
@@ -37,17 +36,18 @@ export default function Header() {
       spacing={2}
     >
       <NavbarBreadcrumbs />
-      <Stack direction="row" sx={{ gap: 1, alignItems: "center" }}>
+      <Stack direction="row" sx={{ gap: 1 }}>
         <Search />
+        <CustomDatePicker />
         <MenuButton showBadge aria-label="Open notifications">
           <NotificationsRoundedIcon />
         </MenuButton>
         <ColorModeIconDropdown />
-        <Chip
-          avatar={<Avatar alt={details.name} src={details?.avatar} />}
-          label={details.name}
-          variant="outlined"
-          size="large"
+        <Avatar
+          sizes="small"
+          alt="Riley Carter"
+          src={details ? details.picture : ""}
+          sx={{ width: 36, height: 36 }}
         />
         <OptionsMenu />
       </Stack>
