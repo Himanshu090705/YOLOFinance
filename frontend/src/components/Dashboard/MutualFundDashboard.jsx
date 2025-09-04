@@ -35,6 +35,14 @@ import {
   treeViewCustomizations,
 } from "./theme/customizations";
 
+import {
+  Dialog,
+  DialogTitle,
+  DialogContent,
+  DialogActions,
+} from "@mui/material";
+import FundDetailsDialog from "./components/FundDetailsDialog";
+
 const xThemeComponents = {
   ...chartsCustomizations,
   ...dataGridCustomizations,
@@ -125,9 +133,7 @@ export default function MutualFundDashboard({ apiUrl }) {
     }
   }, [apiUrl]);
 
-  function paymentGateway() {
-    
-  }
+  function paymentGateway() {}
   useEffect(() => {
     fetchData();
   }, [fetchData]);
@@ -143,6 +149,14 @@ export default function MutualFundDashboard({ apiUrl }) {
         (r.isinReinv || "").toLowerCase().includes(q)
     );
   }, [rows, query]);
+
+  const [openModal, setOpenModal] = useState(false);
+  const [selectedRow, setSelectedRow] = useState(null);
+
+  const handleRowClick = (params) => {
+    setSelectedRow(params.row);
+    setOpenModal(true);
+  };
 
   const columns = useMemo(
     () => [
@@ -224,37 +238,6 @@ export default function MutualFundDashboard({ apiUrl }) {
           return String(v1).localeCompare(String(v2));
         },
       },
-      {
-        field: "actions",
-        headerName: "Actions",
-        headerAlign: "center",
-        align: "center",
-        width: 150,
-        sortable: false,
-        filterable: false,
-        disableExport: true,
-        renderCell: (params) => {
-          const addToCart = useCartStore((s) => s.addToCart);
-          const isPurchased = purchasedIds.includes(params.row.id); // ✅ check if purchased
-          return (
-            <Button
-              variant="contained"
-              size="small"
-              color={isPurchased ? "success" : "primary"}
-              disabled={isPurchased} // ✅ disable after purchase
-              onClick={() => {
-                addToCart(params.row);
-                setPurchasedItem(params.row.schemeName);
-                setShowPurchase(true);
-                setPurchasedIds((prev) => [...prev, params.row.id]); // ✅ mark as purchased
-                paymentGateway() // Payment Gateway
-              }}
-            >
-              {isPurchased ? "Purchased" : "Buy Now"}
-            </Button>
-          );
-        },
-      },
     ],
     []
   );
@@ -302,6 +285,7 @@ export default function MutualFundDashboard({ apiUrl }) {
               columns={columns}
               loading={loading}
               disableRowSelectionOnClick
+              onRowClick={handleRowClick} // ✅ row click handler
               initialState={{
                 pagination: { paginationModel: { pageSize: 10, page: 0 } },
                 sorting: { sortModel: [{ field: "dateText", sort: "desc" }] },
@@ -324,6 +308,7 @@ export default function MutualFundDashboard({ apiUrl }) {
                   outline: "none",
                 },
                 borderRadius: 2,
+                cursor: "pointer", // ✅ show clickable pointer
               }}
             />
           </Box>
@@ -359,6 +344,11 @@ export default function MutualFundDashboard({ apiUrl }) {
             : "Item purchased!"}
         </Alert>
       </Snackbar>
+      <FundDetailsDialog
+        open={openModal}
+        onClose={() => setOpenModal(false)}
+        rowData={selectedRow}
+      />
     </AppTheme>
   );
 }
