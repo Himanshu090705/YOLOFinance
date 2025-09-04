@@ -8,6 +8,7 @@ export interface IUser extends Document {
     accessToken: string,
     refreshToken: string,
     id_token: string,
+    avatar?: string,
     generateAccessToken(): string,
     generateRefreshToken(): string,
     generateIdToken(): string,
