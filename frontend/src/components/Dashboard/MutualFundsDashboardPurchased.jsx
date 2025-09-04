@@ -33,7 +33,6 @@ import {
 } from "./theme/customizations";
 
 import { Button } from "@mui/material";
-import axios from "axios";
 
 const xThemeComponents = {
   ...chartsCustomizations,
@@ -43,13 +42,58 @@ const xThemeComponents = {
 };
 
 function normalizeRow(raw, id) {
+  // Safely read properties with spaces and normalize types
+  const schemeCode = raw["Scheme Code"] ?? raw.schemeCode ?? "";
+  const isinGrowth =
+    raw["ISIN Div Payout/ ISIN Growth"] ?? raw.isinGrowth ?? "";
+  const isinReinv = raw["ISIN Div Reinvestment"] ?? raw.isinReinv ?? "";
+  const schemeName = raw["Scheme Name"] ?? raw.schemeName ?? "";
+  const navStr = raw["Net Asset Value"] ?? raw.nav ?? "";
+  const dateStr = raw["Date"] ?? raw.date ?? raw.Date ?? "";
+
+  // Keep original date text but also a Date object for sorting
+  let dateParsed = null;
+  if (dateStr) {
+    // Supports formats like 20-Aug-2025 or ISO
+    const tryISO = new Date(dateStr);
+    if (!isNaN(tryISO)) {
+      dateParsed = tryISO;
+    } else {
+      // Attempt parsing DD-MMM-YYYY
+      const m = String(dateStr).match(/(\d{1,2})-([A-Za-z]{3})-(\d{4})/);
+      if (m) {
+        const months = {
+          Jan: 0,
+          Feb: 1,
+          Mar: 2,
+          Apr: 3,
+          May: 4,
+          Jun: 5,
+          Jul: 6,
+          Aug: 7,
+          Sep: 8,
+          Oct: 9,
+          Nov: 10,
+          Dec: 11,
+        };
+        dateParsed = new Date(
+          parseInt(m[3], 10),
+          months[m[2]],
+          parseInt(m[1], 10)
+        );
+      }
+    }
+  }
+
   return {
-    id: raw._id ?? id,
-    schemeName: raw.schemeName ?? "",
-    nav: raw.nav ?? 0,
-    units: raw.units ?? 0,
-    amount: raw.amount ?? 0,
-    schemeCode: raw.schemeCode ?? "",
+    id: id ?? schemeCode ?? Math.random().toString(36).slice(2),
+    schemeCode,
+    isinGrowth,
+    isinReinv,
+    schemeName,
+    nav: navStr,
+    dateText: String(dateStr || ""),
+    date: dateParsed,
   };
 }
 
@@ -64,84 +108,105 @@ export default function MutualFundDashboardPurchased() {
   const [cartData, setCartData] = useState([]);
   const cart = useCartStore((state) => state.cart);
 
-  useEffect(() => {
-    const fetchInvestments = async () => {
-      try {
-        setLoading(true);
-        const res = await axios.get(
-          "http://localhost:4000/api/investments/mf-get",
-          {
-            withCredentials: true,
-          }
-        );
-        const arr = Array.isArray(res.data.investments)
-          ? res.data.investments
-          : [];
-        const investments = arr.map((raw, idx) => normalizeRow(raw, idx));
-
-        setRows(investments);
-        setCartData(investments);
-      } catch (err) {
-        console.error(err);
-        setError("Failed to load investments");
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchInvestments();
-  }, []);
-
   const filteredRows = useMemo(() => {
-    if (!query) return rows;
+    if (!query) return cart;
     const q = query.toLowerCase();
-    return rows.filter(
+    return cartData.filter(
       (r) =>
         (r.schemeName || "").toLowerCase().includes(q) ||
         (r.schemeCode || "").toLowerCase().includes(q) ||
-        (r.nav || "").toLowerCase().includes(q) ||
-        (r.units || "").toLowerCase().includes(q) ||
-        r.frequency ||
-        ""
+        (r.isinGrowth || "").toLowerCase().includes(q) ||
+        (r.isinReinv || "").toLowerCase().includes(q)
     );
-  }, [rows, query]);
+  }, [cart, query]);
 
   const columns = useMemo(
     () => [
       {
         field: "schemeName",
         headerName: "Scheme Name",
-        flex: 1,
-        align: "center",
+        flex: 2.2,
         headerAlign: "center",
+        align: "center",
+        minWidth: 160,
+        renderCell: (params) => (
+          <Stack
+            direction="row"
+            spacing={1}
+            alignItems="center"
+            sx={{
+              height: "100%",
+              maxWidth: "100%",
+              overflow: "hidden", // hide overflowing text
+              position: "relative",
+              "&:hover .scrollText": {
+                animation: "scrollText 6s linear infinite", // start scroll on hover
+              },
+              "@keyframes scrollText": {
+                "0%": { transform: "translateX(0%)" },
+                "100%": { transform: "translateX(-100%)" },
+              },
+            }}
+          >
+            <Typography
+              variant="body2"
+              fontWeight={600}
+              className="scrollText"
+              sx={{
+                lineHeight: 1.2,
+                whiteSpace: "nowrap",
+                display: "inline-block",
+              }}
+            >
+              {params.value}
+            </Typography>
+          </Stack>
+        ),
       },
       {
         field: "schemeCode",
-        headerName: "Scheme Code",
-        flex: 1,
         align: "center",
         headerAlign: "center",
+        headerName: "Scheme Code",
+        width: 130,
       },
       {
-        field: "amount",
-        headerName: "Investment",
-        flex: 1,
-        align: "center",
+        field: "isinGrowth",
+        headerName: "ISIN Growth",
         headerAlign: "center",
+        align: "center",
+        flex: 1.2,
+        minWidth: 160,
+      },
+      {
+        field: "isinReinv",
+        headerName: "ISIN Reinvestment",
+        headerAlign: "center",
+        align: "center",
+        flex: 1.2,
+        minWidth: 170,
       },
       {
         field: "nav",
         headerName: "NAV",
-        flex: 1,
-        align: "center",
         headerAlign: "center",
+        align: "center",
+        width: 110,
+        type: "String",
+        valueFormatter: (p) => p.value,
       },
       {
-        field: "units",
-        headerName: "Units",
-        flex: 1,
-        align: "center",
+        field: "dateText",
+        headerName: "Date",
         headerAlign: "center",
+        align: "center",
+        width: 130,
+        sortComparator: (v1, v2, param1, param2) => {
+          const d1 = param1.api.getRow(param1.id).date;
+          const d2 = param2.api.getRow(param2.id).date;
+          if (d1 && d2) return d1 - d2;
+          return String(v1).localeCompare(String(v2));
+        },
       },
     ],
     []

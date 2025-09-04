@@ -10,6 +10,7 @@ export async function verifyJWT(req: Request, res: Response, next: any) {
     }
 
     const decoded = jwt.verify(token, process.env.CLIENT_SECRET as string) as { _id: string };
+
     const user = await User.findById(decoded._id).select("-password")
     if (!user) {
       res.status(401).json({ message: "Invalid token" });
