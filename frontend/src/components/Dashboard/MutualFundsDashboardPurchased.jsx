@@ -50,6 +50,7 @@ function normalizeRow(raw, id) {
     units: raw.units ?? 0,
     amount: raw.amount ?? 0,
     schemeCode: raw.schemeCode ?? "",
+    profit: raw.nav * raw.units - raw.amount,
   };
 }
 
@@ -142,6 +143,31 @@ export default function MutualFundDashboardPurchased() {
         flex: 1,
         align: "center",
         headerAlign: "center",
+      },
+      {
+        field: "profit",
+        headerName: "Gain",
+        flex: 1,
+        align: "center",
+        headerAlign: "center",
+        renderCell: (params) => (
+          <Box
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              width: "100%",
+              height: "100%",
+            }}
+          >
+            <Typography
+              color={params.value >= 0 ? "green" : "red"}
+              fontWeight="bold"
+            >
+              {params.value.toFixed(2)}
+            </Typography>
+          </Box>
+        ),
       },
     ],
     []

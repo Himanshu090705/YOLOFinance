@@ -2,24 +2,24 @@ import { Request, Response } from "express";
 import OpenAI from "openai";
 
 export async function chatController(req: Request, res: Response) {
-    const openai = new OpenAI({
-        apiKey: process.env.OPENAI_API_KEY,
-    });
+  const openai = new OpenAI({
+    baseURL: "https://openrouter.ai/api/v1",
+    apiKey: process.env.OPENAI_API_KEY,
+  });
 
-    const { message } = req.body;
+  const { message } = req.body;
 
   try {
     const classification = await openai.chat.completions.create({
-      model: "gpt-4o-mini",
+      model: "openai/gpt-oss-20b:free",
       messages: [
         {
-          role: "system",
+          role: "user",
           content:
             "You are a classifier. Only answer with 'finance' if the user's query is about investments, mutual funds, SIPs, stock market, risk, portfolio, or financial planning. Answer with 'other' if it's about anything else (weather, sports, chit-chat, etc.).",
         },
         { role: "user", content: message },
       ],
-      max_tokens: 5,
     });
 
     const classificationResult =
@@ -34,7 +34,7 @@ export async function chatController(req: Request, res: Response) {
     }
 
     const completion = await openai.chat.completions.create({
-      model: "gpt-4o-mini",
+      model: "openai/gpt-oss-20b:free",
       messages: [
         {
           role: "system",
