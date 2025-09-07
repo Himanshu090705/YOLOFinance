@@ -6,6 +6,8 @@ import { connectToMongodb } from "./database/config";
 import cookieParser from "cookie-parser";
 import { fetchNAVData } from "./controllers/fetchNavController";
 
+import "./cron/emailReminderCron";
+
 const app = express();
 dotenv.config();
 connectToMongodb(process.env.CONNECTION_STRING as string);

@@ -16,8 +16,8 @@ import { DatePicker } from "@mui/x-date-pickers";
 import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import dayjs from "dayjs";
-import axios from 'axios';
-import { useNavigate } from 'react-router-dom'
+import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 export default function FundDetailsDialog({ open, onClose, rowData }) {
   if (!rowData) return null;
@@ -55,26 +55,45 @@ export default function FundDetailsDialog({ open, onClose, rowData }) {
   }
 
   async function handlePurchase() {
-    const data = {
-        schemeCode: rowData.schemeCode, 
-        schemeName: rowData.schemeName,
-        frequency: "MONTHLY",
-        startDate: date,
-        date: date,
-        amount: Number.parseInt(amount), 
-        nav: navs[navs.length - 1],
-        units: amount / navs[navs.length - 1],
-    }
-    const res = await axios.post('http://localhost:4000/api/investments/mf-buy', data, {
-        withCredentials: true,
-    })
+    function addMonths(date, months) {
+      let d = new Date(date);
+      let day = d.getDate();
 
-    if(res.status === 201) {
-      navigate('/Dashboard')
+      d.setMonth(d.getMonth() + months);
+
+      if (d.getDate() < day) {
+        d.setDate(0);
+      }
+      return d;
+    }
+
+    const startDate = new Date(date); 
+    const nextPaymentDate = addMonths(startDate, 0);
+    nextPaymentDate.setDate(startDate.getDate() + 5);
+    const data = {
+      schemeCode: rowData.schemeCode,
+      schemeName: rowData.schemeName,
+      frequency: "MONTHLY",
+      startDate: startDate,
+      nextDate: nextPaymentDate,
+      amount: Number.parseInt(amount),
+      nav: navs[navs.length - 1],
+      units: amount / navs[navs.length - 1],
+    };
+    const res = await axios.post(
+      "http://localhost:4000/api/investments/mf-buy",
+      data,
+      {
+        withCredentials: true,
+      }
+    );
+
+    if (res.status === 201) {
+      navigate("/Dashboard");
     }
 
     handleCloseSIP();
-  } 
+  }
 
   return (
     <AppTheme sx={{ width: "100%" }}>

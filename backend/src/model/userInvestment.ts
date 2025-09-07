@@ -9,10 +9,12 @@ const userInvestmentSchema = new Schema({
     default: "MONTHLY",
   },
   startDate: { type: Date, default: Date.now },
-  date: { type: Date, default: Date.now },
+  nextDate: { type: Date },
   amount: Number,
   nav: Number,
   units: Number,
+  reminderSent: { type: Boolean, default: false }, // 👈 new field
+
 });
 
 const UserInvestments = model("UserInvestments", userInvestmentSchema);

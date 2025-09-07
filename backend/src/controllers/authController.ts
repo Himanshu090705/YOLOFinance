@@ -2,20 +2,13 @@ import { Request, Response } from "express";
 import { createTransport } from "nodemailer";
 import { User } from "../model/user";
 import bcrypt from "bcrypt";
+import { sendEmail } from "../helpers/sendEmail";
 export async function generateOTP(req: Request, res: Response) {
   const { email } = req.body;
   try {
     const user = await User.findOne({ email: email });
     if (user) {
       const otp = Math.floor(100000 + Math.random() * 900000);
-
-      const transporter = createTransport({
-        service: "gmail",
-        auth: {
-          user: process.env.GMAIL_USER, // 🔑 your Gmail
-          pass: process.env.GMAIL_APP_PASSWORD, // 🔑 16-char App Password
-        },
-      });
 
       const mailOptions = {
         from: process.env.GMAIL_USER as string,
@@ -25,7 +18,7 @@ export async function generateOTP(req: Request, res: Response) {
       };
 
       try {
-        const info = await transporter.sendMail(mailOptions);
+        const info = await sendEmail(mailOptions)
         res
           .cookie("otp", otp, {
             httpOnly: true, // prevents JS access

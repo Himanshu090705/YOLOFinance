@@ -3,7 +3,7 @@ import UserInvestments from "../model/userInvestment";
 import { AuthRequest } from "../definitions/AuthRequest";
 export async function mfBuyController(req: AuthRequest, res: Response) {
   try {
-    const { schemeCode, schemeName, frequency, date, amount, nav, units } =
+    const { schemeCode, schemeName, frequency, date, amount, nav, units, nextDate } =
       req.body;
 
     const user = req.user._id;
@@ -16,6 +16,7 @@ export async function mfBuyController(req: AuthRequest, res: Response) {
       amount,
       nav,
       units,
+      nextDate
     });
     const response = await newInvestment.save();
 
