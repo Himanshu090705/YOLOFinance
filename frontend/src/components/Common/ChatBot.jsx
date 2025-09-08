@@ -4,7 +4,7 @@ import logo from "../../../assets/ai-technology.png";
 export default function Chatbot() {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState([
-    { from: "bot", text: "👋 Hi! I’m your AI assistant. How can I help you today?" },
+    { from: "bot", text: "👋 Hi! I'm Lakshmi, your portfolio guide. How can I help you today?" },
   ]);
   const [input, setInput] = useState("");
   const [isTyping, setIsTyping] = useState(false);
@@ -67,11 +67,15 @@ export default function Chatbot() {
               alignItems: "center",
               padding: "12px 16px",
               background: "rgba(30, 30, 40, 0.95)",
-              borderTopLeftRadius: 16,
-              borderTopRightRadius: 16,
+              // borderTopLeftRadius: 16,
+              // borderTopRightRadius: 16,
+              // borderBottomRightRadius: 16,
+              // borderBottomLeftRadius: 16,
               color: "white",
               fontWeight: "bold",
               fontSize: "15px",
+              borderRadius:"12px"
+
             }}
           >
             <img
@@ -81,7 +85,7 @@ export default function Chatbot() {
               height={24}
               style={{ marginRight: 8 }}
             />
-            AI Assistant
+            Lakshmi
             <button
               onClick={() => setIsOpen(false)}
               style={{
@@ -91,6 +95,7 @@ export default function Chatbot() {
                 border: "none",
                 fontSize: "18px",
                 cursor: "pointer",
+                borderRadius:"12px"
               }}
             >
               ✕
@@ -105,6 +110,7 @@ export default function Chatbot() {
               overflowY: "auto",
               fontSize: "14px",
               color: "#e5e7eb",
+              borderRadius:"12px"
             }}
           >
             {messages.map((msg, i) => (
@@ -145,6 +151,7 @@ export default function Chatbot() {
                   marginBottom: "8px",
                   color: "#aaa",
                   fontSize: "13px",
+                  borderRadius:"12px"
                 }}
               >
                 <span className="dot">●</span>
