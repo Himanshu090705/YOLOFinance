@@ -16,7 +16,7 @@ import Cookies from "js-cookie";
 import { jwtDecode } from "jwt-decode";
 import "react-phone-input-2/lib/style.css";
 import PhoneInput from "react-phone-input-2";
-import './profile.css'
+import './Profile.css'
 
 export default function Profile(props) {
   const [name, setName] = useState("");
