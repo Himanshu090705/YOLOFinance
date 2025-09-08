@@ -15,6 +15,8 @@ import SipCalculator from "./components/Home/SipCalculator";
 import GoalTracker from "./components/Dashboard/GoalTracker";
 import NewsLetter from "./components/Home/NewsLetter";
 import Chatbot from "./components/Common/ChatBot";
+import Profile from "./components/Auth/Profile";
+
 
 const App = () => (
   <Router>
@@ -28,6 +30,7 @@ const App = () => (
         <Route path="/SipCalculator" element={<SipCalculator />} />
         <Route path="/GoalTracker" element={<GoalTracker />} />
         <Route path="/NewsLetter" element={<NewsLetter />} />
+                <Route path="/profile" element={<Profile />} />
       </Routes>
       <Chatbot/>
     </div>
