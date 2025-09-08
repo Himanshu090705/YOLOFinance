@@ -5,6 +5,9 @@ import routes from "./routes/routes";
 import { connectToMongodb } from "./database/config";
 import cookieParser from "cookie-parser";
 import { fetchNAVData } from "./controllers/fetchNavController";
+import { fetchFinanceNews } from "./controllers/newsController";
+
+
 
 import "./cron/emailReminderCron";
 
@@ -28,6 +31,8 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use("/api", routes);
 app.get("/fetch-mf-data", fetchNAVData);
+
+app.get("/api/news", fetchFinanceNews);
 
 app.listen(port, function () {
   console.log(`Server started at port ${port}`);
