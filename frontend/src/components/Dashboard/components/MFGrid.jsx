@@ -12,17 +12,40 @@ import PageViewsBarChart from './PageViewsBarChart';
 import SessionsChart from './SessionsChart';
 import StatCard from './StatCard';
 import MutualFundDashboard from '../MutualFundDashboard';
+import CircularProgress from '@mui/material/CircularProgress';
 
 export default function MFGrid() {
+  const [loading, setLoading] = React.useState(true);
+  const [data, setData] = React.useState([]);
+
+  React.useEffect(() => {
+    fetch("http://localhost:4000/fetch-mf-data")
+      .then(res => res.json())
+      .then(data => {
+        setData(Array.isArray(data) ? data : []);
+        setLoading(false);
+      })
+      .catch(() => setLoading(false));
+  }, []);
+
   return (
     <Box sx={{ width: '100%', maxWidth: { sm: '100%', md: '1700px' } }}>
-      {/* cards */}
-      <Typography component="h2" variant="h6" sx={{ mb: 2 }}>
+      <Typography component="h2" variant="h2" sx={{ mb: 2 }}>
         Mutual Funds
       </Typography>
       <Grid container spacing={2} columns={12}>
-        <Grid sx={{width: "100%"}}>
-          <MutualFundDashboard apiUrl={"http://localhost:4000/fetch-mf-data"}/>
+        <Grid sx={{ width: "100%" }}>
+          {loading ? (
+            <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: 200 }}>
+              <CircularProgress size="6rem" />
+            </Box>
+          ) : data.length > 0 ? (
+            <MutualFundDashboard apiUrl={"http://localhost:4000/fetch-mf-data"} data={data} />
+          ) : (
+            <Typography align="center" sx={{ width: '100%', py: 4 }}>
+              No data available.
+            </Typography>
+          )}
         </Grid>
       </Grid>
       <Copyright sx={{ my: 4 }} />

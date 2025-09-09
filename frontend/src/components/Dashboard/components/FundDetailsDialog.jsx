@@ -8,7 +8,6 @@ import {
   Typography,
   Stack,
   TextField,
-  Grid,
 } from "@mui/material";
 import { LineChart } from "@mui/x-charts";
 import AppTheme from "../../shared-theme/AppTheme";
@@ -18,6 +17,8 @@ import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import dayjs from "dayjs";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import CircularProgress from '@mui/material/CircularProgress';
+import Box from "@mui/material/Box";
 
 export default function FundDetailsDialog({ open, onClose, rowData }) {
   if (!rowData) return null;
@@ -27,10 +28,13 @@ export default function FundDetailsDialog({ open, onClose, rowData }) {
   const [showSIPModal, setShowSIPModal] = useState(false);
   const [amount, setAmount] = useState();
   const [date, setDate] = useState(dayjs());
+  const [loading, setLoading] = useState(true);
 
   const navigate = useNavigate();
+
   useEffect(() => {
     async function fetchData() {
+      setLoading(true);
       const res = await fetch(`https://api.mfapi.in/mf/${rowData?.schemeCode}`);
       const json = await res.json();
 
@@ -41,6 +45,7 @@ export default function FundDetailsDialog({ open, onClose, rowData }) {
 
       setDates(navData.reverse().map((d) => d.date));
       setNavs(navData.reverse().map((d) => d.nav));
+      setLoading(false);
     }
     fetchData();
   }, [rowData.schemeCode]);
@@ -89,7 +94,13 @@ export default function FundDetailsDialog({ open, onClose, rowData }) {
     );
 
     if (res.status === 201) {
-      navigate("/Dashboard");
+      navigate("/payment", {
+        state: {
+          amount,
+          schemeName: rowData.schemeName,
+          schemeCode: rowData.schemeCode,
+        },
+      });
     }
 
     handleCloseSIP();
@@ -99,23 +110,28 @@ export default function FundDetailsDialog({ open, onClose, rowData }) {
     <AppTheme sx={{ width: "100%" }}>
       <Dialog open={open} onClose={onClose} maxWidth="xl" fullWidth>
         <DialogTitle>{rowData.schemeName}</DialogTitle>
-
         <div style={{ display: "flex" }}>
           <div>
-            <LineChart
-              xAxis={[
-                {
-                  scaleType: "point",
-                  data: dates,
-                  tickLabelStyle: { display: "none" },
-                },
-              ]}
-              series={[
-                { data: navs, label: "NAV", color: "#00ccff", showMark: true },
-              ]}
-              width={1200}
-              height={600}
-            />
+            <Box sx={{ width: '100%', height: 600, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+              {loading ? (
+                <CircularProgress size="6rem" />
+              ) : (
+                <LineChart
+                  xAxis={[
+                    {
+                      scaleType: "point",
+                      data: dates,
+                      tickLabelStyle: { display: "none" },
+                    },
+                  ]}
+                  series={[
+                    { data: navs, label: "NAV", color: "#00ccff", showMark: true },
+                  ]}
+                  width={1200}
+                  height={600}
+                />
+              )}
+            </Box>
           </div>
           <DialogContent dividers>
             <Stack spacing={2}>
@@ -169,7 +185,7 @@ export default function FundDetailsDialog({ open, onClose, rowData }) {
               sx={{ width: "100%" }}
               label="Monthly"
               onChange={(newValue) => setDate(newValue)}
-              value={date} // 👈 current date
+              value={date}
             />
           </LocalizationProvider>
         </DialogContent>
@@ -181,10 +197,10 @@ export default function FundDetailsDialog({ open, onClose, rowData }) {
             onClick={() => handlePurchase()}
             disabled={!amount}
           >
-            Confirm
+            Pay
           </Button>
         </DialogActions>
-      </Dialog>
+      </Dialog> {/* <-- Add this line to close the SIP Modal Dialog */}
     </AppTheme>
   );
 }
