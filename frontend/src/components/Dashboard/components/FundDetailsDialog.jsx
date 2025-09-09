@@ -17,8 +17,9 @@ import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import dayjs from "dayjs";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import CircularProgress from '@mui/material/CircularProgress';
+import CircularProgress from "@mui/material/CircularProgress";
 import Box from "@mui/material/Box";
+import { loadStripe } from "@stripe/stripe-js";
 
 export default function FundDetailsDialog({ open, onClose, rowData }) {
   if (!rowData) return null;
@@ -60,6 +61,7 @@ export default function FundDetailsDialog({ open, onClose, rowData }) {
   }
 
   async function handlePurchase() {
+
     function addMonths(date, months) {
       let d = new Date(date);
       let day = d.getDate();
@@ -72,39 +74,71 @@ export default function FundDetailsDialog({ open, onClose, rowData }) {
       return d;
     }
 
-    const startDate = new Date(date); 
+    const startDate = new Date(date);
     const nextPaymentDate = addMonths(startDate, 0);
     nextPaymentDate.setDate(startDate.getDate() + 5);
-    const data = {
-      schemeCode: rowData.schemeCode,
-      schemeName: rowData.schemeName,
-      frequency: "MONTHLY",
-      startDate: startDate,
-      nextDate: nextPaymentDate,
-      amount: Number.parseInt(amount),
-      nav: navs[navs.length - 1],
-      units: amount / navs[navs.length - 1],
-    };
-    const res = await axios.post(
-      "http://localhost:4000/api/investments/mf-buy",
-      data,
-      {
-        withCredentials: true,
-      }
-    );
-
-    if (res.status === 201) {
-      navigate("/payment", {
-        state: {
-          amount,
-          schemeName: rowData.schemeName,
-          schemeCode: rowData.schemeCode,
-        },
-      });
-    }
-
-    handleCloseSIP();
+    navigate("/payment", {
+      state: {
+        schemeCode: rowData.schemeCode,
+        schemeName: rowData.schemeName,
+        amount: Number.parseInt(amount),
+        nav: navs[navs.length - 1],
+        startDate: startDate,
+        nextPaymentDate: nextPaymentDate,
+        units: amount / navs[navs.length - 1],
+      },
+    });
   }
+  // async function handlePurchase() {
+  //   const stripe = await loadStripe(
+  //     import.meta.env.VITE_STRIPE_PUBLISHABLE_KEY
+  //   );
+  //   function addMonths(date, months) {
+  //     let d = new Date(date);
+  //     let day = d.getDate();
+
+  //     d.setMonth(d.getMonth() + months);
+
+  //     if (d.getDate() < day) {
+  //       d.setDate(0);
+  //     }
+  //     return d;
+  //   }
+
+  //   const startDate = new Date(date);
+  //   const nextPaymentDate = addMonths(startDate, 0);
+  //   nextPaymentDate.setDate(startDate.getDate() + 5);
+  //   const data = {
+  //     schemeCode: rowData.schemeCode,
+  //     schemeName: rowData.schemeName,
+  //     frequency: "MONTHLY",
+  //     startDate: startDate,
+  //     nextDate: nextPaymentDate,
+  //     amount: Number.parseInt(amount),
+  //     nav: navs[navs.length - 1],
+  //     units: amount / navs[navs.length - 1],
+  //   };
+  //   const res = await fetch("http://localhost:4000/api/investments/mf-buy", {
+  //     method: "POST",
+  //     headers: {
+  //       "Content-Type": "application/json",
+  //     },
+  //     credentials: "include",
+  //     body: JSON.stringify(data),
+  //   });
+
+  //   const session = await res.json();
+
+  //   if (res.status === 201) {
+
+  //   }
+
+  //   const result = await stripe.redirectToCheckout({
+  //     sessionId: session.id,
+  //   });
+
+  //   handleCloseSIP();
+  // }
 
   return (
     <AppTheme sx={{ width: "100%" }}>
@@ -112,7 +146,15 @@ export default function FundDetailsDialog({ open, onClose, rowData }) {
         <DialogTitle>{rowData.schemeName}</DialogTitle>
         <div style={{ display: "flex" }}>
           <div>
-            <Box sx={{ width: '100%', height: 600, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <Box
+              sx={{
+                width: "100%",
+                height: 600,
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
               {loading ? (
                 <CircularProgress size="6rem" />
               ) : (
@@ -125,7 +167,12 @@ export default function FundDetailsDialog({ open, onClose, rowData }) {
                     },
                   ]}
                   series={[
-                    { data: navs, label: "NAV", color: "#00ccff", showMark: true },
+                    {
+                      data: navs,
+                      label: "NAV",
+                      color: "#00ccff",
+                      showMark: true,
+                    },
                   ]}
                   width={1200}
                   height={600}
@@ -163,7 +210,6 @@ export default function FundDetailsDialog({ open, onClose, rowData }) {
           </Button>
         </DialogActions>
       </Dialog>
-
       {/* SIP Modal with Keypad */}
       <Dialog
         open={showSIPModal}
@@ -200,7 +246,8 @@ export default function FundDetailsDialog({ open, onClose, rowData }) {
             Pay
           </Button>
         </DialogActions>
-      </Dialog> {/* <-- Add this line to close the SIP Modal Dialog */}
+      </Dialog>{" "}
+      {/* <-- Add this line to close the SIP Modal Dialog */}
     </AppTheme>
   );
 }

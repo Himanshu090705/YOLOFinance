@@ -33,7 +33,6 @@ const App = () => (
         <Route path="/NewsLetter" element={<NewsLetter />} />
         <Route path="/payment" element={<PaymentPage />} />
         <Route path="/profile" element={<Profile />} />
-
       </Routes>
       <Chatbot/>
     </div>
