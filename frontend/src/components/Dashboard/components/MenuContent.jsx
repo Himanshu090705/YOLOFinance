@@ -16,7 +16,7 @@ import { useNavigate } from 'react-router-dom';
 
 const mainListItems = [
   { text: 'Home', icon: <HomeRoundedIcon />, path: "/Dashboard" },
-  { text: 'MutualFunds', icon: <AnalyticsRoundedIcon />, path: "/MutualFunds" },
+  { text: 'Mutual Funds', icon: <AnalyticsRoundedIcon />, path: "/MutualFunds" },
   { text: 'Insurance', icon: <AnalyticsRoundedIcon />, path: "/Insurance" },
   { text: 'SWP', icon: <AnalyticsRoundedIcon />, path: "/SWP" },
   { text: 'Reports', icon: <AnalyticsRoundedIcon />, path: "/Reports" },

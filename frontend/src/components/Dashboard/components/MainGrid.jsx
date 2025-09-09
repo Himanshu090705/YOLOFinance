@@ -77,7 +77,7 @@ export default function MainGrid() {
         </Grid>
       </Grid>
       <Typography component="h2" variant="h6" sx={{ mb: 2 }}>
-        Details
+        My Mutual Funds
       </Typography>
       <Grid container spacing={2} columns={14}>
         <Grid size={{ xs: 12, lg: 9 }}>
