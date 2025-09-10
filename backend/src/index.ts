@@ -9,7 +9,7 @@ import { fetchFinanceNews } from "./controllers/newsController";
 
 
 
-import "./cron/emailReminderCron";
+// import "./cron/emailReminderCron";
 
 const app = express();
 dotenv.config();

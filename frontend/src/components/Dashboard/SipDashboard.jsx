@@ -8,7 +8,8 @@ import AppNavbar from "./components/AppNavbar.jsx";
 import Header from "./components/Header.jsx";
 import MainGrid from "./components/MainGrid.jsx";
 import SideMenu from "./components/SideMenu.jsx";
-import AppTheme from "../shared-theme/AppTheme";
+import AppTheme from "../shared-theme/AppTheme.jsx";
+import SipCalculator from "../Home/SipCalculator.jsx";
 import {
     chartsCustomizations,
     dataGridCustomizations,
@@ -23,9 +24,9 @@ const xThemeComponents = {
     ...treeViewCustomizations,
 };
 
-export default function Dashboard(props) {
+export default function SipDashboard() {
     return (
-        <AppTheme {...props} themeComponents={xThemeComponents}>
+        <AppTheme themeComponents={xThemeComponents}>
             <CssBaseline enableColorScheme />
             <Box sx={{ display: "flex" }}>
                 <SideMenu />
@@ -51,7 +52,7 @@ export default function Dashboard(props) {
                         }}
                     >
                         <Header />
-                        <MainGrid />
+                        <SipCalculator />
                     </Stack>
                 </Box>
             </Box>

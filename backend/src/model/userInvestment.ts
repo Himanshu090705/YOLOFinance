@@ -14,7 +14,7 @@ const userInvestmentSchema = new Schema({
   nav: Number,
   units: Number,
   reminderSent: { type: Boolean, default: false }, // 👈 new field
-
+  isCancelled: { type: Boolean, default: false },
 });
 
 const UserInvestments = model("UserInvestments", userInvestmentSchema);
