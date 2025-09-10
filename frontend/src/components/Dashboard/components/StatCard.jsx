@@ -41,60 +41,59 @@ AreaGradient.propTypes = {
   id: PropTypes.string.isRequired,
 };
 
-function StatCard({ title, value, interval, trend, data }) {
+function StatCard({ title, value, interval, trend, data, labels }) {
   const theme = useTheme();
-  const daysInWeek = getDaysInMonth(4, 2024);
 
   const trendColors = {
     up:
-      theme.palette.mode === 'light'
+      theme.palette.mode === "light"
         ? theme.palette.success.main
         : theme.palette.success.dark,
     down:
-      theme.palette.mode === 'light'
+      theme.palette.mode === "light"
         ? theme.palette.error.main
         : theme.palette.error.dark,
     neutral:
-      theme.palette.mode === 'light'
+      theme.palette.mode === "light"
         ? theme.palette.grey[400]
         : theme.palette.grey[700],
   };
 
   const labelColors = {
-    up: 'success',
-    down: 'error',
-    neutral: 'default',
+    up: "success",
+    down: "error",
+    neutral: "default",
   };
 
   const color = labelColors[trend];
   const chartColor = trendColors[trend];
-  const trendValues = { up: '+25%', down: '-25%', neutral: '+5%' };
+  const trendValues = { up: "+5%", down: "-5%", neutral: "0%" };
 
   return (
-    <Card variant="outlined" sx={{ height: '100%', flexGrow: 1 }}>
+    <Card variant="outlined" sx={{ height: "100%", flexGrow: 1 }}>
       <CardContent>
         <Typography component="h2" variant="subtitle2" gutterBottom>
           {title}
         </Typography>
         <Stack
           direction="column"
-          sx={{ justifyContent: 'space-between', flexGrow: '1', gap: 1 }}
+          sx={{ justifyContent: "space-between", flexGrow: "1", gap: 1 }}
         >
-          <Stack sx={{ justifyContent: 'space-between' }}>
+          <Stack sx={{ justifyContent: "space-between" }}>
             <Stack
               direction="row"
-              sx={{ justifyContent: 'space-between', alignItems: 'center' }}
+              sx={{ justifyContent: "space-between", alignItems: "center" }}
             >
               <Typography variant="h4" component="p">
                 {value}
               </Typography>
               <Chip size="small" color={color} label={trendValues[trend]} />
             </Stack>
-            <Typography variant="caption" sx={{ color: 'text.secondary' }}>
+            <Typography variant="caption" sx={{ color: "text.secondary" }}>
               {interval}
             </Typography>
           </Stack>
-          <Box sx={{ width: '100%', height: 50 }}>
+          <Box sx={{ width: "100%", height: 50 }}>
             <SparkLineChart
               color={chartColor}
               data={data}
@@ -102,8 +101,8 @@ function StatCard({ title, value, interval, trend, data }) {
               showHighlight
               showTooltip
               xAxis={{
-                scaleType: 'band',
-                data: daysInWeek, // Use the correct property 'data' for xAxis
+                scaleType: "band",
+                data: labels, // ✅ Use NAV dates from API
               }}
               sx={{
                 [`& .${areaElementClasses.root}`]: {
@@ -122,10 +121,12 @@ function StatCard({ title, value, interval, trend, data }) {
 
 StatCard.propTypes = {
   data: PropTypes.arrayOf(PropTypes.number).isRequired,
+  labels: PropTypes.arrayOf(PropTypes.string).isRequired, // ✅ new prop
   interval: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
-  trend: PropTypes.oneOf(['down', 'neutral', 'up']).isRequired,
+  trend: PropTypes.oneOf(["down", "neutral", "up"]).isRequired,
   value: PropTypes.string.isRequired,
 };
+
 
 export default StatCard;

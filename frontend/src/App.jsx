@@ -1,9 +1,9 @@
 import React from "react";
 import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Navigate,
+    BrowserRouter as Router,
+    Routes,
+    Route,
+    Navigate,
 } from "react-router-dom";
 import Login from "./components/Auth/Login";
 import SignUp from "./components/Auth/SignUp";
@@ -17,26 +17,33 @@ import NewsLetter from "./components/Home/NewsLetter";
 import Chatbot from "./components/Common/ChatBot";
 import PaymentPage from "./components/Dashboard/components/PaymentPage";
 import Profile from "./components/Auth/Profile";
-
+import SipDashboard from "./components/Dashboard/SipDashboard";
+import GoalDashboard from "./components/Dashboard/GoalDashboard";
+import InsuranceDashboard from "./components/Dashboard/InsuranceDashboard";
+import SWPDashboard from "./components/Dashboard/SWPDashboard";
+import ReportsDashboard from "./components/Dashboard/ReportsDashboard";
 
 const App = () => (
-  <Router>
-    <div className="relative min-h-screen">
-      <Routes>
-        <Route path="/" element={<MarketingPage />} />
-        <Route path="/Login" element={<Login />} />
-        <Route path="/Signup" element={<SignUp />} />
-        <Route path="/Dashboard" element={<Dashboard />} />
-        <Route path="/MutualFunds" element={<MutualFunds />}></Route>
-        <Route path="/SipCalculator" element={<SipCalculator />} />
-        <Route path="/GoalTracker" element={<GoalTracker />} />
-        <Route path="/NewsLetter" element={<NewsLetter />} />
-        <Route path="/payment" element={<PaymentPage />} />
-        <Route path="/profile" element={<Profile />} />
-      </Routes>
-      <Chatbot/>
-    </div>
-  </Router>
+    <Router>
+        <div className="relative min-h-screen">
+            <Routes>
+                <Route path="/" element={<MarketingPage />} />
+                <Route path="/Login" element={<Login />} />
+                <Route path="/Signup" element={<SignUp />} />
+                <Route path="/Dashboard" element={<Dashboard />} />
+                <Route path="/MutualFunds" element={<MutualFunds />} />
+                <Route path="/SipDashboard" element={<SipDashboard />} />
+                <Route path="/GoalDashboard" element={<GoalDashboard />} />
+                <Route path="/InsuranceDashboard" element={<InsuranceDashboard />} />
+                <Route path="/SWPDashboard" element={<SWPDashboard />} />
+                <Route path="/ReportsDashboard" element={<ReportsDashboard />} />
+                <Route path="/NewsLetter" element={<NewsLetter />} />
+                <Route path="/payment" element={<PaymentPage />} />
+                <Route path="/profile" element={<Profile />} />
+            </Routes>
+            <Chatbot />
+        </div>
+    </Router>
 );
 
 export default App;
