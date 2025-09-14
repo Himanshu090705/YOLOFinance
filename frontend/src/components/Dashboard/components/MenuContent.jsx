@@ -15,7 +15,7 @@ import HelpRoundedIcon from "@mui/icons-material/HelpRounded";
 import { useNavigate } from "react-router-dom";
 
 const mainListItems = [
-    { text: "Home", icon: <HomeRoundedIcon />, path: "/Dashboard" },
+    { text: "Dashboard", icon: <HomeRoundedIcon />, path: "/Dashboard" },
     {
         text: "Mutual Funds",
         icon: <AnalyticsRoundedIcon />,
@@ -30,9 +30,9 @@ const mainListItems = [
     { text: "SWP", icon: <AnalyticsRoundedIcon />, path: "/SWPDashboard" },
     { text: "Reports", icon: <AnalyticsRoundedIcon />, path: "/ReportsDashboard" },
     {
-        text: "SIPCalculator",
+        text: "Finance Calculators",
         icon: <AnalyticsRoundedIcon />,
-        path: "/SipDashboard",
+        path: "/CalcDashboard",
     },
 ];
 

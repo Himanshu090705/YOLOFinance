@@ -50,7 +50,7 @@ export default function ReportsDashboard(props) {
                             mt: { xs: 8, md: 0 },
                         }}
                     >
-                        <Header />
+                        <Header name="Reports"/>
                         <Reports />
                     </Stack>
                 </Box>

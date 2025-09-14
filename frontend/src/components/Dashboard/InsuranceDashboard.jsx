@@ -50,7 +50,7 @@ export default function InsuranceDashboard(props) {
                             mt: { xs: 8, md: 0 },
                         }}
                     >
-                        <Header />
+                        <Header name="Insurance"/>
                         <Insurance />
                     </Stack>
                 </Box>

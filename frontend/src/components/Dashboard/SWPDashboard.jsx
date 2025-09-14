@@ -50,7 +50,7 @@ export default function SWPDashboard(props) {
                             mt: { xs: 8, md: 0 },
                         }}
                     >
-                        <Header />
+                        <Header name="SWP"/>
                         <SWP />
                     </Stack>
                 </Box>

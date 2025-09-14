@@ -9,7 +9,6 @@ import HighlightedCard from "./HighlightedCard";
 import PageViewsBarChart from "./PageViewsBarChart";
 import SessionsChart from "./SessionsChart";
 import StatCard from "./StatCard";
-import SipCalculator from "../../Home/SipCalculator";
 import NewsLetter from "../../Home/NewsLetter";
 import MFGridTemp from "./MFGridTemp";
 

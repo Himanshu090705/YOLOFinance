@@ -11,14 +11,18 @@ import {
 import { styled } from "@mui/material/styles";
 import {
     BarChart,
+    PieChart,
     Bar,
     XAxis,
     Tooltip,
     ResponsiveContainer,
     LabelList,
+    Pie,
+    Cell,
+    Legend,
 } from "recharts";
 import MuiCard from "@mui/material/Card";
-import AppTheme from "../shared-theme/AppTheme";
+import AppTheme from "../../shared-theme/AppTheme";
 
 const Card = styled(MuiCard)(({ theme }) => ({
     borderRadius: 20,
@@ -214,6 +218,41 @@ export default function SipCalculator() {
                                 }}
                             />
                         </Box>
+                        {/* Pie Chart Section */}
+                        {/* <Box sx={{ height: 250 }}>
+                            <ResponsiveContainer width="100%" height="100%">
+                                <PieChart>
+                                    <Pie
+                                        data={[
+                                            {
+                                                name: "Invested",
+                                                value: total10Y.Invested,
+                                            },
+                                            {
+                                                name: "Gain",
+                                                value: total10Y.Gain,
+                                            },
+                                        ]}
+                                        cx="50%"
+                                        cy="50%"
+                                        outerRadius={80}
+                                        dataKey="value"
+                                        label={({ name, value }) =>
+                                            `${name}: ₹${value.toLocaleString()}`
+                                        }
+                                    >
+                                        <Cell fill="#1565c0" />
+                                        <Cell fill="#00acc1" />
+                                    </Pie>
+                                    <Tooltip
+                                        formatter={(val) =>
+                                            `₹${val.toLocaleString()}`
+                                        }
+                                    />
+                                    <Legend />
+                                </PieChart>
+                            </ResponsiveContainer>
+                        </Box> */}
                     </Stack>
                 </CardContent>
             </Card>
