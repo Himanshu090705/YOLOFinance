@@ -11,17 +11,16 @@ import Dashboard from "./components/Dashboard/Dashboard";
 import MarketingPage from "./components/Home/MarketingPage";
 import MutualFundDashboard from "./components/Dashboard/MutualFundDashboard";
 import MutualFunds from "./components/Dashboard/MutualFunds";
-import SipCalculator from "./components/Home/SipCalculator";
 import GoalTracker from "./components/Dashboard/GoalTracker";
 import NewsLetter from "./components/Home/NewsLetter";
 import Chatbot from "./components/Common/ChatBot";
 import PaymentPage from "./components/Dashboard/components/PaymentPage";
 import Profile from "./components/Auth/Profile";
-import SipDashboard from "./components/Dashboard/SipDashboard";
 import GoalDashboard from "./components/Dashboard/GoalDashboard";
 import InsuranceDashboard from "./components/Dashboard/InsuranceDashboard";
 import SWPDashboard from "./components/Dashboard/SWPDashboard";
 import ReportsDashboard from "./components/Dashboard/ReportsDashboard";
+import CalcDashboard from "./components/Dashboard/CalcDashboard";
 
 const App = () => (
     <Router>
@@ -32,7 +31,7 @@ const App = () => (
                 <Route path="/Signup" element={<SignUp />} />
                 <Route path="/Dashboard" element={<Dashboard />} />
                 <Route path="/MutualFunds" element={<MutualFunds />} />
-                <Route path="/SipDashboard" element={<SipDashboard />} />
+                <Route path="/CalcDashboard" element={<CalcDashboard />} />
                 <Route path="/GoalDashboard" element={<GoalDashboard />} />
                 <Route path="/InsuranceDashboard" element={<InsuranceDashboard />} />
                 <Route path="/SWPDashboard" element={<SWPDashboard />} />

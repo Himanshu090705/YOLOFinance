@@ -13,7 +13,7 @@ import { Chip } from "@mui/material";
 import Search from "./Search";
 import OptionsMenu from "./OptionsMenu";
 
-export default function Header() {
+export default function Header({name}="Home") {
   const token = Cookies.get("id_token");
   const [details, setDetails] = React.useState({});
 
@@ -36,7 +36,7 @@ export default function Header() {
       }}
       spacing={2}
     >
-      <NavbarBreadcrumbs />
+      <NavbarBreadcrumbs navname={name}/>
       <Stack direction="row" sx={{ gap: 1, alignItems: "center" }}>
         <Search />
         <MenuButton showBadge aria-label="Open notifications">

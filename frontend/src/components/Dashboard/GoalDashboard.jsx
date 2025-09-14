@@ -51,7 +51,7 @@ export default function GoalDashboard(props) {
                             mt: { xs: 8, md: 0 },
                         }}
                     >
-                        <Header />
+                        <Header name="Goal Tracker"/>
                         {/* <MainGrid /> */}
                         <GoalTracker />
                     </Stack>

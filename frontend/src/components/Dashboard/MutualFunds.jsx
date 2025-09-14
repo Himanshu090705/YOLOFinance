@@ -64,7 +64,7 @@ export default function MutualFunds(props) {
               mt: { xs: 8, md: 0 },
             }}
           >
-            <Header />
+            <Header name="MutualFunds"/>
             <MFGrid data={data} />
           </Stack>
         </Box>

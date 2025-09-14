@@ -1,7 +1,8 @@
 import { Request, Response } from "express";
 
 export async function fetchNAVData(req: Request, res: Response) {
-  const url = 'https://www.amfiindia.com/spages/NAVAll.txt';
+  // const url = 'https://www.amfiindia.com/spages/NAVAll.txt';
+  const url = 'https://portal.amfiindia.com/spages/NAVAll.txt'; // alternate api if first one fails
 
   try {
     const response = await fetch(url);
