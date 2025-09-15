@@ -11,6 +11,7 @@ import Dashboard from "./components/Dashboard/Dashboard";
 import MarketingPage from "./components/Home/MarketingPage";
 import MutualFundDashboard from "./components/Dashboard/MutualFundDashboard";
 import MutualFunds from "./components/Dashboard/MutualFunds";
+import Insurance from "./components/Dashboard/Insurance";
 import GoalTracker from "./components/Dashboard/GoalTracker";
 import NewsLetter from "./components/Home/NewsLetter";
 import Chatbot from "./components/Common/ChatBot";
@@ -33,9 +34,12 @@ const App = () => (
                 <Route path="/MutualFunds" element={<MutualFunds />} />
                 <Route path="/CalcDashboard" element={<CalcDashboard />} />
                 <Route path="/GoalDashboard" element={<GoalDashboard />} />
-                <Route path="/InsuranceDashboard" element={<InsuranceDashboard />} />
+                <Route path="/Insurance" element={<Insurance />} />
                 <Route path="/SWPDashboard" element={<SWPDashboard />} />
-                <Route path="/ReportsDashboard" element={<ReportsDashboard />} />
+                <Route
+                    path="/ReportsDashboard"
+                    element={<ReportsDashboard />}
+                />
                 <Route path="/NewsLetter" element={<NewsLetter />} />
                 <Route path="/payment" element={<PaymentPage />} />
                 <Route path="/profile" element={<Profile />} />
