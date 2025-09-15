@@ -6,6 +6,8 @@ import { connectToMongodb } from "./database/config";
 import cookieParser from "cookie-parser";
 import { fetchNAVData } from "./controllers/fetchNavController";
 import { fetchFinanceNews } from "./controllers/newsController";
+import fs from "fs";
+import path from "path";
 
 
 
@@ -33,6 +35,18 @@ app.use("/api", routes);
 app.get("/fetch-mf-data", fetchNAVData);
 
 app.get("/api/news", fetchFinanceNews);
+
+// API endpoint to serve insurance data
+app.get("/fetchInsurance", (req, res) => {
+  const filePath = path.join(__dirname, "mock-insurance.json");
+  fs.readFile(filePath, "utf8", (err, data) => {
+    if (err) {
+      res.status(500).json({ error: "Failed to load insurance data" });
+    } else {
+      res.json(JSON.parse(data));
+    }
+  });
+});
 
 app.listen(port, function () {
   console.log(`Server started at port ${port}`);

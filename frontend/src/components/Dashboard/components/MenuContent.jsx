@@ -21,7 +21,7 @@ const mainListItems = [
         icon: <AnalyticsRoundedIcon />,
         path: "/MutualFunds",
     },
-    { text: "Insurance", icon: <AnalyticsRoundedIcon />, path: "/InsuranceDashboard" },
+    { text: "Insurance", icon: <AnalyticsRoundedIcon />, path: "/Insurance" },
     {
         text: "Goal Tracker",
         icon: <AnalyticsRoundedIcon />,
