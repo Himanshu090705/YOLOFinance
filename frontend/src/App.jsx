@@ -9,19 +9,19 @@ import Login from "./components/Auth/Login";
 import SignUp from "./components/Auth/SignUp";
 import Dashboard from "./components/Dashboard/Dashboard";
 import MarketingPage from "./components/Home/MarketingPage";
-import MutualFundDashboard from "./components/Dashboard/MutualFundDashboard";
 import MutualFunds from "./components/Dashboard/MutualFunds";
 import Insurance from "./components/Dashboard/Insurance";
-import GoalTracker from "./components/Dashboard/GoalTracker";
 import NewsLetter from "./components/Home/NewsLetter";
 import Chatbot from "./components/Common/ChatBot";
 import PaymentPage from "./components/Dashboard/components/PaymentPage";
 import Profile from "./components/Auth/Profile";
 import GoalDashboard from "./components/Dashboard/GoalDashboard";
-import InsuranceDashboard from "./components/Dashboard/InsuranceDashboard";
 import SWPDashboard from "./components/Dashboard/SWPDashboard";
 import ReportsDashboard from "./components/Dashboard/ReportsDashboard";
 import CalcDashboard from "./components/Dashboard/CalcDashboard";
+import Feedback from "./components/Dashboard/feedback";
+import AboutDashboard from "./components/Dashboard/AboutDashboard";
+import FeedbackDashboard from "./components/Dashboard/FeedbackDashboard";
 
 const App = () => (
     <Router>
@@ -43,6 +43,8 @@ const App = () => (
                 <Route path="/NewsLetter" element={<NewsLetter />} />
                 <Route path="/payment" element={<PaymentPage />} />
                 <Route path="/profile" element={<Profile />} />
+                <Route path="/about" element={<AboutDashboard />} />
+                <Route path="/feedback" element={<FeedbackDashboard />}  />
             </Routes>
             <Chatbot />
         </div>
