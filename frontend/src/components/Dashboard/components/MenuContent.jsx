@@ -23,12 +23,16 @@ const mainListItems = [
     },
     { text: "Insurance", icon: <AnalyticsRoundedIcon />, path: "/Insurance" },
     {
-        text: "Goal Tracker",
+        text: "Govt. Bonds",
         icon: <AnalyticsRoundedIcon />,
         path: "/GoalDashboard",
     },
     { text: "SWP", icon: <AnalyticsRoundedIcon />, path: "/SWPDashboard" },
-    { text: "Reports", icon: <AnalyticsRoundedIcon />, path: "/ReportsDashboard" },
+    {
+        text: "Reports",
+        icon: <AnalyticsRoundedIcon />,
+        path: "/ReportsDashboard",
+    },
     {
         text: "Finance Calculators",
         icon: <AnalyticsRoundedIcon />,
@@ -38,8 +42,8 @@ const mainListItems = [
 
 const secondaryListItems = [
     { text: "Settings", icon: <SettingsRoundedIcon /> },
-    { text: "About", icon: <InfoRoundedIcon /> },
-    { text: "Feedback", icon: <HelpRoundedIcon /> },
+    { text: "About", icon: <InfoRoundedIcon />, path: "/about" },
+    { text: "Feedback", icon: <HelpRoundedIcon />, path: "/feedback" },
 ];
 
 export default function MenuContent() {
@@ -69,6 +73,7 @@ export default function MenuContent() {
                         key={index}
                         disablePadding
                         sx={{ display: "block" }}
+                        onClick={() => navigate(item.path)}
                     >
                         <ListItemButton>
                             <ListItemIcon>{item.icon}</ListItemIcon>
