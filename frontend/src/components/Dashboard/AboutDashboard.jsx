@@ -16,7 +16,7 @@ import {
     datePickersCustomizations,
     treeViewCustomizations,
 } from "./theme/customizations";
-import About from "./about.jsx";
+import About from "./About.jsx";
 
 const xThemeComponents = {
     ...chartsCustomizations,

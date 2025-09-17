@@ -19,7 +19,7 @@ import LumpsumCalculator from "./Calculators/LumpsumCalculator.jsx";
 import SwpCalculator from "./Calculators/SWPCalculator.jsx";
 import LoanEligibilityCalculator from "./Calculators/LoanEligibilityCalculator.jsx";
 import DebtPayoffCalculator from "./Calculators/DebtPayoffCalculator.jsx";
-import IncomeTaxCalculator from "./Calculators/IncometaxCalculator.jsx";
+import IncomeTaxCalculator from "./Calculators/IncomeTaxCalculator.jsx";
 import CurrencyConverter from "./Calculators/CurrencyConverter.jsx";
 import PrepaymentCalculator from "./Calculators/PrepaymentCalculator.jsx";
 // import RentVsBuyCalculator from "./Calculators/RentVsBuyCalculator.jsx";
