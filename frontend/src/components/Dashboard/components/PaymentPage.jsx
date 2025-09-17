@@ -4,12 +4,104 @@ import PaymentIcon from "@mui/icons-material/Payment";
 import { useNavigate } from "react-router-dom";
 import { loadStripe } from "@stripe/stripe-js";
 
-export default function PaymentPage() {
+export function InsurancePaymentPage() {
   const location = useLocation();
-  const { amount, schemeName, schemeCode, startDate,nextPaymentDate, nav, units } =
-    location.state || {};
+  const {
+    policyID,
+    insurer,
+    planType,
+    planName,
+    premium,
+    coverage,
+    claimRatio,
+  } = location.state || {};
 
-    const navigate = useNavigate();
+  const navigate = useNavigate();
+
+  async function handlePurchase() {
+    const stripe = await loadStripe(
+      import.meta.env.VITE_STRIPE_PUBLISHABLE_KEY
+    );
+    const data = {
+      policyID,
+      insurer,
+      planType,
+      planName,
+      premium,
+      coverage,
+      claimRatio,
+    };
+    const res = await fetch("http://localhost:4000/api/insurance/buy-policy", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      credentials: "include",
+      body: JSON.stringify(data),
+    });
+
+    const session = await res.json();
+
+    if (res.status === 201) {
+      navigate("/Dashboard");
+    }
+
+    const result = await stripe.redirectToCheckout({
+      sessionId: session.id,
+    });
+  }
+
+  return (
+    <Box
+      sx={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        minHeight: "80vh",
+      }}
+    >
+      <Card sx={{ p: 4, minWidth: 350, textAlign: "center" }}>
+        <PaymentIcon color="primary" sx={{ fontSize: 60, mb: 2 }} />
+        <Typography variant="h5" gutterBottom>
+          Confirm Payment
+        </Typography>
+        <Typography variant="subtitle1" gutterBottom>
+          PolicyId: <b>{policyID}</b>
+        </Typography>
+        <Typography variant="subtitle2" gutterBottom>
+          Plan Name: {planName}
+        </Typography>
+        <Typography variant="subtitle2" gutterBottom>
+          Insurer: {insurer}
+        </Typography>
+        <Typography variant="h6" sx={{ my: 2 }}>
+          Premium: {premium}
+        </Typography>
+        <Button
+          variant="contained"
+          color="success"
+          fullWidth
+          onClick={handlePurchase}
+        >
+          Pay Now
+        </Button>
+      </Card>
+    </Box>
+  );
+}
+export function PaymentPage() {
+  const location = useLocation();
+  const {
+    amount,
+    schemeName,
+    schemeCode,
+    startDate,
+    nextPaymentDate,
+    nav,
+    units,
+  } = location.state || {};
+
+  const navigate = useNavigate();
 
   async function handlePurchase() {
     const stripe = await loadStripe(
@@ -37,7 +129,7 @@ export default function PaymentPage() {
     const session = await res.json();
 
     if (res.status === 201) {
-      navigate('/Dashboard');
+      navigate("/Dashboard");
     }
 
     const result = await stripe.redirectToCheckout({
@@ -57,7 +149,7 @@ export default function PaymentPage() {
       <Card sx={{ p: 4, minWidth: 350, textAlign: "center" }}>
         <PaymentIcon color="primary" sx={{ fontSize: 60, mb: 2 }} />
         <Typography variant="h5" gutterBottom>
-          Payment Page
+          Confirm Payment
         </Typography>
         <Typography variant="subtitle1" gutterBottom>
           Scheme: <b>{schemeName}</b>

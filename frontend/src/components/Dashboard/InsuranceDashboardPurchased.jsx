@@ -36,8 +36,8 @@ const xThemeComponents = {
 
 function normalizeRow(raw) {
   return {
-    id: raw.policyId, // ✅ unique ID for insurance
-    policyId: raw.policyId,
+    id: raw._id, // ✅ unique ID for insurance
+    policyId: raw._id,
     insurer: raw.insurer ?? "",
     planName: raw.planName ?? "",
     planType: raw.planType ?? "",
@@ -69,12 +69,11 @@ export default function InsuranceDashboardPurchased() {
       try {
         setLoading(true);
         const res = await axios.get(
-          "http://localhost:4000/api/insurance/get",
+          "http://localhost:4000/api/insurance/fetchInsurance",
           { withCredentials: true }
         );
-        const arr = Array.isArray(res.data.policies) ? res.data.policies : [];
+        const arr = Array.isArray(res.data.insurances) ? res.data.insurances : [];
         const policies = arr.map((raw, idx) => normalizeRow(raw, idx));
-
         setRows(policies);
       } catch (err) {
         console.error(err);
@@ -117,6 +116,7 @@ export default function InsuranceDashboardPurchased() {
           { policyId: selectedRow.policyId },
           { withCredentials: true }
         );
+
 
         if (res.data.success) {
           setRows((prev) => prev.filter((r) => r.id !== selectedRow.id));

@@ -13,7 +13,7 @@ import MutualFunds from "./components/Dashboard/MutualFunds";
 import Insurance from "./components/Dashboard/Insurance";
 import NewsLetter from "./components/Home/NewsLetter";
 import Chatbot from "./components/Common/ChatBot";
-import PaymentPage from "./components/Dashboard/components/PaymentPage";
+import { PaymentPage, InsurancePaymentPage} from "./components/Dashboard/components/PaymentPage";
 import Profile from "./components/Auth/Profile";
 import GoalDashboard from "./components/Dashboard/GoalDashboard";
 import SWPDashboard from "./components/Dashboard/SWPDashboard";
@@ -102,6 +102,14 @@ const App = () => (
           element={
             <PrivateRoute>
               <PaymentPage />
+            </PrivateRoute>
+          }
+        />
+        <Route
+          path="/insurance-payment"
+          element={
+            <PrivateRoute>
+              <InsurancePaymentPage />
             </PrivateRoute>
           }
         />

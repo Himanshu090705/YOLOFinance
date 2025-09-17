@@ -37,7 +37,15 @@ export default function InsuranceDetailsDialog({ open, onClose, rowData }) {
 
   const handleBuyPolicy = () => {
     navigate("/insurance-payment", {
-      state: { ...rowData, claimRatio: claimRatioValue },
+      state: {
+        policyID: rowData.policyId, 
+        planName: rowData.planName,
+        insurer: rowData.insurer,
+        planType: rowData.planType,
+        premium: rowData.premium,
+        coverage: rowData.coverage,
+        claimRatio: claimRatioValue 
+      },
     });
   };
 
