@@ -23,6 +23,7 @@ import Feedback from "./components/Dashboard/feedback";
 import AboutDashboard from "./components/Dashboard/AboutDashboard";
 import FeedbackDashboard from "./components/Dashboard/FeedbackDashboard";
 
+
 const App = () => (
     <Router>
         <div className="relative min-h-screen">
