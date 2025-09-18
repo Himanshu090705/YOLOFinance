@@ -2,20 +2,21 @@ import * as React from "react";
 import { useEffect, useMemo, useState } from "react";
 import {
     Box,
+    Button,
     CssBaseline,
     IconButton,
     InputAdornment,
+    Snackbar,
     Stack,
     TextField,
     Tooltip,
     Typography,
     createTheme,
-    Snackbar,
-    Alert,
 } from "@mui/material";
 import { DataGrid, GridToolbar } from "@mui/x-data-grid";
-import SearchIcon from "@mui/icons-material/Search";
+import Alert from "@mui/material/Alert";
 import RefreshIcon from "@mui/icons-material/Refresh";
+import SearchIcon from "@mui/icons-material/Search";
 import AppTheme from "../shared-theme/AppTheme";
 import {
     chartsCustomizations,
@@ -66,6 +67,8 @@ export default function InsuranceDashboard({ apiUrl }) {
     const [openModal, setOpenModal] = useState(false);
     const [selectedRow, setSelectedRow] = useState(null);
 
+    const [planTypeFilter, setPlanTypeFilter] = useState("All");
+
     const fetchData = React.useCallback(async () => {
         setLoading(true);
         setError(null);
@@ -88,10 +91,25 @@ export default function InsuranceDashboard({ apiUrl }) {
         fetchData();
     }, [fetchData]);
 
+    // Get unique plan types for filter buttons
+    const planTypes = useMemo(() => {
+        const types = new Set(rows.map((r) => r.planType).filter(Boolean));
+        return ["All", ...Array.from(types)];
+    }, [rows]);
+
+    // Update filteredRows to include planTypeFilter
     const filteredRows = useMemo(() => {
-        if (!query) return rows;
+        let tempRows = rows;
+        if (planTypeFilter !== "All") {
+            tempRows = tempRows.filter((r) =>
+                (r.planType || "")
+                    .toLowerCase()
+                    .includes(planTypeFilter.toLowerCase())
+            );
+        }
+        if (!query) return tempRows;
         const q = query.toLowerCase();
-        return rows.filter(
+        return tempRows.filter(
             (r) =>
                 (r.policyId || "").toLowerCase().includes(q) ||
                 (r.insurer || "").toLowerCase().includes(q) ||
@@ -99,7 +117,7 @@ export default function InsuranceDashboard({ apiUrl }) {
                 (r.planType || "").toLowerCase().includes(q) ||
                 (r.coverage || "").toLowerCase().includes(q)
         );
-    }, [rows, query]);
+    }, [rows, query, planTypeFilter]);
 
     const handleRowClick = (params) => {
         setSelectedRow(params.row);
@@ -212,8 +230,24 @@ export default function InsuranceDashboard({ apiUrl }) {
     return (
         <AppTheme theme={xThemeComponents}>
             <CssBaseline />
-
             <Box>
+                {/* Filter Buttons for Plan Type */}
+                <Stack direction="row" spacing={1} sx={{ mb: 2 }}>
+                    {planTypes.map((type) => (
+                        <Button
+                            key={type}
+                            variant={
+                                planTypeFilter === type
+                                    ? "contained"
+                                    : "outlined"
+                            }
+                            onClick={() => setPlanTypeFilter(type)}
+                        >
+                            {type}
+                        </Button>
+                    ))}
+                </Stack>
+
                 <Box elevation={3} sx={{ borderRadius: 3 }}>
                     <Stack
                         direction={{ xs: "column", sm: "row" }}

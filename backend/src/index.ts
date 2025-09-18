@@ -44,6 +44,22 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use("/api", routes);
 app.get("/fetch-mf-data", fetchNAVData);
+// app.get("/fetch-mf-data", (req: Request, res: Response) => {
+//     const filePath = path.join(__dirname, "nav-final.json");
+//     fs.readFile(filePath, "utf8", (err, data) => {
+//         if (err) {
+//             console.error("❌ Failed to load nav-final.json:", err);
+//             return res.status(500).json({ error: "Failed to load NAV data" });
+//         }
+//         try {
+//             const jsonData = JSON.parse(data);
+//             res.json(jsonData);
+//         } catch (parseErr) {
+//             console.error("❌ Error parsing nav-final.json:", parseErr);
+//             res.status(500).json({ error: "Invalid NAV data format" });
+//         }
+//     });
+// });
 
 app.get("/api/news", fetchFinanceNews);
 
