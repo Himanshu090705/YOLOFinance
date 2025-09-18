@@ -51700,8 +51700,13 @@
     "ISIN Div Payout/ ISIN Growth": "INF397L01554",
     "ISIN Div Reinvestment": "-",
     "Scheme Name": "LIC MF Gold Exchange Traded Fund",
+<<<<<<< HEAD
     "Net Asset Value": "9941.5727",
     "Date": "18-Sep-2025"
+=======
+    "Net Asset Value": "9896.2929",
+    "Date": "17-Sep-2025"
+>>>>>>> 639af92984c7d9df379cb2231cef91afaafb1343
   },
   {
     "Scheme Code": "151416",

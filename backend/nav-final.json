@@ -1,5 +1,6 @@
 [
   {
+<<<<<<< HEAD
     "Scheme Code": "111809",
     "ISIN Div Payout/ ISIN Growth": "INF209K01637",
     "ISIN Div Reinvestment": "INF209KB1OJ2",
@@ -95,11 +96,19 @@
     "ISIN Div Reinvestment": "INF846K01QB0",
     "Scheme Name": "Axis Arbitrage Fund - Direct Plan - Monthly IDCW",
     "Net Asset Value": "12.2095",
+=======
+    "Scheme Code": "104681",
+    "ISIN Div Payout/ ISIN Growth": "INF109K01EF0",
+    "ISIN Div Reinvestment": "INF109K01BE9",
+    "Scheme Name": "ICICI Prudential Equity Arbitrage Fund - IDCW",
+    "Net Asset Value": "15.1399",
+>>>>>>> 639af92984c7d9df379cb2231cef91afaafb1343
     "Date": "17-Sep-2025",
     "category": "Hybrid Scheme - Arbitrage Fund",
     "type": "Open Ended Schemes"
   },
   {
+<<<<<<< HEAD
     "Scheme Code": "118510",
     "ISIN Div Payout/ ISIN Growth": "INF090I01IN1",
     "ISIN Div Reinvestment": "-",
@@ -175,11 +184,29 @@
     "ISIN Div Reinvestment": "-",
     "Scheme Name": "Tata Nifty G-Sec Dec 2029 Index Fund - Regular Plan - Growth",
     "Net Asset Value": "12.3584",
+=======
+    "Scheme Code": "153721",
+    "ISIN Div Payout/ ISIN Growth": "INF194KB1JU6",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Bandhan Multi-Factor Fund - Regular Plan - Growth",
+    "Net Asset Value": "10.049",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "148555",
+    "ISIN Div Payout/ ISIN Growth": "INF754K01LV5",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Edelweiss MSCI India Domestic & World Healthcare 45 Index Fund Direct Plan - Growth",
+    "Net Asset Value": "20.429",
+>>>>>>> 639af92984c7d9df379cb2231cef91afaafb1343
     "Date": "17-Sep-2025",
     "category": "Other Scheme - Index Funds",
     "type": "Open Ended Schemes"
   },
   {
+<<<<<<< HEAD
     "Scheme Code": "119862",
     "ISIN Div Payout/ ISIN Growth": "-",
     "ISIN Div Reinvestment": "INF277K012D2",
@@ -215,31 +242,175 @@
     "ISIN Div Reinvestment": "-",
     "Scheme Name": "Bajaj Finserv Flexi Cap Fund -Regular Plan-Growth",
     "Net Asset Value": "15.025",
+=======
+    "Scheme Code": "102252",
+    "ISIN Div Payout/ ISIN Growth": "INF336L01AF5",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "HSBC Flexi Cap Fund - Regular Growth",
+    "Net Asset Value": "223.0257",
+>>>>>>> 639af92984c7d9df379cb2231cef91afaafb1343
     "Date": "17-Sep-2025",
     "category": "Equity Scheme - Flexi Cap Fund",
     "type": "Open Ended Schemes"
   },
   {
+<<<<<<< HEAD
     "Scheme Code": "152291",
     "ISIN Div Payout/ ISIN Growth": "-",
     "ISIN Div Reinvestment": "INF277KA1919",
     "Scheme Name": "Tata Gold ETF Fund of Fund Regular Plan IDCW Reinvestment Option",
     "Net Asset Value": "16.9175",
+=======
+    "Scheme Code": "100640",
+    "ISIN Div Payout/ ISIN Growth": "INF200K01602",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "SBI Magnum Income Fund-REGULAR PLAN-Bonus",
+    "Net Asset Value": "43.0007",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Medium to Long Duration Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "148409",
+    "ISIN Div Payout/ ISIN Growth": "INF336L01PE6",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "HSBC Focused Fund - Regular Growth",
+    "Net Asset Value": "25.5079",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Focused Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "153222",
+    "ISIN Div Payout/ ISIN Growth": "INF174KA1UO1",
+    "ISIN Div Reinvestment": "INF174KA1UP8",
+    "Scheme Name": "Kotak Nifty SmallCap 250 Index Fund- Regular - IDCW",
+    "Net Asset Value": "11.312",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "130860",
+    "ISIN Div Payout/ ISIN Growth": "INF204KA1SI1",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Nippon India Japan Equity Fund- Direct Plan- Growth Plan- Growth Option",
+    "Net Asset Value": "24.7987",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "120270",
+    "ISIN Div Payout/ ISIN Growth": "INF767K01EM1",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "LIC MF ELSS Tax Saver-Direct Plan-Growth",
+    "Net Asset Value": "178.0798",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - ELSS",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "150828",
+    "ISIN Div Payout/ ISIN Growth": "INF789F1AWF0",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "UTI Fixed Term Income Fund - Series XXXV-I (1260 Days) - Regular Plan - Growth Option",
+    "Net Asset Value": "12.1817",
+    "Date": "17-Sep-2025",
+    "category": "IDF",
+    "type": "IL&FS Mutual Fund"
+  },
+  {
+    "Scheme Code": "152976",
+    "ISIN Div Payout/ ISIN Growth": "INF769K01MJ6",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Mirae Asset Nifty LargeMidcap 250 Index Fund - Direct Plan - Growth",
+    "Net Asset Value": "10.4218",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "153463",
+    "ISIN Div Payout/ ISIN Growth": "INF174KA1WG3",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Kotak Nifty Top 10 Equal Weight Index Fund-Regular Plan-Growth",
+    "Net Asset Value": "10.011",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "118745",
+    "ISIN Div Payout/ ISIN Growth": "INF204K01H44",
+    "ISIN Div Reinvestment": "INF204K01H51",
+    "Scheme Name": "NIPPON INDIA INDEX FUND - NIFTY 50 PLAN - DIRECT Plan - HALF YEARLY - IDCW Option",
+    "Net Asset Value": "36.9253",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "153505",
+    "ISIN Div Payout/ ISIN Growth": "INF0QA701BB7",
+    "ISIN Div Reinvestment": "INF0QA701BC5",
+    "Scheme Name": "Bajaj Finserv Nifty 50 Index Fund - Direct - IDCW",
+    "Net Asset Value": "10.2942",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "153010",
+    "ISIN Div Payout/ ISIN Growth": "INF769K01MT5",
+    "ISIN Div Reinvestment": "INF769K01MU3",
+    "Scheme Name": "Mirae Asset Gold ETF Fund of Fund - Regular Plan - IDCW",
+    "Net Asset Value": "13.876",
+>>>>>>> 639af92984c7d9df379cb2231cef91afaafb1343
     "Date": "17-Sep-2025",
     "category": "Other Scheme - FoF Domestic",
     "type": "Open Ended Schemes"
   },
   {
+<<<<<<< HEAD
     "Scheme Code": "149796",
     "ISIN Div Payout/ ISIN Growth": "-",
     "ISIN Div Reinvestment": "INF0GCD01461",
     "Scheme Name": "TRUST MF OVERNIGHT FUND-DIRECT PLAN-DAILY IDCW REINVESTMENT",
     "Net Asset Value": "1218.9217",
+=======
+    "Scheme Code": "153245",
+    "ISIN Div Payout/ ISIN Growth": "INF846KA1036",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Axis Nifty500 Momentum 50 Index Fund - Regular Plan - Growth Option",
+    "Net Asset Value": "10.8019",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "134763",
+    "ISIN Div Payout/ ISIN Growth": "INF789FA1L62",
+    "ISIN Div Reinvestment": "INF789FA1L70",
+    "Scheme Name": "UTI Money Market Fund - Regular Plan - Half-Yearly IDCW",
+    "Net Asset Value": "1759.3929",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Money Market Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "147566",
+    "ISIN Div Payout/ ISIN Growth": "-",
+    "ISIN Div Reinvestment": "INF174V01820",
+    "Scheme Name": "Mahindra Manulife Overnight Fund - Regular Plan - Daily IDCW",
+    "Net Asset Value": "1194.9912",
+>>>>>>> 639af92984c7d9df379cb2231cef91afaafb1343
     "Date": "17-Sep-2025",
     "category": "Debt Scheme - Overnight Fund",
     "type": "Open Ended Schemes"
   },
   {
+<<<<<<< HEAD
     "Scheme Code": "109349",
     "ISIN Div Payout/ ISIN Growth": "-",
     "ISIN Div Reinvestment": "INF760K01CU3",
@@ -255,11 +426,19 @@
     "ISIN Div Reinvestment": "-",
     "Scheme Name": "HDFC Value Fund - Growth Plan",
     "Net Asset Value": "749.873",
+=======
+    "Scheme Code": "135341",
+    "ISIN Div Payout/ ISIN Growth": "INF666M01BE4",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Groww Value Fund (formerly known as Indiabulls Value Fund) - Direct Plan - Growth Option",
+    "Net Asset Value": "32.8912",
+>>>>>>> 639af92984c7d9df379cb2231cef91afaafb1343
     "Date": "17-Sep-2025",
     "category": "Equity Scheme - Value Fund",
     "type": "Open Ended Schemes"
   },
   {
+<<<<<<< HEAD
     "Scheme Code": "108690",
     "ISIN Div Payout/ ISIN Growth": "INF194K01VX9",
     "ISIN Div Reinvestment": "-",
@@ -525,11 +704,19 @@
     "ISIN Div Reinvestment": "-",
     "Scheme Name": "SBI Fixed Maturity Plan (FMP) - Series 64 (1169 Days) - Regular Plan - Growth",
     "Net Asset Value": "12.1970",
+=======
+    "Scheme Code": "151349",
+    "ISIN Div Payout/ ISIN Growth": "INF200KA17U0",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "SBI Fixed Maturity Plan (FMP) - Series 76 (1221 Days) - Regular Plan - Growth",
+    "Net Asset Value": "12.0691",
+>>>>>>> 639af92984c7d9df379cb2231cef91afaafb1343
     "Date": "17-Sep-2025",
     "category": "IDF",
     "type": "IL&FS Mutual Fund"
   },
   {
+<<<<<<< HEAD
     "Scheme Code": "152781",
     "ISIN Div Payout/ ISIN Growth": "INF0QA701904",
     "ISIN Div Reinvestment": "INF0QA701912",
@@ -585,11 +772,19 @@
     "ISIN Div Reinvestment": "INF769K01JB9",
     "Scheme Name": "Mirae Asset Nifty AAA PSU Bond Plus SDL Apr 2026 50:50 Index Fund - Regular Plan - IDCW",
     "Net Asset Value": "12.2752",
+=======
+    "Scheme Code": "152960",
+    "ISIN Div Payout/ ISIN Growth": "INF209KC1282",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Aditya Birla Sun Life Crisil-IBX AAA NBFC-HFC Index-Dec 2025 Fund-Regular IDCW Payout",
+    "Net Asset Value": "10.6969",
+>>>>>>> 639af92984c7d9df379cb2231cef91afaafb1343
     "Date": "17-Sep-2025",
     "category": "Other Scheme - Index Funds",
     "type": "Open Ended Schemes"
   },
   {
+<<<<<<< HEAD
     "Scheme Code": "120451",
     "ISIN Div Payout/ ISIN Growth": "INF846K01DI3",
     "ISIN Div Reinvestment": "-",
@@ -625,11 +820,29 @@
     "ISIN Div Reinvestment": "-",
     "Scheme Name": "BANDHAN LIQUID Fund - Unclaimed Redemption More than 3 years",
     "Net Asset Value": "1.0000",
+=======
+    "Scheme Code": "151444",
+    "ISIN Div Payout/ ISIN Growth": "INF761K01FQ2",
+    "ISIN Div Reinvestment": "INF761K01FS8",
+    "Scheme Name": "Bank of India Multi Cap Fund Direct Plan - IDCW",
+    "Net Asset Value": "18.54",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Multi Cap Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "118701",
+    "ISIN Div Payout/ ISIN Growth": "INF204K01ZH0",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Nippon India Liquid Fund - Direct Plan Growth Plan - Growth Option",
+    "Net Asset Value": "6534.5356",
+>>>>>>> 639af92984c7d9df379cb2231cef91afaafb1343
     "Date": "17-Sep-2025",
     "category": "Debt Scheme - Liquid Fund",
     "type": "Open Ended Schemes"
   },
   {
+<<<<<<< HEAD
     "Scheme Code": "152596",
     "ISIN Div Payout/ ISIN Growth": "INF277KA1BP4",
     "ISIN Div Reinvestment": "-",
@@ -637,6 +850,25 @@
     "Net Asset Value": "10.7843",
     "Date": "17-Sep-2025",
     "category": "Other Scheme - Index Funds",
+=======
+    "Scheme Code": "100787",
+    "ISIN Div Payout/ ISIN Growth": "INF903J01HZ9",
+    "ISIN Div Reinvestment": "INF903J01ID4",
+    "Scheme Name": "Sundaram Corporate Bond Fund Regular Plan-Income Distribution cum Capital Withdrawal (IDCW)",
+    "Net Asset Value": "17.6302",
+    "Date": "27-Jun-2025",
+    "category": "Debt Scheme - Corporate Bond Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "122236",
+    "ISIN Div Payout/ ISIN Growth": "INF109K016W7",
+    "ISIN Div Reinvestment": "INF109K015W9",
+    "Scheme Name": "ICICI Prudential Balanced Advantage Fund - Direct Plan - Monthly IDCW",
+    "Net Asset Value": "27.01",
+    "Date": "17-Sep-2025",
+    "category": "Hybrid Scheme - Dynamic Asset Allocation or Balanced Advantage",
+>>>>>>> 639af92984c7d9df379cb2231cef91afaafb1343
     "type": "Open Ended Schemes"
   },
   {
@@ -650,6 +882,7 @@
     "type": "Open Ended Schemes"
   },
   {
+<<<<<<< HEAD
     "Scheme Code": "150900",
     "ISIN Div Payout/ ISIN Growth": "INF754K01PZ7",
     "ISIN Div Reinvestment": "-",
@@ -865,11 +1098,19 @@
     "ISIN Div Reinvestment": "INF174K01NL3",
     "Scheme Name": "Kotak Liquid Fund - Regular  - Daily Reinvestment of Income Distribution cum capital withdrawal option",
     "Net Asset Value": "1222.81",
+=======
+    "Scheme Code": "119136",
+    "ISIN Div Payout/ ISIN Growth": "-",
+    "ISIN Div Reinvestment": "INF666M01469",
+    "Scheme Name": "Groww Liquid Fund (formerly known as Indiabulls Liquid Fund) - Direct Plan- - Income Distribution cum capital withdrawal Option ( Reinvestment)",
+    "Net Asset Value": "1002.0907",
+>>>>>>> 639af92984c7d9df379cb2231cef91afaafb1343
     "Date": "17-Sep-2025",
     "category": "Debt Scheme - Liquid Fund",
     "type": "Open Ended Schemes"
   },
   {
+<<<<<<< HEAD
     "Scheme Code": "131375",
     "ISIN Div Payout/ ISIN Growth": "INF174K01D36",
     "ISIN Div Reinvestment": "INF174K01D51",
@@ -970,6 +1211,8 @@
     "type": "Open Ended Schemes"
   },
   {
+=======
+>>>>>>> 639af92984c7d9df379cb2231cef91afaafb1343
     "Scheme Code": "149008",
     "ISIN Div Payout/ ISIN Growth": "INF204KC1089",
     "ISIN Div Reinvestment": "-",
@@ -980,6 +1223,7 @@
     "type": "Open Ended Schemes"
   },
   {
+<<<<<<< HEAD
     "Scheme Code": "151563",
     "ISIN Div Payout/ ISIN Growth": "INF209KB17T1",
     "ISIN Div Reinvestment": "-",
@@ -1195,11 +1439,19 @@
     "ISIN Div Reinvestment": "-",
     "Scheme Name": "HDFC Hybrid Equity Fund - Growth Plan",
     "Net Asset Value": "119.322",
+=======
+    "Scheme Code": "131452",
+    "ISIN Div Payout/ ISIN Growth": "INF109KA1X93",
+    "ISIN Div Reinvestment": "INF109KA1X85",
+    "Scheme Name": "ICICI Prudential Equity & Debt Fund - Half Yearly IDCW",
+    "Net Asset Value": "26.85",
+>>>>>>> 639af92984c7d9df379cb2231cef91afaafb1343
     "Date": "17-Sep-2025",
     "category": "Hybrid Scheme - Aggressive Hybrid Fund",
     "type": "Open Ended Schemes"
   },
   {
+<<<<<<< HEAD
     "Scheme Code": "153582",
     "ISIN Div Payout/ ISIN Growth": "INF277KA1DY2",
     "ISIN Div Reinvestment": "-",
@@ -1385,11 +1637,39 @@
     "ISIN Div Reinvestment": "-",
     "Scheme Name": "NJ Arbitrage Fund - Direct Plan - Growth Option",
     "Net Asset Value": "12.3660",
+=======
+    "Scheme Code": "119212",
+    "ISIN Div Payout/ ISIN Growth": "INF740K01QD1",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "DSP Small Cap Fund - Direct Plan - Growth",
+    "Net Asset Value": "220.184",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Small Cap Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "148446",
+    "ISIN Div Payout/ ISIN Growth": "INF754K01LI2",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "BHARAT Bond FOF- April 2025- Direct Pan- Growth Option",
+    "Net Asset Value": "12.8931",
+    "Date": "16-Apr-2025",
+    "category": "Other Scheme - FoF Domestic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "103780",
+    "ISIN Div Payout/ ISIN Growth": "INF192K01510",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "JM Arbitrage Fund (Regular) - Growth Option",
+    "Net Asset Value": "32.9264",
+>>>>>>> 639af92984c7d9df379cb2231cef91afaafb1343
     "Date": "17-Sep-2025",
     "category": "Hybrid Scheme - Arbitrage Fund",
     "type": "Open Ended Schemes"
   },
   {
+<<<<<<< HEAD
     "Scheme Code": "119163",
     "ISIN Div Payout/ ISIN Growth": "-",
     "ISIN Div Reinvestment": "INF959L01GK1",
@@ -1795,11 +2075,19 @@
     "ISIN Div Reinvestment": "-",
     "Scheme Name": "Kotak ELSS Tax Saver Fund-Payout of Income Distribution cum capital withdrawal option",
     "Net Asset Value": "43.839",
+=======
+    "Scheme Code": "133866",
+    "ISIN Div Payout/ ISIN Growth": "INF204KA1E04",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "NIPPON INDIA TAX SAVER (ELSS) FUND - ANNUAL IDCW Option",
+    "Net Asset Value": "21.9576",
+>>>>>>> 639af92984c7d9df379cb2231cef91afaafb1343
     "Date": "17-Sep-2025",
     "category": "Equity Scheme - ELSS",
     "type": "Open Ended Schemes"
   },
   {
+<<<<<<< HEAD
     "Scheme Code": "152714",
     "ISIN Div Payout/ ISIN Growth": "INF179KC1IL5",
     "ISIN Div Reinvestment": "-",
@@ -1855,21 +2143,329 @@
     "ISIN Div Reinvestment": "-",
     "Scheme Name": "Mirae Asset Nifty 8-13 yr Gsec ETF",
     "Net Asset Value": "29.2835",
+=======
+    "Scheme Code": "150531",
+    "ISIN Div Payout/ ISIN Growth": "INF174KA1JF2",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Kotak Nifty MNC ETF",
+    "Net Asset Value": "31.2186",
+>>>>>>> 639af92984c7d9df379cb2231cef91afaafb1343
     "Date": "17-Sep-2025",
     "category": "Other Scheme - Other  ETFs",
     "type": "Open Ended Schemes"
   },
   {
+<<<<<<< HEAD
     "Scheme Code": "149893",
     "ISIN Div Payout/ ISIN Growth": "INF959L01FY4",
     "ISIN Div Reinvestment": "-",
     "Scheme Name": "Navi Nifty Midcap 150 Index Fund Regular Plan- Growth",
     "Net Asset Value": "20.036",
+=======
+    "Scheme Code": "153178",
+    "ISIN Div Payout/ ISIN Growth": "INF209KC1480",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Aditya Birla Sun Life Crisil-IBX Financial Services 3 to 6 Months  Debt Index Fund-Regular IDCW Payout",
+    "Net Asset Value": "10.5574",
+>>>>>>> 639af92984c7d9df379cb2231cef91afaafb1343
     "Date": "17-Sep-2025",
     "category": "Other Scheme - Index Funds",
     "type": "Open Ended Schemes"
   },
   {
+<<<<<<< HEAD
+=======
+    "Scheme Code": "139528",
+    "ISIN Div Payout/ ISIN Growth": "INF761K01DQ7",
+    "ISIN Div Reinvestment": "INF761K01DR5",
+    "Scheme Name": "BANK OF INDIA MID & SMALL CAP EQUITY & DEBT FUND - REGULAR  PLAN IDCW",
+    "Net Asset Value": "32.55",
+    "Date": "17-Sep-2025",
+    "category": "Hybrid Scheme - Aggressive Hybrid Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "150867",
+    "ISIN Div Payout/ ISIN Growth": "INF194KB1EU7",
+    "ISIN Div Reinvestment": "INF194KB1EV5",
+    "Scheme Name": "BANDHAN CRISIL IBX 90:10 SDL PLUS GILT - NOV 2026 INDEX FUND - DIRECT IDCW",
+    "Net Asset Value": "10.7264",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "120870",
+    "ISIN Div Payout/ ISIN Growth": "INF109K013M5",
+    "ISIN Div Reinvestment": "INF109K014M3",
+    "Scheme Name": "ICICI Prudential Smallcap Fund - Direct Plan - IDCW",
+    "Net Asset Value": "73.45",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Small Cap Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "147773",
+    "ISIN Div Payout/ ISIN Growth": "INF767K01QT0",
+    "ISIN Div Reinvestment": "INF767K01QS2",
+    "Scheme Name": "LIC MF Ultra Short Duration Fund-Direct Plan-Monthly IDCW",
+    "Net Asset Value": "1369.179",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Ultra Short Duration Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "149144",
+    "ISIN Div Payout/ ISIN Growth": "INF200KA1Z31",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "SBI Fixed Maturity Plan (FMP) - Series 49 (1823 Days) - Direct Plan - Income Distribution cum Capital Withdrawal Option (IDCW)",
+    "Net Asset Value": "12.8325",
+    "Date": "17-Sep-2025",
+    "category": "IDF",
+    "type": "IL&FS Mutual Fund"
+  },
+  {
+    "Scheme Code": "108995",
+    "ISIN Div Payout/ ISIN Growth": "INF194K01581",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "BANDHAN Equity Savings Fund - Regular Plan - Growth",
+    "Net Asset Value": "31.449",
+    "Date": "17-Sep-2025",
+    "category": "Hybrid Scheme - Equity Savings",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "151730",
+    "ISIN Div Payout/ ISIN Growth": "INF789F1AYK6",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "UTI Silver Exchange Traded Fund",
+    "Net Asset Value": "121.2141",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Other  ETFs",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "151051",
+    "ISIN Div Payout/ ISIN Growth": "INF917K01BB1",
+    "ISIN Div Reinvestment": "INF917K01BA3",
+    "Scheme Name": "HSBC Money Market Fund - Regular Monthly IDCW",
+    "Net Asset Value": "11.577",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Money Market Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "122721",
+    "ISIN Div Payout/ ISIN Growth": "INF579M01282",
+    "ISIN Div Reinvestment": "INF579M01316",
+    "Scheme Name": "360 ONE Dynamic Bond Fund Direct Plan Monthly Dividend",
+    "Net Asset Value": "14.0066",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Dynamic Bond",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "118873",
+    "ISIN Div Payout/ ISIN Growth": "INF044D01CB7",
+    "ISIN Div Reinvestment": "INF044D01CC5",
+    "Scheme Name": "Taurus Mid Cap Fund - Direct Plan - Payout of Income Distribution cum Capital Withdrawal option",
+    "Net Asset Value": "116.62",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Mid Cap Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "118489",
+    "ISIN Div Payout/ ISIN Growth": "INF194K019A3",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "BANDHAN Asset Allocation Fund Of Fund-Moderate Plan-Direct Plan-Growth",
+    "Net Asset Value": "43.8253",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - FoF Domestic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "119732",
+    "ISIN Div Payout/ ISIN Growth": "INF200K01UY4",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "SBI PSU Fund - DIRECT PLAN - GROWTH",
+    "Net Asset Value": "35.4879",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "140292",
+    "ISIN Div Payout/ ISIN Growth": "INF843K01FQ8",
+    "ISIN Div Reinvestment": "INF843K01FP0",
+    "Scheme Name": "Edelweiss Banking and PSU Debt Fund - Regular Plan Monthly - IDCW Option",
+    "Net Asset Value": "11.1739",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Banking and PSU Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "147696",
+    "ISIN Div Payout/ ISIN Growth": "INF204KB10F6",
+    "ISIN Div Reinvestment": "INF204KB11F4",
+    "Scheme Name": "NIPPON INDIA EQUITY SAVINGS FUND - SEGREGATED PORTFOLIO 1 - QUARTERLY IDCW Option",
+    "Net Asset Value": "0.5505",
+    "Date": "21-Mar-2025",
+    "category": "Hybrid Scheme - Equity Savings",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "100471",
+    "ISIN Div Payout/ ISIN Growth": "INF090I01171",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Franklin India Large Cap Fund-Growth",
+    "Net Asset Value": "1043.8840",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Large Cap Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "106171",
+    "ISIN Div Payout/ ISIN Growth": "INF205K01RN2",
+    "ISIN Div Reinvestment": "INF205K01RO0",
+    "Scheme Name": "Invesco India Corporate Bond Fund - Monthly IDCW (Payout / Reinvestment)",
+    "Net Asset Value": "1844.564",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Corporate Bond Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "148996",
+    "ISIN Div Payout/ ISIN Growth": "INF200KA1W75",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "SBI Fixed Maturity Plan (FMP) Series 45 (1840 Days) - Regular Plan - Growth",
+    "Net Asset Value": "12.8924",
+    "Date": "17-Sep-2025",
+    "category": "IDF",
+    "type": "IL&FS Mutual Fund"
+  },
+  {
+    "Scheme Code": "149778",
+    "ISIN Div Payout/ ISIN Growth": "INF109KC1Y72",
+    "ISIN Div Reinvestment": "INF109KC1Y80",
+    "Scheme Name": "ICICI PRUDENTIAL SILVER ETF FUND OF FUND - IDCW",
+    "Net Asset Value": "19.3268",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - FoF Domestic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "108800",
+    "ISIN Div Payout/ ISIN Growth": "INF194K01490",
+    "ISIN Div Reinvestment": "INF194K01508",
+    "Scheme Name": "BANDHAN Large Cap Fund - Regular Plan - IDCW",
+    "Net Asset Value": "23.045",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Large Cap Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "151685",
+    "ISIN Div Payout/ ISIN Growth": "INF174KA1NN8",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Kotak FMP Series 310 - Regular Plan - IDCW Payout option",
+    "Net Asset Value": "11.8943",
+    "Date": "17-Sep-2025",
+    "category": "IDF",
+    "type": "IL&FS Mutual Fund"
+  },
+  {
+    "Scheme Code": "119657",
+    "ISIN Div Payout/ ISIN Growth": "INF209K01WY1",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Aditya Birla Sun Life Income Fund - Growth - Direct Plan",
+    "Net Asset Value": "135.5499",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Medium to Long Duration Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "140447",
+    "ISIN Div Payout/ ISIN Growth": "INF174V01150",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Mahindra Manulife Equity Savings Fund - Regular Plan - Growth",
+    "Net Asset Value": "20.8007",
+    "Date": "17-Sep-2025",
+    "category": "Hybrid Scheme - Equity Savings",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "140023",
+    "ISIN Div Payout/ ISIN Growth": "INF789FA1M87",
+    "ISIN Div Reinvestment": "INF789FA1M95",
+    "Scheme Name": "UTI Money Market Fund - Direct Plan - Half-Yearly IDCW",
+    "Net Asset Value": "1770.9059",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Money Market Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "149999",
+    "ISIN Div Payout/ ISIN Growth": "INF109KC14B6",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "ICICI Prudential Nifty SDL Sep 2027 Index Fund - Direct Plan - Growth",
+    "Net Asset Value": "12.5461",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "111809",
+    "ISIN Div Payout/ ISIN Growth": "INF209K01637",
+    "ISIN Div Reinvestment": "INF209KB1OJ2",
+    "Scheme Name": "Aditya Birla Sun Life Medium Term Plan - REGULAR - Quarterly IDCW",
+    "Net Asset Value": "13.2046",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Medium Duration Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "114931",
+    "ISIN Div Payout/ ISIN Growth": "INF769K01135",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Mirae Asset Great Consumer Fund - Regular Plan - Growth option",
+    "Net Asset Value": "98.415",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "118705",
+    "ISIN Div Payout/ ISIN Growth": "INF204K01ZZ2",
+    "ISIN Div Reinvestment": "INF204K01A09",
+    "Scheme Name": "NIPPON INDIA LOW DURATION FUND - DIRECT Plan - QUARTERLY IDCW Option",
+    "Net Asset Value": "1034.9977",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Low Duration Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "118790",
+    "ISIN Div Payout/ ISIN Growth": "INF204K01L14",
+    "ISIN Div Reinvestment": "INF204K01L22",
+    "Scheme Name": "NIPPON INDIA INDEX FUND - BSE SENSEX PLAN - DIRECT Plan - QUARTERLY - IDCW Option",
+    "Net Asset Value": "35.5174",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "151001",
+    "ISIN Div Payout/ ISIN Growth": "INF917K01WB7",
+    "ISIN Div Reinvestment": "INF917K01WA9",
+    "Scheme Name": "HSBC Corporate Bond Fund - Regular Annual IDCW",
+    "Net Asset Value": "11.8871",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Corporate Bond Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+>>>>>>> 639af92984c7d9df379cb2231cef91afaafb1343
     "Scheme Code": "151334",
     "ISIN Div Payout/ ISIN Growth": "INF789F1AXF8",
     "ISIN Div Reinvestment": "-",
@@ -1880,6 +2476,7 @@
     "type": "IL&FS Mutual Fund"
   },
   {
+<<<<<<< HEAD
     "Scheme Code": "146297",
     "ISIN Div Payout/ ISIN Growth": "INF582M01ES7",
     "ISIN Div Reinvestment": "-",
@@ -1965,11 +2562,19 @@
     "ISIN Div Reinvestment": "-",
     "Scheme Name": "BANDHAN CRISIL IBX 90:10 SDL PLUS GILT - SEP27 INDEX FUND - DIRECT GROWTH",
     "Net Asset Value": "12.4341",
+=======
+    "Scheme Code": "153661",
+    "ISIN Div Payout/ ISIN Growth": "INF174KA1WR0",
+    "ISIN Div Reinvestment": "INF174KA1WS8",
+    "Scheme Name": "KOTAK NIFTY 200 QUALITY 30 INDEX FUND - REGULAR PLAN - IDCW - PAYOUT AND REINVESTMENT",
+    "Net Asset Value": "10.225",
+>>>>>>> 639af92984c7d9df379cb2231cef91afaafb1343
     "Date": "17-Sep-2025",
     "category": "Other Scheme - Index Funds",
     "type": "Open Ended Schemes"
   },
   {
+<<<<<<< HEAD
     "Scheme Code": "133399",
     "ISIN Div Payout/ ISIN Growth": "INF192K01IB6",
     "ISIN Div Reinvestment": "-",
@@ -2515,21 +3120,47 @@
     "ISIN Div Reinvestment": "INF0QA701755",
     "Scheme Name": "Bajaj Finserv Large and Mid Cap Fund- Regular Plan- IDCW",
     "Net Asset Value": "12.281",
+=======
+    "Scheme Code": "130499",
+    "ISIN Div Payout/ ISIN Growth": "INF179KA1RR5",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "HDFC Large and Mid Cap Fund - IDCW Option - Direct Plan",
+    "Net Asset Value": "49.743",
+>>>>>>> 639af92984c7d9df379cb2231cef91afaafb1343
     "Date": "17-Sep-2025",
     "category": "Equity Scheme - Large & Mid Cap Fund",
     "type": "Open Ended Schemes"
   },
   {
+<<<<<<< HEAD
     "Scheme Code": "125597",
     "ISIN Div Payout/ ISIN Growth": "INF209K014W1",
     "ISIN Div Reinvestment": "-",
     "Scheme Name": "Aditya Birla Sun Life Banking and Financial Services Fund - Direct Plan - Growth",
     "Net Asset Value": "68.26",
+=======
+    "Scheme Code": "101127",
+    "ISIN Div Payout/ ISIN Growth": "INF109K01605",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "ICICI Prudential Children's Fund - Regular Plan",
+    "Net Asset Value": "335.89",
+    "Date": "17-Sep-2025",
+    "category": "Solution Oriented Scheme - Children’s Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "100352",
+    "ISIN Div Payout/ ISIN Growth": "INF109K01415",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "ICICI Prudential FMCG Fund - Growth",
+    "Net Asset Value": "486.90",
+>>>>>>> 639af92984c7d9df379cb2231cef91afaafb1343
     "Date": "17-Sep-2025",
     "category": "Equity Scheme - Sectoral/ Thematic",
     "type": "Open Ended Schemes"
   },
   {
+<<<<<<< HEAD
     "Scheme Code": "129009",
     "ISIN Div Payout/ ISIN Growth": "INF090I01KS6",
     "ISIN Div Reinvestment": "INF090I01KT4",
@@ -2545,11 +3176,49 @@
     "ISIN Div Reinvestment": "INF846K01EP6",
     "Scheme Name": "Axis Treasury Advantage Fund - Direct Plan - Monthly IDCW",
     "Net Asset Value": "1013.1440",
+=======
+    "Scheme Code": "153577",
+    "ISIN Div Payout/ ISIN Growth": "-",
+    "ISIN Div Reinvestment": "INF277KA1EA0",
+    "Scheme Name": "Tata Nifty Midcap 150 Index Fund - Direct Plan - IDCW Reinvestment Option",
+    "Net Asset Value": "10.3761",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "149822",
+    "ISIN Div Payout/ ISIN Growth": "INF200KA19D2",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "SBI Fixed Maturity Plan (FMP) - Series 59 (1618 Days) - Direct Plan - Growth",
+    "Net Asset Value": "12.4720",
+    "Date": "17-Sep-2025",
+    "category": "IDF",
+    "type": "IL&FS Mutual Fund"
+  },
+  {
+    "Scheme Code": "118866",
+    "ISIN Div Payout/ ISIN Growth": "INF044D01CG6",
+    "ISIN Div Reinvestment": "INF044D01AA3",
+    "Scheme Name": "Taurus ELSS Tax Saver Fund - Direct Plan - Growth",
+    "Net Asset Value": "206.92",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - ELSS",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "140618",
+    "ISIN Div Payout/ ISIN Growth": "-",
+    "ISIN Div Reinvestment": "INF174V01283",
+    "Scheme Name": "Mahindra Manulife Low Duration Fund - Direct Plan - Weekly IDCW",
+    "Net Asset Value": "1030.8606",
+>>>>>>> 639af92984c7d9df379cb2231cef91afaafb1343
     "Date": "17-Sep-2025",
     "category": "Debt Scheme - Low Duration Fund",
     "type": "Open Ended Schemes"
   },
   {
+<<<<<<< HEAD
     "Scheme Code": "100472",
     "ISIN Div Payout/ ISIN Growth": "INF090I01726",
     "ISIN Div Reinvestment": "INF090I01734",
@@ -2575,11 +3244,89 @@
     "ISIN Div Reinvestment": "INF277K01NC3",
     "Scheme Name": "Tata Value Fund- Direct Plan - Payout of IDCW -Option B(10%)",
     "Net Asset Value": "133.8856",
+=======
+    "Scheme Code": "152662",
+    "ISIN Div Payout/ ISIN Growth": "INF209KC1084",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Aditya Birla Sun Life Crisil Ibx Gilt June 2027 Index Fund-Direct IDCW Payout",
+    "Net Asset Value": "11.1042",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "133520",
+    "ISIN Div Payout/ ISIN Growth": "INF955L01FZ9",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Baroda BNP Paribas Credit Risk Fund -Direct- Monthly IDCW",
+    "Net Asset Value": "14.3934",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Credit Risk Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "102756",
+    "ISIN Div Payout/ ISIN Growth": "INF200K01370",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "SBI FOCUSED FUND - REGULAR PLAN -GROWTH",
+    "Net Asset Value": "360.6702",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Focused Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "153104",
+    "ISIN Div Payout/ ISIN Growth": "INF090I01XV3",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Franklin India Long Duration Fund - Growth",
+    "Net Asset Value": "10.4112",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Long Duration Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "133733",
+    "ISIN Div Payout/ ISIN Growth": "INF789FA1N45",
+    "ISIN Div Reinvestment": "INF789FA1N52",
+    "Scheme Name": "UTI Low Duration Fund - Regular Plan - Fortnightly IDCW",
+    "Net Asset Value": "1330.9405",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Low Duration Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "149021",
+    "ISIN Div Payout/ ISIN Growth": "INF00XX01AT0",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "ITI Dynamic Bond Fund - Regular Plan - Growth Option",
+    "Net Asset Value": "12.5081",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Dynamic Bond",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "146380",
+    "ISIN Div Payout/ ISIN Growth": "INF740KA1MD6",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "DSP Nifty Next 50 Index Fund - Regular Plan - Growth",
+    "Net Asset Value": "26.7162",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "141068",
+    "ISIN Div Payout/ ISIN Growth": "INF082J01242",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Quantum Value Fund - Regular Plan Growth Option",
+    "Net Asset Value": "126.73",
+>>>>>>> 639af92984c7d9df379cb2231cef91afaafb1343
     "Date": "17-Sep-2025",
     "category": "Equity Scheme - Value Fund",
     "type": "Open Ended Schemes"
   },
   {
+<<<<<<< HEAD
     "Scheme Code": "140616",
     "ISIN Div Payout/ ISIN Growth": "INF174V01259",
     "ISIN Div Reinvestment": "INF174V01242",
@@ -2645,11 +3392,19 @@
     "ISIN Div Reinvestment": "INF740KA1OB6",
     "Scheme Name": "DSP Liquidity Fund - Direct Plan - IDCW - Daily",
     "Net Asset Value": "1001.1542",
+=======
+    "Scheme Code": "145834",
+    "ISIN Div Payout/ ISIN Growth": "INF247L01734",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Motilal Oswal Liquid Fund - Direct Growth",
+    "Net Asset Value": "14.1013",
+>>>>>>> 639af92984c7d9df379cb2231cef91afaafb1343
     "Date": "17-Sep-2025",
     "category": "Debt Scheme - Liquid Fund",
     "type": "Open Ended Schemes"
   },
   {
+<<<<<<< HEAD
     "Scheme Code": "131548",
     "ISIN Div Payout/ ISIN Growth": "INF789F01XZ7",
     "ISIN Div Reinvestment": "INF789F01YA8",
@@ -3080,6 +3835,8 @@
     "type": "Open Ended Schemes"
   },
   {
+=======
+>>>>>>> 639af92984c7d9df379cb2231cef91afaafb1343
     "Scheme Code": "102849",
     "ISIN Div Payout/ ISIN Growth": "INF204K01FI0",
     "ISIN Div Reinvestment": "-",
@@ -3090,6 +3847,7 @@
     "type": "Open Ended Schemes"
   },
   {
+<<<<<<< HEAD
     "Scheme Code": "102672",
     "ISIN Div Payout/ ISIN Growth": "INF277K01YD8",
     "ISIN Div Reinvestment": "-",
@@ -3455,11 +4213,19 @@
     "ISIN Div Reinvestment": "INF789F01505",
     "Scheme Name": "UTI Flexi Cap Fund - Regular Plan - IDCW",
     "Net Asset Value": "220.7914",
+=======
+    "Scheme Code": "149104",
+    "ISIN Div Payout/ ISIN Growth": "INF174V01AS2",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Mahindra Manulife Flexi Cap Fund - Direct Plan -Growth",
+    "Net Asset Value": "17.7983",
+>>>>>>> 639af92984c7d9df379cb2231cef91afaafb1343
     "Date": "17-Sep-2025",
     "category": "Equity Scheme - Flexi Cap Fund",
     "type": "Open Ended Schemes"
   },
   {
+<<<<<<< HEAD
     "Scheme Code": "102534",
     "ISIN Div Payout/ ISIN Growth": "INF789F01877",
     "ISIN Div Reinvestment": "INF789F01885",
@@ -3595,11 +4361,49 @@
     "ISIN Div Reinvestment": "-",
     "Scheme Name": "TRUSTMF Liquid Fund-Direct Plan-Growth",
     "Net Asset Value": "1292.8105",
+=======
+    "Scheme Code": "145890",
+    "ISIN Div Payout/ ISIN Growth": "INF767K01PL9",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "LIC MF Arbitrage Fund-Regular Plan-Growth",
+    "Net Asset Value": "13.9595",
+    "Date": "17-Sep-2025",
+    "category": "Hybrid Scheme - Arbitrage Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "149347",
+    "ISIN Div Payout/ ISIN Growth": "INF200KA14B7",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "SBI Fixed Maturity Plan (FMP) - Series 55 (1849 Days) - Regular Plan - Growth",
+    "Net Asset Value": "12.5728",
+    "Date": "17-Sep-2025",
+    "category": "IDF",
+    "type": "IL&FS Mutual Fund"
+  },
+  {
+    "Scheme Code": "151348",
+    "ISIN Div Payout/ ISIN Growth": "INF200KA18U8",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "SBI Fixed Maturity Plan (FMP) - Series 76 (1221 Days) - Regular Plan - Income Distribution Cum Capital Withdrawal Payout",
+    "Net Asset Value": "12.0690",
+    "Date": "17-Sep-2025",
+    "category": "IDF",
+    "type": "IL&FS Mutual Fund"
+  },
+  {
+    "Scheme Code": "139582",
+    "ISIN Div Payout/ ISIN Growth": "INF194KA14C0",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "BANDHAN LIQUID Fund - Unclaimed IDCW Less than 3 years",
+    "Net Asset Value": "1.7170",
+>>>>>>> 639af92984c7d9df379cb2231cef91afaafb1343
     "Date": "17-Sep-2025",
     "category": "Debt Scheme - Liquid Fund",
     "type": "Open Ended Schemes"
   },
   {
+<<<<<<< HEAD
     "Scheme Code": "152412",
     "ISIN Div Payout/ ISIN Growth": "INF582M01JN7",
     "ISIN Div Reinvestment": "INF582M01JO5",
@@ -3665,11 +4469,19 @@
     "ISIN Div Reinvestment": "INF192K01NN1",
     "Scheme Name": "JM Large & Mid Cap Fund (Regular) - IDCW",
     "Net Asset Value": "10.4343",
+=======
+    "Scheme Code": "119436",
+    "ISIN Div Payout/ ISIN Growth": "INF209K01VH8",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Aditya Birla Sun Life Large & Mid Cap Fund - Growth - Direct Plan",
+    "Net Asset Value": "1019.75",
+>>>>>>> 639af92984c7d9df379cb2231cef91afaafb1343
     "Date": "17-Sep-2025",
     "category": "Equity Scheme - Large & Mid Cap Fund",
     "type": "Open Ended Schemes"
   },
   {
+<<<<<<< HEAD
     "Scheme Code": "153753",
     "ISIN Div Payout/ ISIN Growth": "INF174KA1XA4",
     "ISIN Div Reinvestment": "-",
@@ -3685,11 +4497,29 @@
     "ISIN Div Reinvestment": "INF174V01895",
     "Scheme Name": "Mahindra Manulife Ultra Short Duration Fund - Direct Plan - Daily IDCW",
     "Net Asset Value": "1187.6982",
+=======
+    "Scheme Code": "112099",
+    "ISIN Div Payout/ ISIN Growth": "INF205K01320",
+    "ISIN Div Reinvestment": "INF205K01312",
+    "Scheme Name": "Invesco India Largecap Fund - IDCW (Payout / Reinvestment)",
+    "Net Asset Value": "29.49",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Large Cap Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "146072",
+    "ISIN Div Payout/ ISIN Growth": "INF277K017S9",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "TATA Ultra Short Term Fund-Regular Plan - Monthly Payout of Income Distribution cum capital withdrawal option",
+    "Net Asset Value": "14.3537",
+>>>>>>> 639af92984c7d9df379cb2231cef91afaafb1343
     "Date": "17-Sep-2025",
     "category": "Debt Scheme - Ultra Short Duration Fund",
     "type": "Open Ended Schemes"
   },
   {
+<<<<<<< HEAD
     "Scheme Code": "124181",
     "ISIN Div Payout/ ISIN Growth": "INF740K01ZS0",
     "ISIN Div Reinvestment": "INF740K01ZT8",
@@ -3925,11 +4755,19 @@
     "ISIN Div Reinvestment": "INF397L01968",
     "Scheme Name": "LIC MF Liquid Fund-Regular Plan-Monthly IDCW",
     "Net Asset Value": "1157.3483",
+=======
+    "Scheme Code": "147161",
+    "ISIN Div Payout/ ISIN Growth": "INF00XX01366",
+    "ISIN Div Reinvestment": "INF00XX01333",
+    "Scheme Name": "ITI Liquid Fund - Direct Plan - Annually IDCW Option",
+    "Net Asset Value": "1390.9189",
+>>>>>>> 639af92984c7d9df379cb2231cef91afaafb1343
     "Date": "17-Sep-2025",
     "category": "Debt Scheme - Liquid Fund",
     "type": "Open Ended Schemes"
   },
   {
+<<<<<<< HEAD
     "Scheme Code": "153667",
     "ISIN Div Payout/ ISIN Growth": "INF903JA1LY0",
     "ISIN Div Reinvestment": "-",
@@ -3937,6 +4775,105 @@
     "Net Asset Value": "10.2203",
     "Date": "17-Sep-2025",
     "category": "Equity Scheme - Sectoral/ Thematic",
+=======
+    "Scheme Code": "107288",
+    "ISIN Div Payout/ ISIN Growth": "INF192K01650",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "JM ELSS Tax Saver Fund (Regular) - Growth option",
+    "Net Asset Value": "49.6234",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - ELSS",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "153396",
+    "ISIN Div Payout/ ISIN Growth": "INF109K1A096",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "ICICI Prudential Nifty EV & New Age Automotive ETF FOF - Growth",
+    "Net Asset Value": "12.1062",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - FoF Domestic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "150786",
+    "ISIN Div Payout/ ISIN Growth": "INF769K01JA1",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Mirae Asset Nifty AAA PSU Bond Plus SDL Apr 2026 50:50 Index Fund - Regular Plan - Growth",
+    "Net Asset Value": "12.2751",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "148976",
+    "ISIN Div Payout/ ISIN Growth": "INF174KA1HB5",
+    "ISIN Div Reinvestment": "INF174KA1HC3",
+    "Scheme Name": "Kotak Nifty 50 Index Fund - Direct Plan-IDCW Payout",
+    "Net Asset Value": "16.681",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "120724",
+    "ISIN Div Payout/ ISIN Growth": "-",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "UTI Children's Equity Fund - Direct Plan - Growth Option",
+    "Net Asset Value": "95.7568",
+    "Date": "17-Sep-2025",
+    "category": "Solution Oriented Scheme - Children’s Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "133710",
+    "ISIN Div Payout/ ISIN Growth": "INF767K01NE9",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "LIC MF Large & Mid Cap Fund-Direct Plan-Growth",
+    "Net Asset Value": "45.267",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Large & Mid Cap Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "101209",
+    "ISIN Div Payout/ ISIN Growth": "INF044D01773",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Taurus Large Cap Fund - Regular Plan - Growth",
+    "Net Asset Value": "158.82",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Large Cap Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "106212",
+    "ISIN Div Payout/ ISIN Growth": "INF200K01MO2",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "SBI MAGNUM LOW DURATION FUND - REGULAR PLAN - GROWTH",
+    "Net Asset Value": "3540.7018",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Low Duration Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "145894",
+    "ISIN Div Payout/ ISIN Growth": "INF767K01PR6",
+    "ISIN Div Reinvestment": "INF767K01PS4",
+    "Scheme Name": "LIC MF Arbitrage Fund-Direct Plan-Monthly IDCW",
+    "Net Asset Value": "13.2861",
+    "Date": "17-Sep-2025",
+    "category": "Hybrid Scheme - Arbitrage Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "146140",
+    "ISIN Div Payout/ ISIN Growth": "-",
+    "ISIN Div Reinvestment": "INF174KA1BE2",
+    "Scheme Name": "Kotak Overnight Fund-Direct Plan- Daily Reinvestment of Income Distribution cum capital withdrawal option",
+    "Net Asset Value": "1003.6055",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Overnight Fund",
+>>>>>>> 639af92984c7d9df379cb2231cef91afaafb1343
     "type": "Open Ended Schemes"
   },
   {
@@ -3950,46 +4887,1559 @@
     "type": "Open Ended Schemes"
   },
   {
+<<<<<<< HEAD
     "Scheme Code": "150892",
     "ISIN Div Payout/ ISIN Growth": "INF754K01QT8",
     "ISIN Div Reinvestment": "-",
     "Scheme Name": "Edelweiss Nifty Smallcap 250 Index Fund - Direct Plan - Growth",
     "Net Asset Value": "18.1693",
+=======
+    "Scheme Code": "148467",
+    "ISIN Div Payout/ ISIN Growth": "INF174V01978",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Mahindra Manulife Arbitrage Fund - Regular Plan - Growth",
+    "Net Asset Value": "12.4517",
+    "Date": "17-Sep-2025",
+    "category": "Hybrid Scheme - Arbitrage Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "153775",
+    "ISIN Div Payout/ ISIN Growth": "INF579M01BK6",
+    "ISIN Div Reinvestment": "INF579M01BL4",
+    "Scheme Name": "360 ONE Multi Asset Allocation Fund - Regular Plan - IDCW",
+    "Net Asset Value": "10.4102",
+    "Date": "17-Sep-2025",
+    "category": "Hybrid Scheme - Multi Asset Allocation",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "101200",
+    "ISIN Div Payout/ ISIN Growth": "INF767K01154",
+    "ISIN Div Reinvestment": "INF767K01147",
+    "Scheme Name": "LIC MF Nifty 50 Index Fund-Regular Plan-IDCW",
+    "Net Asset Value": "51.6665",
+>>>>>>> 639af92984c7d9df379cb2231cef91afaafb1343
     "Date": "17-Sep-2025",
     "category": "Other Scheme - Index Funds",
     "type": "Open Ended Schemes"
   },
   {
+<<<<<<< HEAD
     "Scheme Code": "106412",
     "ISIN Div Payout/ ISIN Growth": "INF209K01HN5",
     "ISIN Div Reinvestment": "-",
     "Scheme Name": "Aditya Birla Sun Life Interval Income Fund - Quarterly Series 1 - Growth - Regular Plan",
     "Net Asset Value": "34.2797",
+=======
+    "Scheme Code": "151523",
+    "ISIN Div Payout/ ISIN Growth": "INF789F1AYB5",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "UTI Long Duration Fund - Direct Plan - Growth Option",
+    "Net Asset Value": "12.0483",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Long Duration Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "112368",
+    "ISIN Div Payout/ ISIN Growth": "INF205K01361",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Invesco India Gold Exchange Traded Fund",
+    "Net Asset Value": "9582.6027",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Gold ETF",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "150989",
+    "ISIN Div Payout/ ISIN Growth": "INF754K01RC2",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "BHARAT Bond ETF FOF - April 2033 - Direct Plan - Growth",
+    "Net Asset Value": "12.5423",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - FoF Domestic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "149971",
+    "ISIN Div Payout/ ISIN Growth": "INF740KA1QW7",
+    "ISIN Div Reinvestment": "INF740KA1QX5",
+    "Scheme Name": "DSP Nifty SDL Plus G-Sec Jun 2028 30:70 Index Fund - Direct - IDCW",
+    "Net Asset Value": "12.6778",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "102847",
+    "ISIN Div Payout/ ISIN Growth": "INF204K01596",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Nippon India Balanced Advantage Fund-Growth Plan-Bonus Option",
+    "Net Asset Value": "179.9526",
+    "Date": "17-Sep-2025",
+    "category": "Hybrid Scheme - Balanced Hybrid Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "148308",
+    "ISIN Div Payout/ ISIN Growth": "INF090I01WD3",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Franklin India Dynamic Accrual Fund - Segregated Portfolio 3 (9.50% Yes Bank Ltd CO 23Dec21) - Direct Growth Plan",
+    "Net Asset Value": "0.0000",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Dynamic Bond",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "119841",
+    "ISIN Div Payout/ ISIN Growth": "INF200K01UA4",
+    "ISIN Div Reinvestment": "INF200K01UB2",
+    "Scheme Name": "SBI Multi Asset Allocation Fund - Direct Plan - Monthly Income Distribution cum Capital Withdrawal Option (IDCW)",
+    "Net Asset Value": "30.3010",
+    "Date": "17-Sep-2025",
+    "category": "Hybrid Scheme - Multi Asset Allocation",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "120819",
+    "ISIN Div Payout/ ISIN Growth": "INF966L01556",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "quant Aggressive Hybrid Fund-Growth Option-Direct Plan",
+    "Net Asset Value": "463.9819",
+    "Date": "17-Sep-2025",
+    "category": "Hybrid Scheme - Aggressive Hybrid Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "150550",
+    "ISIN Div Payout/ ISIN Growth": "INF179KC1DG6",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "HDFC FMP 1406D August 2022 - IDCW Option",
+    "Net Asset Value": "12.3356",
+>>>>>>> 639af92984c7d9df379cb2231cef91afaafb1343
     "Date": "17-Sep-2025",
     "category": "Income",
     "type": "Close Ended Schemes"
   },
   {
+<<<<<<< HEAD
     "Scheme Code": "112216",
     "ISIN Div Payout/ ISIN Growth": "INF846K01552",
     "ISIN Div Reinvestment": "INF846K01560",
     "Scheme Name": "Axis Treasury Advantage Fund - Regular Plan - Weekly IDCW",
     "Net Asset Value": "1012.2204",
+=======
+    "Scheme Code": "103114",
+    "ISIN Div Payout/ ISIN Growth": "INF200K01255",
+    "ISIN Div Reinvestment": "INF200K01263",
+    "Scheme Name": "SBI MNC Fund - Regular Plan - Income Distribution cum Capital Withdrawal Option (IDCW)",
+    "Net Asset Value": "110.5870",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "145538",
+    "ISIN Div Payout/ ISIN Growth": "INF109KC12F1",
+    "ISIN Div Reinvestment": "INF109KC11F3",
+    "Scheme Name": "ICICI Prudential Overnight Fund - Weekly IDCW",
+    "Net Asset Value": "1000.2986",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Overnight Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "133805",
+    "ISIN Div Payout/ ISIN Growth": "INF178L01202",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Kotak Low Duration Fund- Regular Plan-Growth Option",
+    "Net Asset Value": "3387.8484",
+>>>>>>> 639af92984c7d9df379cb2231cef91afaafb1343
     "Date": "17-Sep-2025",
     "category": "Debt Scheme - Low Duration Fund",
     "type": "Open Ended Schemes"
   },
   {
+<<<<<<< HEAD
     "Scheme Code": "118424",
     "ISIN Div Payout/ ISIN Growth": "INF194K01W62",
     "ISIN Div Reinvestment": "-",
     "Scheme Name": "BANDHAN Flexi Cap Fund-Direct Plan-Growth",
     "Net Asset Value": "232.534",
+=======
+    "Scheme Code": "100529",
+    "ISIN Div Payout/ ISIN Growth": "INF090I01DJ0",
+    "ISIN Div Reinvestment": "INF090I01DK8",
+    "Scheme Name": "Franklin India Corporate Debt Fund - Plan B - Monthly - IDCW",
+    "Net Asset Value": "15.3946",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Corporate Bond Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "132180",
+    "ISIN Div Payout/ ISIN Growth": "INF084M01101",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Aditya Birla Sun Life Dynamic Asset Allocation Omni FOF- Regular Plan - Growth Option",
+    "Net Asset Value": "54.2507",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - FoF Domestic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "151315",
+    "ISIN Div Payout/ ISIN Growth": "INF174KA1LR3",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Kotak FMP Series 305 - Regular Plan - Growth",
+    "Net Asset Value": "12.0672",
+    "Date": "17-Sep-2025",
+    "category": "IDF",
+    "type": "IL&FS Mutual Fund"
+  },
+  {
+    "Scheme Code": "153123",
+    "ISIN Div Payout/ ISIN Growth": "INF740KA1UV1",
+    "ISIN Div Reinvestment": "INF740KA1UW9",
+    "Scheme Name": "DSP Business Cycle Fund - Direct - IDCW",
+    "Net Asset Value": "10.318",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "151310",
+    "ISIN Div Payout/ ISIN Growth": "INF209KB13R4",
+    "ISIN Div Reinvestment": "INF209KB14R2",
+    "Scheme Name": "Aditya Birla Sun Life Multi Asset Allocation Fund-Regular IDCW",
+    "Net Asset Value": "13.6911",
+    "Date": "17-Sep-2025",
+    "category": "Hybrid Scheme - Multi Asset Allocation",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "145590",
+    "ISIN Div Payout/ ISIN Growth": "INF666M01ES8",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Groww Dynamic Bond Fund (formerly known as Indiabulls Dynamic Bond Fund) - Regular Plan - Growth option",
+    "Net Asset Value": "1464.4308",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Dynamic Bond",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "109353",
+    "ISIN Div Payout/ ISIN Growth": "INF760K01CW9",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "CANARA ROBECO LIQUID FUND - REGULAR PLAN - GROWTH OPTION",
+    "Net Asset Value": "3181.3956",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Liquid Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "141591",
+    "ISIN Div Payout/ ISIN Growth": "INF846K01ZS5",
+    "ISIN Div Reinvestment": "INF846K01ZT3",
+    "Scheme Name": "Axis Corporate Bond Fund - Direct Plan - Regular IDCW",
+    "Net Asset Value": "14.3122",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Corporate Bond Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "151494",
+    "ISIN Div Payout/ ISIN Growth": "INF109KC13R4",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "ICICI Prudential Fixed Maturity Plan - Series 88 - 1303 Days Plan S - IDCW",
+    "Net Asset Value": "12.0772",
+    "Date": "17-Sep-2025",
+    "category": "Income",
+    "type": "Close Ended Schemes"
+  },
+  {
+    "Scheme Code": "100786",
+    "ISIN Div Payout/ ISIN Growth": "INF903J01HY2",
+    "ISIN Div Reinvestment": "INF903J01IC6",
+    "Scheme Name": "Sundaram Corporate Bond Fund Regular Plan - Income Distribution cum Capital Withdrawal (IDCW )",
+    "Net Asset Value": "19.5170",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Corporate Bond Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "147834",
+    "ISIN Div Payout/ ISIN Growth": "INF192K01LV8",
+    "ISIN Div Reinvestment": "INF192K01LW6",
+    "Scheme Name": "JM Overnight Fund (Regular) - Weekly IDCW",
+    "Net Asset Value": "1000.1346",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Overnight Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "150344",
+    "ISIN Div Payout/ ISIN Growth": "INF277KA1430",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Tata Nifty India Digital ETF Fund of Fund-Direct Plan-Growth",
+    "Net Asset Value": "14.9634",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - FoF Domestic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "147713",
+    "ISIN Div Payout/ ISIN Growth": "INF00XX01564",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "ITI Overnight Fund - Direct Plan - Growth Option",
+    "Net Asset Value": "1327.5691",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Overnight Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "150412",
+    "ISIN Div Payout/ ISIN Growth": "INF789F1AVS5",
+    "ISIN Div Reinvestment": "INF789F1AVT3",
+    "Scheme Name": "UTI Gilt Fund with 10 year Constant Duration - Direct Plan - Quarterly IDCW Option",
+    "Net Asset Value": "12.8901",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Gilt Fund with 10 year constant duration",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "150812",
+    "ISIN Div Payout/ ISIN Growth": "INF192K01MS2",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "JM Midcap Fund (Regular) - Growth",
+    "Net Asset Value": "19.8196",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Mid Cap Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "151848",
+    "ISIN Div Payout/ ISIN Growth": "INF0QA701326",
+    "ISIN Div Reinvestment": "INF0QA701284",
+    "Scheme Name": "Bajaj Finserv Overnight Fund - Regular Plan - Monthly - IDCW",
+    "Net Asset Value": "1033.1833",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Overnight Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "153172",
+    "ISIN Div Payout/ ISIN Growth": "INF846KA1028",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Axis CRISIL-IBX AAA Bond NBFC-HFC - Jun 2027 Index Fund - Direct Plan - Growth option",
+    "Net Asset Value": "10.6650",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "101206",
+    "ISIN Div Payout/ ISIN Growth": "INF200K01LQ9",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "SBI OVERNIGHT FUND - REGULAR PLAN - GROWTH",
+    "Net Asset Value": "4204.6177",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Overnight Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "135497",
+    "ISIN Div Payout/ ISIN Growth": "INF789FA1R33",
+    "ISIN Div Reinvestment": "INF789FA1R41",
+    "Scheme Name": "UTI Short Duration Fund - Direct Plan - Annual IDCW",
+    "Net Asset Value": "13.3949",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Short Duration Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "151578",
+    "ISIN Div Payout/ ISIN Growth": "INF109KC13T0",
+    "ISIN Div Reinvestment": "INF109KC14T8",
+    "Scheme Name": "ICICI Prudential Innovation Fund - Direct Plan - IDCW",
+    "Net Asset Value": "17.98",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "136563",
+    "ISIN Div Payout/ ISIN Growth": "INF740KA1439",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "DSP Equity Savings Fund - Regular Plan - Growth",
+    "Net Asset Value": "21.944",
+    "Date": "17-Sep-2025",
+    "category": "Hybrid Scheme - Equity Savings",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "153101",
+    "ISIN Div Payout/ ISIN Growth": "INF090I01XX9",
+    "ISIN Div Reinvestment": "INF090I01XW1",
+    "Scheme Name": "Franklin India Long Duration Fund - IDCW",
+    "Net Asset Value": "10.3108",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Long Duration Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "118526",
+    "ISIN Div Payout/ ISIN Growth": "INF090I01IR2",
+    "ISIN Div Reinvestment": "INF090I01IS0",
+    "Scheme Name": "Franklin India Dividend Yield Fund - Direct - IDCW",
+    "Net Asset Value": "29.7056",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Dividend Yield Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "150706",
+    "ISIN Div Payout/ ISIN Growth": "INF200KA18Q6",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "SBI CRISIL IBX Gilt Index - April 2029 Fund - Direct Plan - Growth",
+    "Net Asset Value": "12.7639",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "119838",
+    "ISIN Div Payout/ ISIN Growth": "INF200K01TT6",
+    "ISIN Div Reinvestment": "INF200K01TU4",
+    "Scheme Name": "SBI Conservative Hybrid Fund - Direct Plan - Monthly Income Distribution cum Capital Withdrawal Option (IDCW)",
+    "Net Asset Value": "28.7415",
+    "Date": "17-Sep-2025",
+    "category": "Hybrid Scheme - Conservative Hybrid Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "119238",
+    "ISIN Div Payout/ ISIN Growth": "INF740K01QI0",
+    "ISIN Div Reinvestment": "INF740K01QK6",
+    "Scheme Name": "DSP Strategic Bond Fund - Direct Plan - IDCW",
+    "Net Asset Value": "2442.2005",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Dynamic Bond",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "149356",
+    "ISIN Div Payout/ ISIN Growth": "-",
+    "ISIN Div Reinvestment": "INF277KA1265",
+    "Scheme Name": "Tata Corporate Bond Fund-Direct Plan-IDCW Periodic Reinvestment",
+    "Net Asset Value": "12.7761",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Corporate Bond Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "132187",
+    "ISIN Div Payout/ ISIN Growth": "INF084M01EX4",
+    "ISIN Div Reinvestment": "INF084M01EY2",
+    "Scheme Name": "Aditya Birla Sun Life Dynamic Asset Allocation Omni FOF- Direct - IDCW",
+    "Net Asset Value": "54.6555",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - FoF Domestic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "119020",
+    "ISIN Div Payout/ ISIN Growth": "INF740K01NZ1",
+    "ISIN Div Reinvestment": "INF740K01OA2",
+    "Scheme Name": "DSP Aggressive Hybrid Fund - Direct Plan - IDCW",
+    "Net Asset Value": "74.492",
+    "Date": "17-Sep-2025",
+    "category": "Hybrid Scheme - Aggressive Hybrid Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "133400",
+    "ISIN Div Payout/ ISIN Growth": "INF192K01GN5",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "JM Aggressive Hybrid Fund (Regular) - Bonus Option - Principal Units",
+    "Net Asset Value": "116.158",
+    "Date": "27-Jan-2025",
+    "category": "Hybrid Scheme - Aggressive Hybrid Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "147490",
+    "ISIN Div Payout/ ISIN Growth": "INF582M01FW6",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Union Focused Fund - Regular Plan - Growth Option",
+    "Net Asset Value": "26.45",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Focused Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "150430",
+    "ISIN Div Payout/ ISIN Growth": "INF740KA1QZ0",
+    "ISIN Div Reinvestment": "INF740KA1RA1",
+    "Scheme Name": "DSP Nifty Midcap 150 Quality 50 Index Fund - Regular - IDCW",
+    "Net Asset Value": "14.1363",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "152589",
+    "ISIN Div Payout/ ISIN Growth": "INF277KA1BN9",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Tata Nifty500 Multicap India Manufacturing 50:30:20 Index Fund -Direct Plan-IDCW-Payout",
+    "Net Asset Value": "11.8243",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "153037",
+    "ISIN Div Payout/ ISIN Growth": "INF663L01Z60",
+    "ISIN Div Reinvestment": "INF663L01Z78",
+    "Scheme Name": "PGIM India Healthcare Fund - Direct Plan - IDCW Option",
+    "Net Asset Value": "10.02",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "153547",
+    "ISIN Div Payout/ ISIN Growth": "INF109K1A278",
+    "ISIN Div Reinvestment": "INF109K1A260",
+    "Scheme Name": "ICICI Prudential Nifty200 Quality 30 Index Fund - Direct Plan - IDCW",
+    "Net Asset Value": "10.2147",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "118749",
+    "ISIN Div Payout/ ISIN Growth": "INF204K01A58",
+    "ISIN Div Reinvestment": "INF204K01A66",
+    "Scheme Name": "NIPPON INDIA DYNAMIC BOND FUND - Direct Plan - QUARTERLY IDCW Option",
+    "Net Asset Value": "10.3588",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Dynamic Bond",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "151820",
+    "ISIN Div Payout/ ISIN Growth": "INF740KA1SX1",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "DSP Nifty IT ETF",
+    "Net Asset Value": "37.8316",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Other  ETFs",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "131512",
+    "ISIN Div Payout/ ISIN Growth": "INF789FA1P68",
+    "ISIN Div Reinvestment": "INF789FA1P76",
+    "Scheme Name": "UTI Ultra Short Duration Fund - Direct Plan - Fortnightly IDCW",
+    "Net Asset Value": "1325.05",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Ultra Short Duration Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "140620",
+    "ISIN Div Payout/ ISIN Growth": "INF174V01218",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Mahindra Manulife Low Duration Fund - Regular Plan - Growth",
+    "Net Asset Value": "1657.2533",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Low Duration Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "152683",
+    "ISIN Div Payout/ ISIN Growth": "INF251K01TL6",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Baroda BNP Paribas Nifty Bank ETF",
+    "Net Asset Value": "55.7889",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Other  ETFs",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "148695",
+    "ISIN Div Payout/ ISIN Growth": "INF200KA1S71",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "SBI Retirement Benefit Fund - Aggressive Hybrid Plan - Regular Plan - Growth",
+    "Net Asset Value": "19.1929",
+    "Date": "17-Sep-2025",
+    "category": "Solution Oriented Scheme - Retirement Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "152650",
+    "ISIN Div Payout/ ISIN Growth": "INF247L01CO2",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Motilal Oswal Multi Cap Fund Regular Plan Growth",
+    "Net Asset Value": "14.2906",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Multi Cap Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "142133",
+    "ISIN Div Payout/ ISIN Growth": "INF109KC1101",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "ICICI Prudential Long Term Wealth Enhancement Fund - Direct Plan IDCW Option",
+    "Net Asset Value": "31.30",
+    "Date": "17-Sep-2025",
+    "category": "ELSS",
+    "type": "Close Ended Schemes"
+  },
+  {
+    "Scheme Code": "150785",
+    "ISIN Div Payout/ ISIN Growth": "INF769K01IZ0",
+    "ISIN Div Reinvestment": "INF769K01JB9",
+    "Scheme Name": "Mirae Asset Nifty AAA PSU Bond Plus SDL Apr 2026 50:50 Index Fund - Regular Plan - IDCW",
+    "Net Asset Value": "12.2752",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "119834",
+    "ISIN Div Payout/ ISIN Growth": "INF200K01RH5",
+    "ISIN Div Reinvestment": "INF200K01RI3",
+    "Scheme Name": "SBI Focused Fund - Direct Plan - Income Distribution cum Capital Withdrawal Option (IDCW)",
+    "Net Asset Value": "98.8057",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Focused Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "148951",
+    "ISIN Div Payout/ ISIN Growth": "-",
+    "ISIN Div Reinvestment": "INF277K016Z6",
+    "Scheme Name": "Tata Dividend Yield Fund-Direct Plan-IDCW Reinvestment",
+    "Net Asset Value": "19.6118",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Dividend Yield Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "150253",
+    "ISIN Div Payout/ ISIN Growth": "INF251K01OP8",
+    "ISIN Div Reinvestment": "INF251K01OO1",
+    "Scheme Name": "BARODA BNP PARIBAS ARBITRAGE FUND-REGULAR PLAN- ADHOC IDCW OPTION",
+    "Net Asset Value": "11.2992",
+    "Date": "17-Sep-2025",
+    "category": "Hybrid Scheme - Arbitrage Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "149220",
+    "ISIN Div Payout/ ISIN Growth": "INF109KC1U35",
+    "ISIN Div Reinvestment": "INF109KC1U43",
+    "Scheme Name": "ICICI Prudential NASDAQ 100 Index Fund - IDCW",
+    "Net Asset Value": "18.1711",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "152055",
+    "ISIN Div Payout/ ISIN Growth": "INF740KA1TF6",
+    "ISIN Div Reinvestment": "INF740KA1TG4",
+    "Scheme Name": "DSP Multi Asset Allocation Fund - Direct - IDCW",
+    "Net Asset Value": "14.0123",
+    "Date": "17-Sep-2025",
+    "category": "Hybrid Scheme - Multi Asset Allocation",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "120562",
+    "ISIN Div Payout/ ISIN Growth": "-",
+    "ISIN Div Reinvestment": "INF205K01UK2",
+    "Scheme Name": "Invesco India Short Duration Fund - Direct Plan -Weekly IDCW (Reinvestment)",
+    "Net Asset Value": "1019.8733",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Short Duration Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "152964",
+    "ISIN Div Payout/ ISIN Growth": "INF247L01DN2",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Motilal Oswal Digital India Fund - Direct Plan - Growth",
+    "Net Asset Value": "10.7462",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "150467",
+    "ISIN Div Payout/ ISIN Growth": "INF109KC11E6",
+    "ISIN Div Reinvestment": "INF109KC12E4",
+    "Scheme Name": "ICICI Prudential Nifty IT Index Fund - IDCW",
+    "Net Asset Value": "12.5130",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "102273",
+    "ISIN Div Payout/ ISIN Growth": "INF200K01545",
+    "ISIN Div Reinvestment": "INF200K01552",
+    "Scheme Name": "SBI Nifty Index Fund - Regular Plan - Income Distribution cum Capital Withdrawal Option (IDCW)",
+    "Net Asset Value": "114.9461",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "153426",
+    "ISIN Div Payout/ ISIN Growth": "INF966L01DW8",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "quant Arbitrage Fund - Growth Option - Direct Plan",
+    "Net Asset Value": "10.3027",
+    "Date": "17-Sep-2025",
+    "category": "Hybrid Scheme - Arbitrage Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "135818",
+    "ISIN Div Payout/ ISIN Growth": "-",
+    "ISIN Div Reinvestment": "INF277K014B2",
+    "Scheme Name": "TATA Resources & Energy Fund Regular Plan - Reinvestment of Income Distribution cum capital withdrawal option",
+    "Net Asset Value": "41.9049",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "152213",
+    "ISIN Div Payout/ ISIN Growth": "INF174KA1PX2",
+    "ISIN Div Reinvestment": "INF174KA1PY0",
+    "Scheme Name": "Kotak Healthcare Fund - Regular Plan - IDCW Option",
+    "Net Asset Value": "13.667",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "151862",
+    "ISIN Div Payout/ ISIN Growth": "INF179KC1HA0",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "HDFC Charity Fund for Cancer Cure - IDCW Option - Direct Plan - 50% IDCW Donation Option",
+    "Net Asset Value": "10.3706",
+    "Date": "17-Sep-2025",
+    "category": "Income",
+    "type": "Close Ended Schemes"
+  },
+  {
+    "Scheme Code": "149991",
+    "ISIN Div Payout/ ISIN Growth": "-",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Baroda BNP Paribas Overnight Fund - Plan C - Unclaimed IDCW - Up to 3 years",
+    "Net Asset Value": "1234.3579",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Overnight Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "152604",
+    "ISIN Div Payout/ ISIN Growth": "INF194KB1IF9",
+    "ISIN Div Reinvestment": "INF194KB1IG7",
+    "Scheme Name": "Bandhan Innovation Fund - Direct Plan - IDCW",
+    "Net Asset Value": "13.682",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "153650",
+    "ISIN Div Payout/ ISIN Growth": "INF22M001036",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "JioBlackRock Overnight Fund - Direct Plan - Growth Option",
+    "Net Asset Value": "1011.4368",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Overnight Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "112353",
+    "ISIN Div Payout/ ISIN Growth": "INF194K01RW9",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "BANDHAN Conservative Hybrid Fund - Regular Plan - Growth",
+    "Net Asset Value": "32.1982",
+    "Date": "17-Sep-2025",
+    "category": "Hybrid Scheme - Conservative Hybrid Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "150674",
+    "ISIN Div Payout/ ISIN Growth": "INF200KA18O1",
+    "ISIN Div Reinvestment": "INF200KA19O9",
+    "Scheme Name": "SBI Nifty Midcap 150 Index Fund - Regular Plan - Income Distribution cum Capital Withdrawal Option (IDCW)",
+    "Net Asset Value": "18.6834",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "148723",
+    "ISIN Div Payout/ ISIN Growth": "INF204KB15Z3",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Nippon India Nifty Midcap 150 Index Fund - Regular Plan - Growth Option",
+    "Net Asset Value": "24.5952",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "120680",
+    "ISIN Div Payout/ ISIN Growth": "INF109K01W90",
+    "ISIN Div Reinvestment": "INF109K01X08",
+    "Scheme Name": "ICICI Prudential Asset Allocator Fund (FOF) - Direct Plan - IDCW",
+    "Net Asset Value": "106.1091",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - FoF Domestic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "112939",
+    "ISIN Div Payout/ ISIN Growth": "INF204K01FT7",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Nippon India Credit Risk Fund  - Institutional Growth Plan",
+    "Net Asset Value": "37.1713",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Credit Risk Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "145881",
+    "ISIN Div Payout/ ISIN Growth": "INF209KB16D7",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Aditya Birla Sunlife Nifty Next 50 ETF",
+    "Net Asset Value": "72.291",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Other  ETFs",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "118307",
+    "ISIN Div Payout/ ISIN Growth": "-",
+    "ISIN Div Reinvestment": "INF760K01FS0",
+    "Scheme Name": "CANARA ROBECO LIQUID FUND - DIRECT PLAN - DAILY IDCW (Reinvestment)",
+    "Net Asset Value": "1005.5000",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Liquid Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "153214",
+    "ISIN Div Payout/ ISIN Growth": "INF754K01TY2",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Edelweiss Consumption Fund - Direct - Growth",
+    "Net Asset Value": "11.7858",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "113299",
+    "ISIN Div Payout/ ISIN Growth": "INF204K01IH6",
+    "ISIN Div Reinvestment": "INF204K01IK0",
+    "Scheme Name": "NIPPON INDIA INDEX FUND - NIFTY 50 PLAN - HALF YEARLY - IDCW Option",
+    "Net Asset Value": "33.9189",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "133972",
+    "ISIN Div Payout/ ISIN Growth": "INF789FA1V29",
+    "ISIN Div Reinvestment": "INF789FA1V37",
+    "Scheme Name": "UTI Banking & PSU Fund - Direct Plan - Flexi IDCW",
+    "Net Asset Value": "19.5091",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Banking and PSU Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "153534",
+    "ISIN Div Payout/ ISIN Growth": "INF0K1H01271",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Samco Large & Mid Cap Fund - Direct Plan - Growth Option",
+    "Net Asset Value": "9.50",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Large & Mid Cap Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "113169",
+    "ISIN Div Payout/ ISIN Growth": "INF194K01JZ9",
+    "ISIN Div Reinvestment": "INF194K01JY2",
+    "Scheme Name": "BANDHAN Bond Fund - Medium Term - Regular Plan - IDCW Quarterly",
+    "Net Asset Value": "11.1201",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Medium Duration Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "111639",
+    "ISIN Div Payout/ ISIN Growth": "INF754K01525",
+    "ISIN Div Reinvestment": "INF754K01541",
+    "Scheme Name": "Edelweiss ELSS Tax Saver Fund - Regular Plan - IDCW Option",
+    "Net Asset Value": "29.77",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - ELSS",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "106236",
+    "ISIN Div Payout/ ISIN Growth": "INF204K01539",
+    "ISIN Div Reinvestment": "INF204K01547",
+    "Scheme Name": "NIPPON INDIA LARGE CAP FUND - IDCW Option",
+    "Net Asset Value": "28.5519",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Large Cap Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "119672",
+    "ISIN Div Payout/ ISIN Growth": "INF903J01PK4",
+    "ISIN Div Reinvestment": "INF903J01PL2",
+    "Scheme Name": "Sundaram Medium Duration Fund (Formerly Known as Sundaram Medium Term Bond Fund) Direct Plan-Income Distribution cum Capital Withdrawal (IDCW)",
+    "Net Asset Value": "27.3610",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Medium Duration Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "138358",
+    "ISIN Div Payout/ ISIN Growth": "INF223J01QO7",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "PGIM India Ultra Short Duration Fund - Direct Plan - Growth",
+    "Net Asset Value": "36.1173",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Ultra Short Duration Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "150684",
+    "ISIN Div Payout/ ISIN Growth": "INF109KC19J8",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "ICICI PRUDENTIAL TRANSPORTATION AND LOGISTICS FUND - Growth",
+    "Net Asset Value": "20.91",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "102143",
+    "ISIN Div Payout/ ISIN Growth": "INF109K01FS0",
+    "ISIN Div Reinvestment": "INF109K01886",
+    "Scheme Name": "ICICI Prudential Debt Management Fund (FOF ) - IDCW",
+    "Net Asset Value": "39.6503",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - FoF Domestic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "129007",
+    "ISIN Div Payout/ ISIN Growth": "INF090I01KP2",
+    "ISIN Div Reinvestment": "INF090I01KQ0",
+    "Scheme Name": "Franklin India Banking and PSU Debt Fund - IDCW",
+    "Net Asset Value": "10.9731",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Banking and PSU Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "147534",
+    "ISIN Div Payout/ ISIN Growth": "INF760K01JO1",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "CANARA ROBECO OVERNIGHT FUND - REGULAR PLAN - GROWTH OPTION",
+    "Net Asset Value": "1351.3934",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Overnight Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "120476",
+    "ISIN Div Payout/ ISIN Growth": "INF846K01DW4",
+    "ISIN Div Reinvestment": "INF846K01DX2",
+    "Scheme Name": "Axis Strategic Bond Fund - Direct Plan - Quarterly IDCW",
+    "Net Asset Value": "10.5998",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Medium Duration Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "149357",
+    "ISIN Div Payout/ ISIN Growth": "-",
+    "ISIN Div Reinvestment": "INF277KA1273",
+    "Scheme Name": "Tata Corporate Bond Fund-Direct Plan-IDCW Monthly Reinvestment",
+    "Net Asset Value": "12.7761",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Corporate Bond Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "101997",
+    "ISIN Div Payout/ ISIN Growth": "-",
+    "ISIN Div Reinvestment": "INF179KB1IF8",
+    "Scheme Name": "HDFC Overnight Fund - IDCW Option (Daily)",
+    "Net Asset Value": "1042.66",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Overnight Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "152351",
+    "ISIN Div Payout/ ISIN Growth": "INF247L01CF0",
+    "ISIN Div Reinvestment": "INF247L01CG8",
+    "Scheme Name": "Motilal Oswal Large Cap Direct Plan IDCW",
+    "Net Asset Value": "13.6466",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Large Cap Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "152734",
+    "ISIN Div Payout/ ISIN Growth": "INF200KB1225",
+    "ISIN Div Reinvestment": "INF200KB1274",
+    "Scheme Name": "SBI Silver ETF FOF- Regular Plan - Income Distribution Cum Capital Withdrawal Option (IDCW)",
+    "Net Asset Value": "13.4231",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - FoF Domestic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "120333",
+    "ISIN Div Payout/ ISIN Growth": "INF205K01LN5",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Invesco India Balanced Advantage Fund - Direct Plan - Growth",
+    "Net Asset Value": "64.59",
+    "Date": "17-Sep-2025",
+    "category": "Hybrid Scheme - Dynamic Asset Allocation or Balanced Advantage",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "147002",
+    "ISIN Div Payout/ ISIN Growth": "-",
+    "ISIN Div Reinvestment": "INF582M01FB0",
+    "Scheme Name": "Union Overnight Fund - Direct Plan - Daily IDCW Option",
+    "Net Asset Value": "1000.8004",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Overnight Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "118463",
+    "ISIN Div Payout/ ISIN Growth": "INF194K01R36",
+    "ISIN Div Reinvestment": "INF194K01R28",
+    "Scheme Name": "BANDHAN Government Securities Fund-  Investment Plan-Direct Plan-IDCW",
+    "Net Asset Value": "14.6346",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Gilt Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "114859",
+    "ISIN Div Payout/ ISIN Growth": "INF174K01393",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Kotak Debt Hybrid - Growth",
+    "Net Asset Value": "58.6169",
+    "Date": "17-Sep-2025",
+    "category": "Hybrid Scheme - Conservative Hybrid Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "119826",
+    "ISIN Div Payout/ ISIN Growth": "INF200K01TC2",
+    "ISIN Div Reinvestment": "INF200K01TD0",
+    "Scheme Name": "SBI Nifty Index Fund - Direct Plan - Income Distribution cum Capital Withdrawal Option (IDCW)",
+    "Net Asset Value": "120.7535",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "113434",
+    "ISIN Div Payout/ ISIN Growth": "INF846K01W80",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Axis Gold ETF",
+    "Net Asset Value": "91.6637",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Gold ETF",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "143265",
+    "ISIN Div Payout/ ISIN Growth": "-",
+    "ISIN Div Reinvestment": "INF879O01134",
+    "Scheme Name": "Parag Parikh Liquid Fund- Direct Plan- Weekly Reinvestment of IDCW",
+    "Net Asset Value": "1001.3685",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Liquid Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "150579",
+    "ISIN Div Payout/ ISIN Growth": "INF754K01OT3",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Edelweiss Gold and Silver ETF FOF - Regular Plan - Growth",
+    "Net Asset Value": "21.049",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - FoF Domestic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "120308",
+    "ISIN Div Payout/ ISIN Growth": "INF767K01FJ4",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "LIC MF BSE Sensex Index Fund-Direct Plan-Growth",
+    "Net Asset Value": "166.1509",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "149042",
+    "ISIN Div Payout/ ISIN Growth": "INF200KA1X33",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "SBI Fixed Maturity Plan (FMP) - Series 46 (1850 Days) - Regular Plan - Income Distribution cum Capital Withdrawal Option (IDCW)",
+    "Net Asset Value": "12.8790",
+    "Date": "17-Sep-2025",
+    "category": "IDF",
+    "type": "IL&FS Mutual Fund"
+  },
+  {
+    "Scheme Code": "151108",
+    "ISIN Div Payout/ ISIN Growth": "-",
+    "ISIN Div Reinvestment": "INF917K01HL7",
+    "Scheme Name": "HSBC Banking and PSU Debt Fund - Direct Daily IDCW",
+    "Net Asset Value": "11.1907",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Banking and PSU Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "151183",
+    "ISIN Div Payout/ ISIN Growth": "INF179KC1EL4",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "HDFC Nifty G-Sec Sep 2032 Index Fund - Growth Option - Direct Plan",
+    "Net Asset Value": "12.635",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "152193",
+    "ISIN Div Payout/ ISIN Growth": "INF754K01SE6",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Edelweiss Gold ETF",
+    "Net Asset Value": "109.9754",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Gold ETF",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "102402",
+    "ISIN Div Payout/ ISIN Growth": "INF789F01356",
+    "ISIN Div Reinvestment": "INF789F01364",
+    "Scheme Name": "UTI Banking and Financial Services Fund - Regular Plan - IDCW",
+    "Net Asset Value": "73.6981",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "120309",
+    "ISIN Div Payout/ ISIN Growth": "INF767K01FG0",
+    "ISIN Div Reinvestment": "INF767K01FH8",
+    "Scheme Name": "LIC MF Nifty 50 Index Fund-Direct Plan-IDCW",
+    "Net Asset Value": "55.6853",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "153196",
+    "ISIN Div Payout/ ISIN Growth": "INF769K01NJ4",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Mirae Asset Small Cap Fund - Direct Plan - Growth",
+    "Net Asset Value": "11.918",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Small Cap Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "147886",
+    "ISIN Div Payout/ ISIN Growth": "INF205KA1155",
+    "ISIN Div Reinvestment": "INF205KA1148",
+    "Scheme Name": "Invesco India Overnight Fund - Direct Plan - Monthly IDCW (Payout / Reinvestment)",
+    "Net Asset Value": "1002.9673",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Overnight Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "150255",
+    "ISIN Div Payout/ ISIN Growth": "INF251K01PF6",
+    "ISIN Div Reinvestment": "INF251K01PE9",
+    "Scheme Name": "BARODA BNP PARIBAS ARBITRAGE FUND DIRECT PLAN MONTHLY IDCW Option",
+    "Net Asset Value": "10.8326",
+    "Date": "17-Sep-2025",
+    "category": "Hybrid Scheme - Arbitrage Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "119770",
+    "ISIN Div Payout/ ISIN Growth": "INF174K01LE2",
+    "ISIN Div Reinvestment": "INF174K01LD4",
+    "Scheme Name": "Kotak  Arbitrage Fund - Direct Plan - IDCW -Payout &  Reinvestment of Income Distribution cum capital withdrawal option",
+    "Net Asset Value": "11.2228",
+    "Date": "17-Sep-2025",
+    "category": "Hybrid Scheme - Arbitrage Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "100548",
+    "ISIN Div Payout/ ISIN Growth": "INF090I01BM8",
+    "ISIN Div Reinvestment": "INF090I01BH8",
+    "Scheme Name": "Franklin India Liquid Fund - Super Institutional Plan - Weekly - IDCW",
+    "Net Asset Value": "1031.7650",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Liquid Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "148505",
+    "ISIN Div Payout/ ISIN Growth": "INF903JA1JA4",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Sundaram Large Cap Fund (Formerly Known as Sundaram Blue Chip Fund)  Regular Plan - Payout of Income Distribution cum Capital Withdrawal (IDCW)",
+    "Net Asset Value": "16.5908",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Large Cap Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "153496",
+    "ISIN Div Payout/ ISIN Growth": "INF754K01VC4",
+    "ISIN Div Reinvestment": "INF754K01VD2",
+    "Scheme Name": "Edelweiss BSE Internet Economy Index Fund - Regular Plan - IDCW",
+    "Net Asset Value": "11.0061",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "152731",
+    "ISIN Div Payout/ ISIN Growth": "INF846K019W9",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Axis Nifty 500 Index Fund - Direct Plan - Growth Option",
+    "Net Asset Value": "10.2499",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "148703",
+    "ISIN Div Payout/ ISIN Growth": "INF789F1AUT5",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "UTI Nifty 200 Momentum 30 Index Fund - Direct Plan - Growth Option",
+    "Net Asset Value": "21.4602",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "120338",
+    "ISIN Div Payout/ ISIN Growth": "INF767K01GI4",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "LIC MF Banking & PSU Fund-Direct Plan-Growth",
+    "Net Asset Value": "38.027",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Banking and PSU Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "153460",
+    "ISIN Div Payout/ ISIN Growth": "INF109K1A203",
+    "ISIN Div Reinvestment": "INF109K1A195",
+    "Scheme Name": "ICICI Prudential Quality Fund - Direct Plan - IDCW",
+    "Net Asset Value": "10.38",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "150261",
+    "ISIN Div Payout/ ISIN Growth": "INF251K01OY0",
+    "ISIN Div Reinvestment": "INF251K01OX2",
+    "Scheme Name": "Baroda BNP Paribas Aggressive Hybrid Fund- REGULAR PLAN- IDCW OPTION",
+    "Net Asset Value": "16.8086",
+    "Date": "17-Sep-2025",
+    "category": "Hybrid Scheme - Aggressive Hybrid Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "119236",
+    "ISIN Div Payout/ ISIN Growth": "INF740K01QH2",
+    "ISIN Div Reinvestment": "INF740K01QJ8",
+    "Scheme Name": "DSP Strategic Bond Fund - Direct Plan - IDCW - Monthly",
+    "Net Asset Value": "1059.251",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Dynamic Bond",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "131481",
+    "ISIN Div Payout/ ISIN Growth": "INF109KA1X51",
+    "ISIN Div Reinvestment": "INF109KA1X44",
+    "Scheme Name": "ICICI Prudential Bond Fund - Half Yearly IDCW",
+    "Net Asset Value": "11.0820",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Medium to Long Duration Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "153065",
+    "ISIN Div Payout/ ISIN Growth": "INF204KC1EC2",
+    "ISIN Div Reinvestment": "INF204KC1ED0",
+    "Scheme Name": "Nippon India Nifty Auto Index Fund - Regular Plan- IDCW Option",
+    "Net Asset Value": "11.5748",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "145823",
+    "ISIN Div Payout/ ISIN Growth": "-",
+    "ISIN Div Reinvestment": "INF204KB1R56",
+    "Scheme Name": "NIPPON INDIA OVERNIGHT FUND - DIRECT Plan - WEEKLY IDCW Option",
+    "Net Asset Value": "100.0793",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Overnight Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "146800",
+    "ISIN Div Payout/ ISIN Growth": "INF109KC1VR0",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "ICICI Prudential Fixed Maturity Plan - Series 85 - 10 Years Plan I - Quarterly IDCW Option",
+    "Net Asset Value": "16.6968",
+    "Date": "17-Sep-2025",
+    "category": "Income",
+    "type": "Close Ended Schemes"
+  },
+  {
+    "Scheme Code": "146797",
+    "ISIN Div Payout/ ISIN Growth": "INF109KC1VQ2",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "ICICI Prudential Fixed Maturity Plan - Series 85 - 10 Years Plan I - Cumulative Option",
+    "Net Asset Value": "16.8489",
+    "Date": "17-Sep-2025",
+    "category": "Income",
+    "type": "Close Ended Schemes"
+  },
+  {
+    "Scheme Code": "120433",
+    "ISIN Div Payout/ ISIN Growth": "-",
+    "ISIN Div Reinvestment": "INF192K01DA9",
+    "Scheme Name": "JM Dynamic Bond Fund (Direct) - Weekly IDCW",
+    "Net Asset Value": "10.5115",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Dynamic Bond",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "122168",
+    "ISIN Div Payout/ ISIN Growth": "INF109K018W3",
+    "ISIN Div Reinvestment": "INF109K017W5",
+    "Scheme Name": "ICICI Prudential Balanced Advantage Fund - Monthly IDCW",
+    "Net Asset Value": "22.59",
+    "Date": "17-Sep-2025",
+    "category": "Hybrid Scheme - Dynamic Asset Allocation or Balanced Advantage",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "140289",
+    "ISIN Div Payout/ ISIN Growth": "INF843K01FN5",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Edelweiss Banking and PSU Debt Fund - Regular Plan Weekly - IDCW Option",
+    "Net Asset Value": "10.1465",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Banking and PSU Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "147929",
+    "ISIN Div Payout/ ISIN Growth": "INF846K01W56",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Axis ESG Integration Strategy Fund - Regular Plan - Growth Option",
+    "Net Asset Value": "21.59",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "139201",
+    "ISIN Div Payout/ ISIN Growth": "INF194KA1T34",
+    "ISIN Div Reinvestment": "INF194KA1T42",
+    "Scheme Name": "BANDHAN Corporate Bond Fund - Direct Annual IDCW",
+    "Net Asset Value": "10.6456",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Corporate Bond Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "118994",
+    "ISIN Div Payout/ ISIN Growth": "INF740K01NO5",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "DSP Regular Savings Fund - Direct Plan - Growth",
+    "Net Asset Value": "66.6176",
+    "Date": "17-Sep-2025",
+    "category": "Hybrid Scheme - Conservative Hybrid Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "135816",
+    "ISIN Div Payout/ ISIN Growth": "-",
+    "ISIN Div Reinvestment": "INF277K017B5",
+    "Scheme Name": "TATA Resources & Energy Fund Direct Plan - Reinvestment of Income Distribution cum capital withdrawal option",
+    "Net Asset Value": "53.8925",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "103151",
+    "ISIN Div Payout/ ISIN Growth": "INF090I01841",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Franklin India Opportunities Fund - Growth",
+    "Net Asset Value": "260.2258",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "152047",
+    "ISIN Div Payout/ ISIN Growth": "INF174V01BO9",
+    "ISIN Div Reinvestment": "INF174V01BP6",
+    "Scheme Name": "Mahindra Manulife Business Cycle Fund - Regular Plan - IDCW",
+    "Net Asset Value": "13.6630",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "148448",
+    "ISIN Div Payout/ ISIN Growth": "INF754K01LF8",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "BHARAT Bond FOF- April 2025- Regular Plan- Growth Option",
+    "Net Asset Value": "12.8931",
+    "Date": "16-Apr-2025",
+    "category": "Other Scheme - FoF Domestic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "141415",
+    "ISIN Div Payout/ ISIN Growth": "INF959L01CP9",
+    "ISIN Div Reinvestment": "INF959L01CQ7",
+    "Scheme Name": "Navi Large & Midcap Fund - Direct Half Yearly IDCW Payout",
+    "Net Asset Value": "42.1745",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Large & Mid Cap Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "101705",
+    "ISIN Div Payout/ ISIN Growth": "INF346A01034",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "ICICI Prudential BSE Sensex ETF",
+    "Net Asset Value": "942.2890",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Other  ETFs",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "146128",
+    "ISIN Div Payout/ ISIN Growth": "INF760K01JG7",
+    "ISIN Div Reinvestment": "INF760K01JH5",
+    "Scheme Name": "CANARA ROBECO SMALL CAP FUND - REGULAR PLAN - IDCW (Payout/Reinvestment)",
+    "Net Asset Value": "33.8000",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Small Cap Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "119277",
+    "ISIN Div Payout/ ISIN Growth": "INF740K01OZ9",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "DSP World Gold Mining Overseas Equity Omni FoF - Direct Plan - Growth",
+    "Net Asset Value": "42.9440",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - FoF Overseas",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "145827",
+    "ISIN Div Payout/ ISIN Growth": "INF204KB1Q99",
+    "ISIN Div Reinvestment": "INF204KB1R07",
+    "Scheme Name": "NIPPON INDIA OVERNIGHT FUND - MONTHLY IDCW Option",
+    "Net Asset Value": "100.4437",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Overnight Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "145139",
+    "ISIN Div Payout/ ISIN Growth": "INF205K011T7",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Invesco India Smallcap Fund - Regular Plan - Growth",
+    "Net Asset Value": "42.74",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Small Cap Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "133052",
+    "ISIN Div Payout/ ISIN Growth": "INF109KA13J5",
+    "ISIN Div Reinvestment": "INF109KA16J8",
+    "Scheme Name": "ICICI Prudential Equity Savings Fund - Direct Plan - Quarterly IDCW",
+    "Net Asset Value": "16.04",
+    "Date": "17-Sep-2025",
+    "category": "Hybrid Scheme - Equity Savings",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "122387",
+    "ISIN Div Payout/ ISIN Growth": "INF247L01155",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Motilal Oswal Focused 25 Fund (MOF25)- Regular Plan Growth Option",
+    "Net Asset Value": "43.9131",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Focused Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "149096",
+    "ISIN Div Payout/ ISIN Growth": "INF204KC1105",
+    "ISIN Div Reinvestment": "INF204KC1113",
+    "Scheme Name": "Nippon India Flexi Cap Fund - Regular Plan - IDCW Option",
+    "Net Asset Value": "16.9976",
+>>>>>>> 639af92984c7d9df379cb2231cef91afaafb1343
     "Date": "17-Sep-2025",
     "category": "Equity Scheme - Flexi Cap Fund",
     "type": "Open Ended Schemes"
   },
   {
+<<<<<<< HEAD
     "Scheme Code": "140349",
     "ISIN Div Payout/ ISIN Growth": "INF843K01KI5",
     "ISIN Div Reinvestment": "INF843K01KJ3",
@@ -3998,5 +6448,1455 @@
     "Date": "17-Sep-2025",
     "category": "Hybrid Scheme - Equity Savings",
     "type": "Open Ended Schemes"
+=======
+    "Scheme Code": "148651",
+    "ISIN Div Payout/ ISIN Growth": "INF109KC1P24",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "ICICI Prudential Business Cycle Fund Direct Plan Growth",
+    "Net Asset Value": "26.58",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "153087",
+    "ISIN Div Payout/ ISIN Growth": "INF789F1AZL1",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "UTI Nifty Alpha Low-Volatility 30 Index Fund - Regular Plan - Growth Option",
+    "Net Asset Value": "9.7641",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "140328",
+    "ISIN Div Payout/ ISIN Growth": "INF843K01IY6",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Edelweiss Emerging Markets Opportunities Equity Offshore Fund - Regular Plan - Growth Option",
+    "Net Asset Value": "19.4474",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - FoF Overseas",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "151112",
+    "ISIN Div Payout/ ISIN Growth": "INF917K01HC6",
+    "ISIN Div Reinvestment": "INF917K01HB8",
+    "Scheme Name": "HSBC Value Fund - Direct IDCW",
+    "Net Asset Value": "66.965",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Value Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "119724",
+    "ISIN Div Payout/ ISIN Growth": "INF200K01QY2",
+    "ISIN Div Reinvestment": "INF200K01QZ9",
+    "Scheme Name": "SBI Contra Fund - Direct Plan - Income Distribution cum Capital Withdrawal Option (IDCW)",
+    "Net Asset Value": "88.9053",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Contra Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "133682",
+    "ISIN Div Payout/ ISIN Growth": "INF194KA1XX2",
+    "ISIN Div Reinvestment": "INF194KA1XY0",
+    "Scheme Name": "BANDHAN Equity Savings Fund - Regular Plan -Annual IDCW",
+    "Net Asset Value": "12.976",
+    "Date": "17-Sep-2025",
+    "category": "Hybrid Scheme - Equity Savings",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "141926",
+    "ISIN Div Payout/ ISIN Growth": "INF846K01B02",
+    "ISIN Div Reinvestment": "INF846K01B10",
+    "Scheme Name": "Axis Flexi Cap fund - Direct Plan - IDCW",
+    "Net Asset Value": "19.83",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Flexi Cap Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "119638",
+    "ISIN Div Payout/ ISIN Growth": "INF903J01OS0",
+    "ISIN Div Reinvestment": "INF903J01OV4",
+    "Scheme Name": "Sundaram Conservative Hybrid Fund (Formerly Known as Sundaram Debt Oriented Hybrid Fund) Direct Plan - Income Distribution cum Capital Withdrawal (IDCW)",
+    "Net Asset Value": "21.4578",
+    "Date": "27-Jun-2025",
+    "category": "Hybrid Scheme - Conservative Hybrid Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "151479",
+    "ISIN Div Payout/ ISIN Growth": "INF336L01QT2",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "HSBC CRISIL IBX Gilt June 2027 Index Fund - Direct - Growth",
+    "Net Asset Value": "12.1247",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "102206",
+    "ISIN Div Payout/ ISIN Growth": "INF200K01966",
+    "ISIN Div Reinvestment": "INF200K01974",
+    "Scheme Name": "SBI Dynamic Bond Fund - Regular Plan - Income Distribution cum Capital Withdrawal Option (IDCW)",
+    "Net Asset Value": "18.8234",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Dynamic Bond",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "152846",
+    "ISIN Div Payout/ ISIN Growth": "INF247L01DJ0",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Motilal Oswal Nifty India Defence ETF",
+    "Net Asset Value": "91.2813",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Other  ETFs",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "152814",
+    "ISIN Div Payout/ ISIN Growth": "INF740KA1UQ1",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "DSP Nifty Top 10 Equal Weight Index Fund - Direct - Growth",
+    "Net Asset Value": "9.9101",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "119501",
+    "ISIN Div Payout/ ISIN Growth": "INF209K01UR9",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Aditya Birla Sun Life Savings Fund - Growth - Direct Plan",
+    "Net Asset Value": "566.5746",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Ultra Short Duration Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "149091",
+    "ISIN Div Payout/ ISIN Growth": "INF789F1AVA3",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "UTI Focused Fund - Direct Plan - Growth Option",
+    "Net Asset Value": "16.8071",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Focused Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "111711",
+    "ISIN Div Payout/ ISIN Growth": "INF761K01132",
+    "ISIN Div Reinvestment": "INF761K01140",
+    "Scheme Name": "BANK OF INDIA ELSS Tax Saver -ECO Plan-IDCW",
+    "Net Asset Value": "29.12",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - ELSS",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "152970",
+    "ISIN Div Payout/ ISIN Growth": "INF769K01MA5",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Mirae Asset Nifty Total Market Index Fund - Regular Plan - Growth",
+    "Net Asset Value": "10.3670",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "152607",
+    "ISIN Div Payout/ ISIN Growth": "INF194KB1IE2",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Bandhan Innovation Fund - Direct Plan - Growth",
+    "Net Asset Value": "13.682",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "128052",
+    "ISIN Div Payout/ ISIN Growth": "INF179KA1GD8",
+    "ISIN Div Reinvestment": "INF179KA1GE6",
+    "Scheme Name": "HDFC Credit Risk Debt Fund - Quarterly IDCW Option",
+    "Net Asset Value": "10.4773",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Credit Risk Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "152276",
+    "ISIN Div Payout/ ISIN Growth": "INF666M01HQ5",
+    "ISIN Div Reinvestment": "INF666M01HR3",
+    "Scheme Name": "Groww Banking & Financial Services Fund - Regular Plan - IDCW",
+    "Net Asset Value": "11.6931",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "134799",
+    "ISIN Div Payout/ ISIN Growth": "INF789FA1P27",
+    "ISIN Div Reinvestment": "INF789FA1P35",
+    "Scheme Name": "UTI Ultra Short Duration Fund - Regular Plan - Half-Yearly IDCW",
+    "Net Asset Value": "1018.085",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Ultra Short Duration Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "133265",
+    "ISIN Div Payout/ ISIN Growth": "INF204KA1YV2",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Nippon India Gilt  Fund- Direct Plan- Growth Plan- Bonus Option",
+    "Net Asset Value": "23.8818",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Gilt Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "151471",
+    "ISIN Div Payout/ ISIN Growth": "INF959L01GR6",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "NAVI ELSS TAX SAVER NIFTY 50 INDEX FUND - DIRECT PLAN GROWTH",
+    "Net Asset Value": "15.2872",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - ELSS",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "148160",
+    "ISIN Div Payout/ ISIN Growth": "-",
+    "ISIN Div Reinvestment": "INF663L01U57",
+    "Scheme Name": "PGIM India Money Market Fund - Regular Plan - Daily Dividend Option",
+    "Net Asset Value": "1009.0935",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Money Market Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "145112",
+    "ISIN Div Payout/ ISIN Growth": "INF846K01J79",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Axis Large & Mid Cap Fund - Regular Plan - Growth",
+    "Net Asset Value": "33.39",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Large & Mid Cap Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "153090",
+    "ISIN Div Payout/ ISIN Growth": "INF0K1H01214",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Samco Arbitrage Fund - Direct Plan - Growth",
+    "Net Asset Value": "10.42",
+    "Date": "17-Sep-2025",
+    "category": "Hybrid Scheme - Arbitrage Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "151693",
+    "ISIN Div Payout/ ISIN Growth": "INF769K01JV7",
+    "ISIN Div Reinvestment": "INF769K01JX3",
+    "Scheme Name": "Mirae Asset Nifty SDL June 2028 Index Fund - Regular Plan - IDCW",
+    "Net Asset Value": "12.0620",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "149045",
+    "ISIN Div Payout/ ISIN Growth": "INF200KA1X25",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "SBI Fixed Maturity Plan (FMP) - Series 46 (1850 Days) - Regular Plan - Growth",
+    "Net Asset Value": "12.8789",
+    "Date": "17-Sep-2025",
+    "category": "IDF",
+    "type": "IL&FS Mutual Fund"
+  },
+  {
+    "Scheme Code": "148605",
+    "ISIN Div Payout/ ISIN Growth": "INF174KA1FH6",
+    "ISIN Div Reinvestment": "INF174KA1FJ2",
+    "Scheme Name": "Kotak ESG Exclusionary Strategy Fund - Direct Plan - Payout of Income Distribution cum capital withdrawal option",
+    "Net Asset Value": "18.85",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "152483",
+    "ISIN Div Payout/ ISIN Growth": "INF109KC13U8",
+    "ISIN Div Reinvestment": "INF109KC14U6",
+    "Scheme Name": "ICICI Prudential Nifty LargeMidcap 250 Index Fund - Direct Plan - IDCW",
+    "Net Asset Value": "12.3250",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "150888",
+    "ISIN Div Payout/ ISIN Growth": "INF194KB1EZ6",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "BANDHAN CRISIL IBX 90:10 SDL PLUS GILT - SEP27 INDEX FUND - DIRECT GROWTH",
+    "Net Asset Value": "12.4341",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "152266",
+    "ISIN Div Payout/ ISIN Growth": "INF194KB1HD6",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "BANDHAN Nifty Smallcap 250 Index Fund - Regular Plan - Growth",
+    "Net Asset Value": "12.5146",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "105418",
+    "ISIN Div Payout/ ISIN Growth": "INF044D01872",
+    "ISIN Div Reinvestment": "INF044D01880",
+    "Scheme Name": "Taurus Infrastructure Fund - Regular Plan - Payout of Income Distribution cum Capital Withdrawal option",
+    "Net Asset Value": "64.86",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "116632",
+    "ISIN Div Payout/ ISIN Growth": "INF090I01EV3",
+    "ISIN Div Reinvestment": "INF090I01EU5",
+    "Scheme Name": "Franklin U.S. Opportunities Equity Active Fund of Funds - IDCW",
+    "Net Asset Value": "80.2831",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - FoF Overseas",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "150163",
+    "ISIN Div Payout/ ISIN Growth": "-",
+    "ISIN Div Reinvestment": "INF251K01DM8",
+    "Scheme Name": "BARODA BNP PARIBAS LOW DURATION Fund-Defunct Plan- Daily IDCW Option",
+    "Net Asset Value": "10.0499",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Low Duration Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "152555",
+    "ISIN Div Payout/ ISIN Growth": "INF740KA1UM0",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "DSP BSE Liquid Rate ETF",
+    "Net Asset Value": "1091.1003",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Other  ETFs",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "151727",
+    "ISIN Div Payout/ ISIN Growth": "INF179KC1GE4",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "HDFC NIFTY Smallcap 250 Index Fund - Growth Option - Direct Plan",
+    "Net Asset Value": "19.0455",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "140184",
+    "ISIN Div Payout/ ISIN Growth": "INF754K01HK6",
+    "ISIN Div Reinvestment": "INF754K01HC3",
+    "Scheme Name": "Edelweiss Liquid Fund - Regular Plan Fortnightly - IDCW Option",
+    "Net Asset Value": "2153.9169",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Liquid Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "153429",
+    "ISIN Div Payout/ ISIN Growth": "INF966L01EA2",
+    "ISIN Div Reinvestment": "INF966L01EB0",
+    "Scheme Name": "quant Arbitrage Fund - IDCW Option - Regular Plan",
+    "Net Asset Value": "10.2777",
+    "Date": "17-Sep-2025",
+    "category": "Hybrid Scheme - Arbitrage Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "149366",
+    "ISIN Div Payout/ ISIN Growth": "INF179KC1BV9",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "HDFC Multi Cap Fund - Growth Option",
+    "Net Asset Value": "19.281",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Multi Cap Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "153639",
+    "ISIN Div Payout/ ISIN Growth": "INF769K01PA8",
+    "ISIN Div Reinvestment": "INF769K01OZ8",
+    "Scheme Name": "Mirae Asset Income plus Arbitrage Active FOF - Direct Plan - IDCW",
+    "Net Asset Value": "10.113",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - FoF Domestic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "144404",
+    "ISIN Div Payout/ ISIN Growth": "INF174V01622",
+    "ISIN Div Reinvestment": "INF174V01614",
+    "Scheme Name": "Mahindra Manulife Dynamic Bond Fund - Direct Plan - Quarterly IDCW",
+    "Net Asset Value": "11.3869",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Dynamic Bond",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "136473",
+    "ISIN Div Payout/ ISIN Growth": "INF767K01PC8",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "LIC MF Nifty 100 ETF",
+    "Net Asset Value": "282.9624",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Other  ETFs",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "151314",
+    "ISIN Div Payout/ ISIN Growth": "INF179KC1EW1",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "HDFC Long Duration Debt Fund - Growth Option",
+    "Net Asset Value": "12.1304",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Long Duration Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "101357",
+    "ISIN Div Payout/ ISIN Growth": "INF090I01CA1",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Franklin India Money Market Fund - Growth Option",
+    "Net Asset Value": "50.9256",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Money Market Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "120185",
+    "ISIN Div Payout/ ISIN Growth": "INF109K01Z55",
+    "ISIN Div Reinvestment": "INF109K01Z63",
+    "Scheme Name": "ICICI Prudential US Bluechip Equity Fund - Direct Plan -  IDCW",
+    "Net Asset Value": "74.68",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "119069",
+    "ISIN Div Payout/ ISIN Growth": "INF179K01WL3",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "HDFC Income Fund - Growth Option - Direct Plan",
+    "Net Asset Value": "64.6527",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Medium to Long Duration Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "103216",
+    "ISIN Div Payout/ ISIN Growth": "INF200K01230",
+    "ISIN Div Reinvestment": "INF200K01248",
+    "Scheme Name": "SBI Flexicap Fund - Regular Plan - Income Distribution cum Capital Withdrawal Option (IDCW)",
+    "Net Asset Value": "49.4420",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Flexi Cap Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "152405",
+    "ISIN Div Payout/ ISIN Growth": "INF0QA701771",
+    "ISIN Div Reinvestment": "INF0QA701789",
+    "Scheme Name": "Bajaj Finserv Large and Mid Cap Fund- Direct Plan- IDCW",
+    "Net Asset Value": "12.567",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Large & Mid Cap Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "153291",
+    "ISIN Div Payout/ ISIN Growth": "INF205KA1AI8",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Invesco India Business Cycle Fund - Direct Plan - Growth",
+    "Net Asset Value": "13.04",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "150950",
+    "ISIN Div Payout/ ISIN Growth": "INF109KC17M6",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "ICICI Prudential Fixed Maturity Plan - Series 88 - 1226 Days Plan F - Direct Plan - Growth",
+    "Net Asset Value": "12.1985",
+    "Date": "17-Sep-2025",
+    "category": "Income",
+    "type": "Close Ended Schemes"
+  },
+  {
+    "Scheme Code": "107700",
+    "ISIN Div Payout/ ISIN Growth": "-",
+    "ISIN Div Reinvestment": "INF769K01986",
+    "Scheme Name": "Mirae Asset Low Duration Fund - Regular Plan - Daily IDCW",
+    "Net Asset Value": "1005.1646",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Low Duration Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "118724",
+    "ISIN Div Payout/ ISIN Growth": "INF204K01G52",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Nippon India Consumption Fund - Direct Plan Growth Plan - Growth Option",
+    "Net Asset Value": "234.1884",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "153411",
+    "ISIN Div Payout/ ISIN Growth": "INF109K1A062",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "ICICI Prudential CRISIL-IBX Financial Services 3-6 Months Debt Index Fund - Direct Plan - Growth",
+    "Net Asset Value": "10.3741",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "148458",
+    "ISIN Div Payout/ ISIN Growth": "INF204KB10W1",
+    "ISIN Div Reinvestment": "INF204KB11W9",
+    "Scheme Name": "NIPPON INDIA MULTI ASSET ALLOCATION FUND - DIRECT Plan - IDCW Option",
+    "Net Asset Value": "24.2375",
+    "Date": "17-Sep-2025",
+    "category": "Hybrid Scheme - Multi Asset Allocation",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "140283",
+    "ISIN Div Payout/ ISIN Growth": "INF843K01FK1",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Edelweiss Banking and PSU Debt Fund - Regular Plan - Growth Option",
+    "Net Asset Value": "24.9074",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Banking and PSU Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "147768",
+    "ISIN Div Payout/ ISIN Growth": "INF767K01QN3",
+    "ISIN Div Reinvestment": "INF767K01QM5",
+    "Scheme Name": "LIC MF Ultra Short Duration Fund-Regular Plan-Monthly IDCW",
+    "Net Asset Value": "1338.2846",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Ultra Short Duration Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "153733",
+    "ISIN Div Payout/ ISIN Growth": "INF090I01YM0",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Franklin India Multi Asset Allocation Fund- Growth",
+    "Net Asset Value": "10.1903",
+    "Date": "17-Sep-2025",
+    "category": "Hybrid Scheme - Multi Asset Allocation",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "152140",
+    "ISIN Div Payout/ ISIN Growth": "INF209KB16W7",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Aditya Birla Sun Life US Treasury 1-3 Year Bond ETFs Fund Of Funds-Direct Growth",
+    "Net Asset Value": "11.6157",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - FoF Overseas",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "149271",
+    "ISIN Div Payout/ ISIN Growth": "INF00XX01BP6",
+    "ISIN Div Reinvestment": "INF00XX01BQ4",
+    "Scheme Name": "ITI Pharma and Healthcare Fund - Direct Plan - IDCW Option",
+    "Net Asset Value": "17.7592",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "149266",
+    "ISIN Div Payout/ ISIN Growth": "INF0J8L01024",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "NJ Balanced Advantage Fund - Regular Plan - Growth Option",
+    "Net Asset Value": "13.91",
+    "Date": "17-Sep-2025",
+    "category": "Hybrid Scheme - Dynamic Asset Allocation or Balanced Advantage",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "146346",
+    "ISIN Div Payout/ ISIN Growth": "INF109KC1TQ6",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "ICICI Prudential Retirement Fund - Pure Equity - Growth Option",
+    "Net Asset Value": "33.24",
+    "Date": "17-Sep-2025",
+    "category": "Solution Oriented Scheme - Retirement Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "119755",
+    "ISIN Div Payout/ ISIN Growth": "INF174K01JU2",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Kotak Dynamic Bond Fund - Growth - Direct",
+    "Net Asset Value": "41.0757",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Dynamic Bond",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "120732",
+    "ISIN Div Payout/ ISIN Growth": "INF789F01SL7",
+    "ISIN Div Reinvestment": "INF789F01SM5",
+    "Scheme Name": "UTI Banking and Financial Services Fund - Direct Plan - IDCW",
+    "Net Asset Value": "84.6074",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "120538",
+    "ISIN Div Payout/ ISIN Growth": "INF209K01P49",
+    "ISIN Div Reinvestment": "INF209K01VE5",
+    "Scheme Name": "Aditya Birla Sun Life Digital India Fund -DIRECT - IDCW",
+    "Net Asset Value": "58.62",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "109445",
+    "ISIN Div Payout/ ISIN Growth": "INF109K01BU5",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "ICICI Prudential Banking and Financial Services Fund -  Growth",
+    "Net Asset Value": "133.82",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "150893",
+    "ISIN Div Payout/ ISIN Growth": "INF754K01QQ4",
+    "ISIN Div Reinvestment": "INF754K01QR2",
+    "Scheme Name": "Edelweiss Nifty Smallcap 250 Index Fund - Regular Plan - IDCW",
+    "Net Asset Value": "17.8233",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "153027",
+    "ISIN Div Payout/ ISIN Growth": "INF247L01DW3",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Motilal Oswal Nifty MidSmall Financial Services Index Fund - Direct Plan- Growth",
+    "Net Asset Value": "12.0712",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "140107",
+    "ISIN Div Payout/ ISIN Growth": "INF457M01133",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "CPSE ETF",
+    "Net Asset Value": "93.2918",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Other  ETFs",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "100280",
+    "ISIN Div Payout/ ISIN Growth": "INF174K01FM7",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Kotak Gilt-Investment  Provident Fund and Trust-Payout of Income Distribution cum capital withdrawal option",
+    "Net Asset Value": "11.8592",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Gilt Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "149391",
+    "ISIN Div Payout/ ISIN Growth": "INF109KC1W66",
+    "ISIN Div Reinvestment": "INF109KC1W74",
+    "Scheme Name": "ICICI Prudential Nifty Midcap 150 Index Fund - Direct Plan - IDCW",
+    "Net Asset Value": "19.4818",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "150618",
+    "ISIN Div Payout/ ISIN Growth": "INF846K019J6",
+    "ISIN Div Reinvestment": "INF846K010K3",
+    "Scheme Name": "Axis Silver Fund of Fund - Regular Plan - IDCW Option",
+    "Net Asset Value": "21.6069",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - FoF Domestic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "150228",
+    "ISIN Div Payout/ ISIN Growth": "INF251K01EL8",
+    "ISIN Div Reinvestment": "INF251K01EM6",
+    "Scheme Name": "BARODA BNP PARIBAS Corporate Bond Fund - Defunct Plan - Quarterly-IDCW Option",
+    "Net Asset Value": "10.5592",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Corporate Bond Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "152421",
+    "ISIN Div Payout/ ISIN Growth": "INF846K014V2",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Axis BSE Sensex Index Fund - Regular Plan - Growth",
+    "Net Asset Value": "11.4219",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "118563",
+    "ISIN Div Payout/ ISIN Growth": "INF090I01IU6",
+    "ISIN Div Reinvestment": "INF090I01IV4",
+    "Scheme Name": "Franklin India Focused Equity Fund - Direct - IDCW",
+    "Net Asset Value": "43.3013",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Focused Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "151216",
+    "ISIN Div Payout/ ISIN Growth": "INF174KA1KZ8",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Kotak Nifty SDL Jul 2026 Index Fund Regular Plan Growth",
+    "Net Asset Value": "12.1475",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "151279",
+    "ISIN Div Payout/ ISIN Growth": "INF251K01RI6",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Baroda BNP Paribas Nifty SDL December 2026 Index Fund - Regular Plan - Growth Option",
+    "Net Asset Value": "12.1153",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "153127",
+    "ISIN Div Payout/ ISIN Growth": "INF209KC1399",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Aditya Birla Sun Life Conglomerate Fund-Regular Growth",
+    "Net Asset Value": "10.95",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "119602",
+    "ISIN Div Payout/ ISIN Growth": "INF903J01OB6",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Sundaram Global Brand Theme-Equity Active FOF - Direct Growth",
+    "Net Asset Value": "40.7466",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - FoF Overseas",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "151203",
+    "ISIN Div Payout/ ISIN Growth": "INF846K012M5",
+    "ISIN Div Reinvestment": "INF846K014M1",
+    "Scheme Name": "Axis Long Duration Fund - Regular Plan - Quarterly IDCW",
+    "Net Asset Value": "1189.6110",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Long Duration Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "148756",
+    "ISIN Div Payout/ ISIN Growth": "INF769K01HC1",
+    "ISIN Div Reinvestment": "INF769K01HE7",
+    "Scheme Name": "Mirae Asset Corporate Bond Fund Direct IDCW",
+    "Net Asset Value": "13.1683",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Corporate Bond Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "153031",
+    "ISIN Div Payout/ ISIN Growth": "INF209KC1308",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Aditya Birla Sun Life Crisil-IBX AAA Financial Services Index-Sep 2027 Fund-Direct IDCW Payout",
+    "Net Asset Value": "10.752",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "152905",
+    "ISIN Div Payout/ ISIN Growth": "-",
+    "ISIN Div Reinvestment": "INF955L01JE6",
+    "Scheme Name": "Baroda BNP Paribas Credit Risk fund - Regular-Weekly-IDCW option -Seg. Portfolio 2 (erstwhile BBNPP Medium Duration Fund Regular-Weekly IDCW option Seg. Portfolio 1)",
+    "Net Asset Value": "0.0000",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Credit Risk Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "152104",
+    "ISIN Div Payout/ ISIN Growth": "INF194KB1GV0",
+    "ISIN Div Reinvestment": "INF194KB1GW8",
+    "Scheme Name": "Bandhan Retirement Fund - Direct Plan - IDCW",
+    "Net Asset Value": "13.119",
+    "Date": "17-Sep-2025",
+    "category": "Solution Oriented Scheme - Retirement Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "119532",
+    "ISIN Div Payout/ ISIN Growth": "INF209K01N90",
+    "ISIN Div Reinvestment": "INF209KA1KU8",
+    "Scheme Name": "Aditya Birla Sun Life Corporate Bond Fund -DIRECT - MONTHLY IDCW",
+    "Net Asset Value": "12.8101",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Corporate Bond Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "118558",
+    "ISIN Div Payout/ ISIN Growth": "INF090I01IX0",
+    "ISIN Div Reinvestment": "INF090I01IY8",
+    "Scheme Name": "Franklin Asian Equity Fund - Direct - IDCW",
+    "Net Asset Value": "16.8888",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "151764",
+    "ISIN Div Payout/ ISIN Growth": "INF789F1AYR1",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "UTI BSE Housing Index Fund - Direct Plan - Growth Option",
+    "Net Asset Value": "15.2553",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "131865",
+    "ISIN Div Payout/ ISIN Growth": "INF084M01DM9",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Aditya Birla Sun Life Multi Asset Omni FoF- Direct Plan - Growth Option",
+    "Net Asset Value": "36.1054",
+    "Date": "17-Sep-2025",
+    "category": "Hybrid Scheme - Multi Asset Allocation",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "133629",
+    "ISIN Div Payout/ ISIN Growth": "INF204KA1C55",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Nippon India Retirement Fund- Income Generation Scheme- Direct Plan-Growth Plan- Bonus Option",
+    "Net Asset Value": "23.1256",
+    "Date": "17-Sep-2025",
+    "category": "Solution Oriented Scheme - Retirement Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "125345",
+    "ISIN Div Payout/ ISIN Growth": "INF579M01621",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "360 ONE LIQUID FUND DIRECT PLAN  GROWTH",
+    "Net Asset Value": "2047.1315",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Liquid Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "151561",
+    "ISIN Div Payout/ ISIN Growth": "INF209KB15T5",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Aditya Birla Sun Life Nifty SDL SEP 2027 Index Fund-Regular IDCW",
+    "Net Asset Value": "12.1945",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "147930",
+    "ISIN Div Payout/ ISIN Growth": "INF846K01W64",
+    "ISIN Div Reinvestment": "INF846K01W72",
+    "Scheme Name": "Axis ESG Integration Strategy Fund - Regular Plan - IDCW",
+    "Net Asset Value": "15.37",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "151527",
+    "ISIN Div Payout/ ISIN Growth": "INF789F1AXS1",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "UTI Long Duration Fund - Regular Plan - Growth Option",
+    "Net Asset Value": "11.7685",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Long Duration Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "103183",
+    "ISIN Div Payout/ ISIN Growth": "INF209K01983",
+    "ISIN Div Reinvestment": "INF209K01DL8",
+    "Scheme Name": "Aditya Birla Sun Life Corporate Bond Fund -REGULAR - MONTHLY IDCW",
+    "Net Asset Value": "12.6081",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Corporate Bond Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "153267",
+    "ISIN Div Payout/ ISIN Growth": "INF336L01RR4",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "HSBC Financial Services Fund - Regular Growth",
+    "Net Asset Value": "11.4642",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "150932",
+    "ISIN Div Payout/ ISIN Growth": "INF204KC1931",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Nippon India Fixed Maturity Plan - XLIV - Series 4-Direct Plan-Growth Option",
+    "Net Asset Value": "12.1824",
+    "Date": "17-Sep-2025",
+    "category": "IDF",
+    "type": "IL&FS Mutual Fund"
+  },
+  {
+    "Scheme Code": "152588",
+    "ISIN Div Payout/ ISIN Growth": "INF277KA1BM1",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Tata Nifty500 Multicap India Manufacturing 50:30:20 Index Fund -Direct Plan-Growth",
+    "Net Asset Value": "11.8243",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "130504",
+    "ISIN Div Payout/ ISIN Growth": "INF179KA1RX3",
+    "ISIN Div Reinvestment": "INF179KA1RY1",
+    "Scheme Name": "HDFC Small Cap Fund - IDCW Option - Direct Plan",
+    "Net Asset Value": "71.244",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Small Cap Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "118794",
+    "ISIN Div Payout/ ISIN Growth": "INF204K01B08",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Nippon India Aggressive Hybrid Fund  - Direct Plan Growth Plan",
+    "Net Asset Value": "120.2416",
+    "Date": "17-Sep-2025",
+    "category": "Hybrid Scheme - Aggressive Hybrid Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "152780",
+    "ISIN Div Payout/ ISIN Growth": "INF0QA701862",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "BAJAJ FINSERV LARGE CAP FUND - REGULAR PLAN - GROWTH",
+    "Net Asset Value": "10.095",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Large Cap Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "118877",
+    "ISIN Div Payout/ ISIN Growth": "INF044D01CK8",
+    "ISIN Div Reinvestment": "INF044D01CL6",
+    "Scheme Name": "Taurus Ethical Fund - Direct Plan - Payout of Income Distribution cum Capital Withdrawal option",
+    "Net Asset Value": "97.49",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "148655",
+    "ISIN Div Payout/ ISIN Growth": "INF0GCD01016",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "TRUSTMF BANKING & PSU FUND - REGULAR GROWTH",
+    "Net Asset Value": "1284.8905",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Banking and PSU Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "150522",
+    "ISIN Div Payout/ ISIN Growth": "INF247L01BJ4",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Motilal Oswal BSE Quality Index Fund-Regular plan",
+    "Net Asset Value": "17.0509",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "126352",
+    "ISIN Div Payout/ ISIN Growth": "INF205K01A32",
+    "ISIN Div Reinvestment": "INF205K01A40",
+    "Scheme Name": "Invesco India - Invesco Pan European Equity Fund of Fund - Direct Plan - IDCW (Payout / Reinvestment)",
+    "Net Asset Value": "21.8425",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - FoF Overseas",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "147735",
+    "ISIN Div Payout/ ISIN Growth": "INF209KB17D5",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Aditya Birla Sun Life Nifty Bank ETF",
+    "Net Asset Value": "56.7169",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Other  ETFs",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "106653",
+    "ISIN Div Payout/ ISIN Growth": "INF205K01CE3",
+    "ISIN Div Reinvestment": "INF205K01CF0",
+    "Scheme Name": "Invesco India Infrastructure Fund - IDCW (Payout / Reinvestment)",
+    "Net Asset Value": "42.02",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "147447",
+    "ISIN Div Payout/ ISIN Growth": "INF174V01754",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Mahindra Manulife Aggressive Hybrid Fund - Regular Plan - Growth",
+    "Net Asset Value": "27.6602",
+    "Date": "17-Sep-2025",
+    "category": "Hybrid Scheme - Aggressive Hybrid Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "131395",
+    "ISIN Div Payout/ ISIN Growth": "INF194KA1RW6",
+    "ISIN Div Reinvestment": "INF194KA1RX4",
+    "Scheme Name": "BANDHAN Government Securities Fund - IP - Regular -Plan B - Periodic IDCW",
+    "Net Asset Value": "16.4709",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Gilt Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "100081",
+    "ISIN Div Payout/ ISIN Growth": "INF740K01318",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "DSP Aggressive Hybrid Fund- Regular Plan - Growth",
+    "Net Asset Value": "361.338",
+    "Date": "17-Sep-2025",
+    "category": "Hybrid Scheme - Aggressive Hybrid Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "118476",
+    "ISIN Div Payout/ ISIN Growth": "INF194K01Z10",
+    "ISIN Div Reinvestment": "INF194K01Z28",
+    "Scheme Name": "BANDHAN Equity Savings Fund-Direct Plan-Monthly IDCW",
+    "Net Asset Value": "11.712",
+    "Date": "17-Sep-2025",
+    "category": "Hybrid Scheme - Equity Savings",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "120622",
+    "ISIN Div Payout/ ISIN Growth": "INF109K016M8",
+    "ISIN Div Reinvestment": "INF109K017M6",
+    "Scheme Name": "ICICI Prudential Infrastructure Fund - Direct Plan -  IDCW",
+    "Net Asset Value": "49.41",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "127071",
+    "ISIN Div Payout/ ISIN Growth": "INF336L01HF0",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "HSBC Asia Pacific (Ex Japan) Dividend Yield Fund - Growth Direct",
+    "Net Asset Value": "30.1101",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - FoF Overseas",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "120663",
+    "ISIN Div Payout/ ISIN Growth": "INF789F01TA8",
+    "ISIN Div Reinvestment": "INF789F01TB6",
+    "Scheme Name": "UTI Flexi Cap Fund - Direct Plan - IDCW",
+    "Net Asset Value": "238.6124",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Flexi Cap Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "147717",
+    "ISIN Div Payout/ ISIN Growth": "INF00XX01630",
+    "ISIN Div Reinvestment": "INF00XX01606",
+    "Scheme Name": "ITI Overnight Fund - Direct Plan - Monthly IDCW Option",
+    "Net Asset Value": "1004.1249",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Overnight Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "120709",
+    "ISIN Div Payout/ ISIN Growth": "INF109K01V34",
+    "ISIN Div Reinvestment": "INF109K01V42",
+    "Scheme Name": "ICICI Prudential Credit Risk Fund - Direct Plan - Quarterly IDCW",
+    "Net Asset Value": "12.0344",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Credit Risk Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "144333",
+    "ISIN Div Payout/ ISIN Growth": "INF174KA1186",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Kotak Balanced Advantage Fund -Regular Plan - Growth Option",
+    "Net Asset Value": "20.775",
+    "Date": "17-Sep-2025",
+    "category": "Hybrid Scheme - Dynamic Asset Allocation or Balanced Advantage",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "112218",
+    "ISIN Div Payout/ ISIN Growth": "INF277K01DI1",
+    "ISIN Div Reinvestment": "INF277K01436",
+    "Scheme Name": "Tata Value Fund - Regular Plan - Payout of IDCW-Option A(5%)",
+    "Net Asset Value": "129.9210",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Value Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "152890",
+    "ISIN Div Payout/ ISIN Growth": "INF179KC1IP6",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "HDFC NIFTY LargeMidcap 250 Index Fund - Growth Option",
+    "Net Asset Value": "9.9844",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "120602",
+    "ISIN Div Payout/ ISIN Growth": "INF109K017E3",
+    "ISIN Div Reinvestment": "INF109K018E1",
+    "Scheme Name": "ICICI Prudential All Seasons Bond Fund - Direct Plan - Quarterly IDCW",
+    "Net Asset Value": "11.9885",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Dynamic Bond",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "152286",
+    "ISIN Div Payout/ ISIN Growth": "INF277KA1851",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Tata Gold ETF Fund of Fund Regular Plan IDCW Payout Option",
+    "Net Asset Value": "16.9175",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - FoF Domestic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "152676",
+    "ISIN Div Payout/ ISIN Growth": "INF903JA1LR4",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Sundaram Business Cycle Fund Direct Plan IDCW Payout",
+    "Net Asset Value": "11.5173",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "147761",
+    "ISIN Div Payout/ ISIN Growth": "INF277K012Y8",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "TATA Focused Fund Regular Plan - Payout of Income Distribution cum capital withdrawal option",
+    "Net Asset Value": "23.6643",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Focused Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "115934",
+    "ISIN Div Payout/ ISIN Growth": "INF179K01LC5",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "HDFC Gold ETF Fund of Fund - Growth Option",
+    "Net Asset Value": "32.8749",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - FoF Domestic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "149020",
+    "ISIN Div Payout/ ISIN Growth": "INF663L01W30",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "PGIM India Small Cap Fund - Regular Plan - Growth Option",
+    "Net Asset Value": "16.78",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Small Cap Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "105283",
+    "ISIN Div Payout/ ISIN Growth": "INF200K01LY3",
+    "ISIN Div Reinvestment": "INF200K01LZ0",
+    "Scheme Name": "SBI Liquid Fund - Regular Plan - Fortnightly Income Distribution cum Capital Withdrawal Option (IDCW)",
+    "Net Asset Value": "1355.6249",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Liquid Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "101872",
+    "ISIN Div Payout/ ISIN Growth": "INF179K01848",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "HDFC Dynamic Debt Fund - Growth Option",
+    "Net Asset Value": "89.4436",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Dynamic Bond",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "100220",
+    "ISIN Div Payout/ ISIN Growth": "INF192K01528",
+    "ISIN Div Reinvestment": "INF192K01536",
+    "Scheme Name": "JM Aggressive Hybrid Fund (Regular) - IDCW",
+    "Net Asset Value": "34.2757",
+    "Date": "17-Sep-2025",
+    "category": "Hybrid Scheme - Aggressive Hybrid Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "114297",
+    "ISIN Div Payout/ ISIN Growth": "-",
+    "ISIN Div Reinvestment": "INF200K01LN6",
+    "Scheme Name": "SBI Overnight Fund - Regular Plan - Daily Income Distribution cum Capital Withdrawal Option (IDCW)",
+    "Net Asset Value": "1316.8762",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Overnight Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "148934",
+    "ISIN Div Payout/ ISIN Growth": "INF846K01Z12",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Axis NIFTY Healthcare ETF",
+    "Net Asset Value": "149.0168",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Other  ETFs",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "152605",
+    "ISIN Div Payout/ ISIN Growth": "INF194KB1IC6",
+    "ISIN Div Reinvestment": "INF194KB1ID4",
+    "Scheme Name": "Bandhan Innovation Fund - Regular Plan - IDCW",
+    "Net Asset Value": "13.388",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "105804",
+    "ISIN Div Payout/ ISIN Growth": "INF209K01EN2",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Aditya Birla Sun Life Small Cap Fund - GROWTH",
+    "Net Asset Value": "86.7696",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Small Cap Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "139181",
+    "ISIN Div Payout/ ISIN Growth": "INF789FA1R82",
+    "ISIN Div Reinvestment": "INF789FA1R90",
+    "Scheme Name": "UTI Dynamic Bond Fund - Regular Plan - Half-Yearly IDCW",
+    "Net Asset Value": "15.3214",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Dynamic Bond",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "118275",
+    "ISIN Div Payout/ ISIN Growth": "INF760K01EF0",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "CANARA ROBECO FLEXICAP FUND - DIRECT PLAN - GROWTH OPTION",
+    "Net Asset Value": "392.6800",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Flexi Cap Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "118784",
+    "ISIN Div Payout/ ISIN Growth": "INF204K01K49",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Nippon India Value Fund - Direct Plan Growth Plan",
+    "Net Asset Value": "250.2345",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Value Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "133488",
+    "ISIN Div Payout/ ISIN Growth": "INF955L01FR6",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Baroda BNP Paribas Credit Risk Fund -Direct-Growth Option",
+    "Net Asset Value": "24.8536",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Credit Risk Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "143259",
+    "ISIN Div Payout/ ISIN Growth": "INF194KA16J0",
+    "ISIN Div Reinvestment": "INF194KA17J8",
+    "Scheme Name": "BANDHAN Equity Savings Fund- Regular Plan -Quarterly IDCW",
+    "Net Asset Value": "13.100",
+    "Date": "17-Sep-2025",
+    "category": "Hybrid Scheme - Equity Savings",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "152034",
+    "ISIN Div Payout/ ISIN Growth": "INF204KC1BL9",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Nippon India Innovation Fund-Regular Plan-Growth Option",
+    "Net Asset Value": "14.8828",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "153221",
+    "ISIN Div Payout/ ISIN Growth": "INF174KA1UN3",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Kotak Nifty SmallCap 250 Index Fund- Regular - Growth",
+    "Net Asset Value": "11.312",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "149281",
+    "ISIN Div Payout/ ISIN Growth": "INF109KC1U84",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "ICICI Prudential Nifty Smallcap 250 Index Fund - Growth",
+    "Net Asset Value": "17.5173",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "106167",
+    "ISIN Div Payout/ ISIN Growth": "INF760K01068",
+    "ISIN Div Reinvestment": "INF760K01076",
+    "Scheme Name": "CANARA ROBECO EQUITY HYBRID FUND - REGULAR PLAN - MONTHLY IDCW (Payout/Reinvestment)",
+    "Net Asset Value": "98.8400",
+    "Date": "17-Sep-2025",
+    "category": "Hybrid Scheme - Aggressive Hybrid Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "153337",
+    "ISIN Div Payout/ ISIN Growth": "INF582M01KS4",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Union Gold ETF",
+    "Net Asset Value": "107.8061",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Gold ETF",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "153032",
+    "ISIN Div Payout/ ISIN Growth": "INF209KC1324",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Aditya Birla Sun Life Crisil-IBX AAA Financial Services Index-Sep 2027 Fund-Regular IDCW Payout",
+    "Net Asset Value": "10.7251",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "148398",
+    "ISIN Div Payout/ ISIN Growth": "INF613Q01157",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "IL&FS Infrastructure Debt Fund Series 2B - Growth - Direct",
+    "Net Asset Value": "2325948.9795",
+    "Date": "30-Jun-2025",
+    "category": "IDF",
+    "type": "IL&FS Mutual Fund"
+  },
+  {
+    "Scheme Code": "133927",
+    "ISIN Div Payout/ ISIN Growth": "INF740KA1OP6",
+    "ISIN Div Reinvestment": "INF740KA1OQ4",
+    "Scheme Name": "DSP Low Duration Fund - Regular Plan - IDCW - Weekly",
+    "Net Asset Value": "10.1369",
+    "Date": "17-Sep-2025",
+    "category": "Debt Scheme - Low Duration Fund",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "146952",
+    "ISIN Div Payout/ ISIN Growth": "INF109KC1YC6",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "ICICI Prudential Bharat Consumption Fund - IDCW Option",
+    "Net Asset Value": "18.30",
+    "Date": "17-Sep-2025",
+    "category": "Equity Scheme - Sectoral/ Thematic",
+    "type": "Open Ended Schemes"
+  },
+  {
+    "Scheme Code": "150665",
+    "ISIN Div Payout/ ISIN Growth": "INF209KB18L6",
+    "ISIN Div Reinvestment": "-",
+    "Scheme Name": "Aditya Birla Sun Life Nifty SDL SEP 2025 Index Fund-Regular Growth",
+    "Net Asset Value": "12.2136",
+    "Date": "17-Sep-2025",
+    "category": "Other Scheme - Index Funds",
+    "type": "Open Ended Schemes"
+>>>>>>> 639af92984c7d9df379cb2231cef91afaafb1343
   }
 ]
