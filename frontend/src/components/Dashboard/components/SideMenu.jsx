@@ -12,6 +12,8 @@ import CardAlert from "./CardAlert";
 import OptionsMenu from "./OptionsMenu";
 import Cookies from "js-cookie";
 import { jwtDecode } from "jwt-decode";
+import { Link } from "react-router-dom";
+import Logo from "../../../../assets/YoloFinance_transparent-.png"; // Adjust path if needed
 
 const drawerWidth = 240;
 
@@ -49,11 +51,24 @@ export default function SideMenu() {
             <Box
                 sx={{
                     display: "flex",
-                    mt: "calc(var(--template-frame-height, 0px) + 4px)",
-                    p: 1.5,
+                    justifyContent: "center",
+                    alignItems: "center",
+                    mb: -17,
+                    mt: -5,
+                    overflow:"hidden"
                 }}
             >
-                {/* <SelectContent /> */}
+                <Link to="/dashboard">
+                    <img
+                        src={Logo}
+                        alt="YOLOFinance Logo"
+                        style={{
+                            height: 270,
+                            width: "auto",
+                            cursor: "pointer",
+                        }}
+                    />
+                </Link>
             </Box>
             <Divider />
             <Box
