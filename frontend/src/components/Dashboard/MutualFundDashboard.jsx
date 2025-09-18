@@ -14,19 +14,6 @@ import {
     Button,
     Snackbar,
     Alert,
-    Box,
-    Chip,
-    CssBaseline,
-    IconButton,
-    InputAdornment,
-    Stack,
-    TextField,
-    Tooltip,
-    Typography,
-    createTheme,
-    Button,
-    Snackbar,
-    Alert,
 } from "@mui/material";
 import { DataGrid, GridToolbar } from "@mui/x-data-grid";
 import SearchIcon from "@mui/icons-material/Search";
@@ -37,19 +24,11 @@ import {
     dataGridCustomizations,
     datePickersCustomizations,
     treeViewCustomizations,
-    chartsCustomizations,
-    dataGridCustomizations,
-    datePickersCustomizations,
-    treeViewCustomizations,
 } from "./theme/customizations";
 import FundDetailsDialog from "./components/FundDetailsDialog";
-import YoloFinanceLogo from "../../../assets/YoloFinance_transparent-.png";
+import YoloFinanceLogo from "../../../assets/YoloFinance_transparent.png";
 
 const xThemeComponents = {
-    ...chartsCustomizations,
-    ...dataGridCustomizations,
-    ...datePickersCustomizations,
-    ...treeViewCustomizations,
     ...chartsCustomizations,
     ...dataGridCustomizations,
     ...datePickersCustomizations,
@@ -120,7 +99,6 @@ const AMC_LOGOS = {
 
 const missingAMCs = new Set();
 const DEFAULT_AMC_LOGO = YoloFinanceLogo;
-
 
 function normalizeRow(raw, id) {
     const schemeCode = raw["Scheme Code"] ?? raw.schemeCode ?? "";
@@ -221,26 +199,9 @@ export default function MutualFundDashboard({ apiUrl }) {
             if (!res.ok) throw new Error(`HTTP ${res.status}`);
             const data = await res.json();
             const arr = Array.isArray(data) ? data : [data];
-    const fetchData = React.useCallback(async () => {
-        setLoading(true);
-        setError(null);
-        try {
-            // Make sure apiUrl points to backend endpoint that returns nav-final.json
-            const res = await fetch(apiUrl);
-            if (!res.ok) throw new Error(`HTTP ${res.status}`);
-            const data = await res.json();
-            const arr = Array.isArray(data) ? data : [data];
 
             const normalized = arr.map((it, idx) => normalizeRow(it, idx + 1));
 
-            setRows(normalized);
-        } catch (e) {
-            setError(e.message || String(e));
-            setRows([]);
-        } finally {
-            setLoading(false);
-        }
-    }, [apiUrl]);
             setRows(normalized);
         } catch (e) {
             setError(e.message || String(e));
@@ -269,9 +230,6 @@ export default function MutualFundDashboard({ apiUrl }) {
         Arbitrage: "Arbitrage",
         Gilt: "Gilt",
     };
-    useEffect(() => {
-        fetchData();
-    }, [fetchData]);
 
     const filteredRows = useMemo(() => {
         const q = query.toLowerCase();
@@ -450,13 +408,14 @@ export default function MutualFundDashboard({ apiUrl }) {
                             ),
                         }}
                     />
-   
+
                     <Tooltip title="Reload">
                         <IconButton onClick={fetchData}>
                             <RefreshIcon />
                         </IconButton>
                     </Tooltip>
                 </Stack>
+
                 {/* Category Filter Buttons */}
                 <Stack
                     direction="row"

@@ -69,17 +69,6 @@ export default function SideMenu() {
                         }}
                     />
                 </Link>
-                <Link to="/dashboard">
-                    <img
-                        src={Logo}
-                        alt="YOLOFinance Logo"
-                        style={{
-                            height: 270,
-                            width: "auto",
-                            cursor: "pointer",
-                        }}
-                    />
-                </Link>
             </Box>
             <Divider />
             <Box
