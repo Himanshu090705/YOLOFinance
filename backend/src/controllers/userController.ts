@@ -191,7 +191,12 @@ export async function userLogout(req: Request, res: Response) {
       secure: false, // match same as when you set it
       path: "/", // match same path
       sameSite: "lax", // if you used sameSite when setting
-    });
+    }).clearCookie("access_token", {
+      httpOnly: false, // must match your original cookie
+      secure: false, // match same as when you set it
+      path: "/", // match same path
+      sameSite: "lax", // if you used sameSite when setting
+    })
     res.status(200).json({ message: "User Logout" });
   } catch (error) {
     console.error(error);

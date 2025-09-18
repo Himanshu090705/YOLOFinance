@@ -13,7 +13,7 @@ import OptionsMenu from "./OptionsMenu";
 import Cookies from "js-cookie";
 import { jwtDecode } from "jwt-decode";
 import { Link } from "react-router-dom";
-import Logo from "../../../../assets/YoloFinance_transparent.png"; // Adjust path if needed
+import Logo from "../../../../assets/YoloFinance_transparent-.png"; // Adjust path if needed
 
 const drawerWidth = 240;
 
@@ -58,6 +58,17 @@ export default function SideMenu() {
                     overflow:"hidden"
                 }}
             >
+                <Link to="/dashboard">
+                    <img
+                        src={Logo}
+                        alt="YOLOFinance Logo"
+                        style={{
+                            height: 270,
+                            width: "auto",
+                            cursor: "pointer",
+                        }}
+                    />
+                </Link>
                 <Link to="/dashboard">
                     <img
                         src={Logo}

@@ -16,7 +16,7 @@ import {
     datePickersCustomizations,
     treeViewCustomizations,
 } from "./theme/customizations";
-import Feedback from "./feedback.jsx";
+import Feedback from "./Feedback.jsx";
 
 const xThemeComponents = {
     ...chartsCustomizations,
