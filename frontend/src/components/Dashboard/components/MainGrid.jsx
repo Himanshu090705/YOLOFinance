@@ -84,7 +84,7 @@ export default function MainGrid() {
     <Box sx={{ width: "100%", maxWidth: { sm: "100%", md: "1700px" } }}>
       {/* cards */}
       <Typography component="h2" variant="h6" sx={{ mb: 2 }}>
-        Overview
+        <i class="fa-solid fa-eye"></i>Overview
       </Typography>
       <Grid
         container
@@ -105,7 +105,7 @@ export default function MainGrid() {
       </Grid>
 
       <Typography component="h2" variant="h6" sx={{ mb: 2 }}>
-        Your Investments
+        <i class="fa-solid fa-chart-line"></i>Your Investments
       </Typography>
       <Grid container spacing={2} columns={9}>
         <Grid size={{ xs: 12, lg: 9 }}>
@@ -114,13 +114,17 @@ export default function MainGrid() {
       </Grid>
 
       <Typography component="h2" variant="h6" sx={{ mb: 2, mt: 3 }}>
-        Your Insurances
+        <i class="fa-solid fa-shield-halved"></i>Your Insurances
       </Typography>
       <Grid container spacing={2} columns={9}>
         <Grid size={{ xs: 12, lg: 9 }}>
           <InsuranceGridTemp />
         </Grid>
       </Grid>
+
+      <Typography component="h2" variant="h6" sx={{ mt:2 }}>
+        <i class="fa-solid fa-newspaper"></i>Latest News
+      </Typography>
 
       <NewsLetter />
       <Copyright sx={{ my: 4 }} />

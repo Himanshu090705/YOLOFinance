@@ -25,7 +25,7 @@ import {
     treeViewCustomizations,
 } from "./theme/customizations";
 
-import InsuranceDetailsDialog from "./components/InsuranceDetailsDialog";
+// import GovBondDetailsDialog from "./components/GovBondDetailsDialog";
 
 const xThemeComponents = {
     ...chartsCustomizations,
@@ -34,25 +34,26 @@ const xThemeComponents = {
     ...treeViewCustomizations,
 };
 
-// ✅ Normalizer includes insurerLogo
-function normalizeRow(raw, id) {
+// ✅ Normalizer for Gov Bonds
+function normalizeBond(raw, id) {
     return {
-        id: id ?? raw.policyId ?? Math.random().toString(36).slice(2),
-        policyId: raw.policyId ?? "",
-        insurer: raw.insurer ?? "",
-        planName: raw.planName ?? "",
-        planType: raw.planType ?? "",
-        premium: raw.premium ?? "",
-        coverage: raw.coverage ?? "",
-        claimRatio: raw.claimRatio ?? "",
-        premiumFrequency: raw.premiumFrequency ?? "",
-        lastUpdated: raw.lastUpdated ? new Date(raw.lastUpdated) : null,
-        lastUpdatedText: raw.lastUpdated ?? "",
-        insurerLogo: raw.insurerLogo ?? "", // 👈 added
+        id: id ?? raw.bondId ?? Math.random().toString(36).slice(2),
+        bondId: raw.bondId ?? "",
+        issuer: raw.issuer ?? "",
+        bondName: raw.bondName ?? "",
+        couponRate: raw.couponRate ?? "",
+        maturityDate: raw.maturityDate ? new Date(raw.maturityDate) : null,
+        maturityDateText: raw.maturityDate ?? "",
+        issueDate: raw.issueDate ?? "",
+        ytm: raw.ytm ?? "",
+        faceValue: raw.faceValue ?? "",
+        currentPrice: raw.currentPrice ?? "",
+        category: raw.category ?? "Other",
+        issuerLogo: raw.issuerLogo ?? "",
     };
 }
 
-export default function InsuranceDashboard({ apiUrl }) {
+export default function GovBondsDashboard({ apiUrl }) {
     const [mode, setMode] = useState("light");
     const theme = useMemo(() => createTheme({ palette: { mode } }), [mode]);
 
@@ -67,7 +68,7 @@ export default function InsuranceDashboard({ apiUrl }) {
     const [openModal, setOpenModal] = useState(false);
     const [selectedRow, setSelectedRow] = useState(null);
 
-    const [planTypeFilter, setPlanTypeFilter] = useState("All");
+    const [categoryFilter, setCategoryFilter] = useState("All");
 
     const fetchData = React.useCallback(async () => {
         setLoading(true);
@@ -77,7 +78,7 @@ export default function InsuranceDashboard({ apiUrl }) {
             if (!res.ok) throw new Error(`HTTP ${res.status}`);
             const data = await res.json();
             const arr = Array.isArray(data) ? data : [data];
-            const normalized = arr.map((it, idx) => normalizeRow(it, idx + 1));
+            const normalized = arr.map((it, idx) => normalizeBond(it, idx + 1));
             setRows(normalized);
         } catch (e) {
             setError(e.message || String(e));
@@ -91,33 +92,32 @@ export default function InsuranceDashboard({ apiUrl }) {
         fetchData();
     }, [fetchData]);
 
-    // Get unique plan types for filter buttons
-    const planTypes = useMemo(() => {
-        const types = new Set(rows.map((r) => r.planType).filter(Boolean));
+    // Unique categories for filter buttons
+    const categories = useMemo(() => {
+        const types = new Set(rows.map((r) => r.category).filter(Boolean));
         return ["All", ...Array.from(types)];
     }, [rows]);
 
-    // Update filteredRows to include planTypeFilter
+    // Apply filters + search
     const filteredRows = useMemo(() => {
         let tempRows = rows;
-        if (planTypeFilter !== "All") {
+        if (categoryFilter !== "All") {
             tempRows = tempRows.filter((r) =>
-                (r.planType || "")
+                (r.category || "")
                     .toLowerCase()
-                    .includes(planTypeFilter.toLowerCase())
+                    .includes(categoryFilter.toLowerCase())
             );
         }
         if (!query) return tempRows;
         const q = query.toLowerCase();
         return tempRows.filter(
             (r) =>
-                (r.policyId || "").toLowerCase().includes(q) ||
-                (r.insurer || "").toLowerCase().includes(q) ||
-                (r.planName || "").toLowerCase().includes(q) ||
-                (r.planType || "").toLowerCase().includes(q) ||
-                (r.coverage || "").toLowerCase().includes(q)
+                (r.bondId || "").toLowerCase().includes(q) ||
+                (r.issuer || "").toLowerCase().includes(q) ||
+                (r.bondName || "").toLowerCase().includes(q) ||
+                (r.category || "").toLowerCase().includes(q)
         );
-    }, [rows, query, planTypeFilter]);
+    }, [rows, query, categoryFilter]);
 
     const handleRowClick = (params) => {
         setSelectedRow(params.row);
@@ -127,8 +127,8 @@ export default function InsuranceDashboard({ apiUrl }) {
     const columns = useMemo(
         () => [
             {
-                field: "planName",
-                headerName: "Plan Name",
+                field: "bondName",
+                headerName: "Bond Name",
                 flex: 2.2,
                 headerAlign: "center",
                 align: "center",
@@ -138,7 +138,6 @@ export default function InsuranceDashboard({ apiUrl }) {
                         direction="row"
                         spacing={1}
                         alignItems="center"
-                        // justifyContent="center"
                         sx={{
                             height: "100%",
                             maxWidth: "100%",
@@ -147,20 +146,19 @@ export default function InsuranceDashboard({ apiUrl }) {
                             "&::-webkit-scrollbar": { height: 10 },
                         }}
                     >
-                        {params.row.insurerLogo && (
+                        {params.row.issuerLogo && (
                             <Box
                                 component="img"
-                                src={params.row.insurerLogo}
-                                alt={params.row.insurer}
+                                src={params.row.issuerLogo}
+                                alt={params.row.issuer}
                                 sx={{
                                     width: 70,
                                     height: 70,
-                                    // borderRadius: "50%",
                                     objectFit: "contain",
                                 }}
                                 onError={(e) => {
                                     e.currentTarget.src =
-                                        "https://via.placeholder.com/24?text=🏦"; // fallback
+                                        "https://via.placeholder.com/24?text=🏛️";
                                 }}
                             />
                         )}
@@ -175,53 +173,68 @@ export default function InsuranceDashboard({ apiUrl }) {
                 ),
             },
             {
-                field: "policyId",
-                headerName: "Policy ID",
+                field: "bondId",
+                headerName: "ISIN",
                 align: "center",
                 headerAlign: "center",
-                width: 130,
+                width: 150,
             },
             {
-                field: "insurer",
-                headerName: "Insurer",
+                field: "issuer",
+                headerName: "Issuer",
                 headerAlign: "center",
                 align: "center",
                 flex: 1.5,
                 minWidth: 160,
             },
             {
-                field: "premium",
-                headerName: "Premium",
+                field: "couponRate",
+                headerName: "Coupon",
                 headerAlign: "center",
                 align: "center",
-                width: 150,
+                width: 120,
             },
             {
-                field: "coverage",
-                headerName: "Coverage",
+                field: "ytm",
+                headerName: "YTM",
                 headerAlign: "center",
                 align: "center",
-                width: 150,
+                width: 120,
             },
             {
-                field: "claimRatio",
-                headerName: "Claim Ratio",
+                field: "faceValue",
+                headerName: "Face Value",
                 headerAlign: "center",
                 align: "center",
                 width: 130,
             },
             {
-                field: "lastUpdatedText",
-                headerName: "Last Updated",
+                field: "currentPrice",
+                headerName: "Price",
+                headerAlign: "center",
+                align: "center",
+                width: 130,
+            },
+            {
+                field: "maturityDateText",
+                headerName: "Maturity",
                 headerAlign: "center",
                 align: "center",
                 width: 150,
                 sortComparator: (v1, v2, param1, param2) => {
-                    const d1 = param1.api.getRow(param1.id).lastUpdated;
-                    const d2 = param2.api.getRow(param2.id).lastUpdated;
+                    const d1 = param1.api.getRow(param1.id).maturityDate;
+                    const d2 = param2.api.getRow(param2.id).maturityDate;
                     if (d1 && d2) return d1 - d2;
                     return String(v1).localeCompare(String(v2));
                 },
+            },
+            {
+                field: "category",
+                headerName: "Category",
+                headerAlign: "center",
+                align: "center",
+                flex: 1,
+                minWidth: 150,
             },
         ],
         []
@@ -242,7 +255,7 @@ export default function InsuranceDashboard({ apiUrl }) {
                         <TextField
                             value={query}
                             onChange={(e) => setQuery(e.target.value)}
-                            placeholder="Search by policy, insurer, plan type..."
+                            placeholder="Search by ISIN, issuer, name, category..."
                             size="small"
                             fullWidth
                             InputProps={{
@@ -267,19 +280,19 @@ export default function InsuranceDashboard({ apiUrl }) {
                         </Stack>
                     </Stack>
 
-                    {/* Filter Buttons for Plan Type */}
+                    {/* Filter Buttons */}
                     <Stack direction="row" spacing={1} sx={{ mb: 2 }}>
-                        {planTypes.map((type) => (
+                        {categories.map((cat) => (
                             <Button
-                                key={type}
+                                key={cat}
                                 variant={
-                                    planTypeFilter === type
+                                    categoryFilter === cat
                                         ? "contained"
                                         : "outlined"
                                 }
-                                onClick={() => setPlanTypeFilter(type)}
+                                onClick={() => setCategoryFilter(cat)}
                             >
-                                {type}
+                                {cat}
                             </Button>
                         ))}
                     </Stack>
@@ -295,14 +308,6 @@ export default function InsuranceDashboard({ apiUrl }) {
                                 pagination: {
                                     paginationModel: { pageSize: 10, page: 0 },
                                 },
-                                // sorting: {
-                                //     sortModel: [
-                                //         {
-                                //             field: "lastUpdatedText",
-                                //             sort: "desc",
-                                //         },
-                                //     ],
-                                // },
                             }}
                             pageSizeOptions={[10, 25, 50]}
                             slots={{ toolbar: GridToolbar }}
@@ -310,7 +315,7 @@ export default function InsuranceDashboard({ apiUrl }) {
                                 toolbar: {
                                     showQuickFilter: false,
                                     csvOptions: {
-                                        fileName: "insurance-dashboard",
+                                        fileName: "gov-bonds-dashboard",
                                     },
                                     printOptions: {
                                         disableToolbarButton: false,
@@ -361,15 +366,15 @@ export default function InsuranceDashboard({ apiUrl }) {
                 >
                     {purchasedItem
                         ? `${purchasedItem} purchased successfully!`
-                        : "Item purchased!"}
+                        : "Bond purchased!"}
                 </Alert>
             </Snackbar>
 
-            <InsuranceDetailsDialog
+            {/* <GovBondDetailsDialog
                 open={openModal}
                 onClose={() => setOpenModal(false)}
                 rowData={selectedRow}
-            />
+            /> */}
         </AppTheme>
     );
 }
