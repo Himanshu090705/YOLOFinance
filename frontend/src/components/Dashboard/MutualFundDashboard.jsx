@@ -286,36 +286,70 @@ export default function MutualFundDashboard({ apiUrl }) {
                 ),
             },
             {
-                field: "schemeName",
-                headerName: "Scheme Name",
-                flex: 2.2,
-                headerAlign: "center",
-                align: "center",
-                minWidth: 160,
-                renderCell: (params) => (
-                    <Stack
-                        direction="row"
-                        spacing={1}
-                        alignItems="center"
-                        sx={{
-                            height: "100%",
-                            maxWidth: "100%",
-                            overflowX: "auto",
-                            whiteSpace: "nowrap",
-                            "&::-webkit-scrollbar": { height: 6 },
-                        }}
+    field: "schemeName",
+    headerName: "Scheme Name",
+    flex: 2.2,
+    headerAlign: "center",
+    align: "center",
+    minWidth: 160,
+    renderCell: (params) => (
+        <Stack
+            direction="row"
+            spacing={1}
+            alignItems="center"
+            sx={{
+                height: "100%",
+                maxWidth: "100%",
+                overflow: "hidden",
+                whiteSpace: "nowrap",
+            }}
+        >
+            <Box
+                sx={{
+                    flex: 1,
+                    overflow: "hidden",
+                    position: "relative",
+                    "&:hover .scrollTrack": {
+                        animation: "scroll 5s linear infinite",
+                    },
+                    "@keyframes scroll": {
+                        "0%": { transform: "translateX(0)" },
+                        "100%": { transform: "translateX(-50%)" },
+                    },
+                }}
+            >
+                {/* Track that holds the repeated text */}
+                <Box
+                    className="scrollTrack"
+                    sx={{
+                        display: "inline-flex",
+                        whiteSpace: "nowrap",
+                        transform: "translateX(0)",
+                    }}
+                >
+                    <Typography
+                        variant="body2"
+                        fontWeight={600}
+                        sx={{ lineHeight: 1.2, px: 0.5 }}
                     >
-                        <Typography
-                            variant="body2"
-                            fontWeight={600}
-                            sx={{ lineHeight: 1.2 }}
-                        >
-                            {params.value}
-                        </Typography>
-                        <Chip label="IDCW" size="small" variant="outlined" />
-                    </Stack>
-                ),
-            },
+                        {params.value}
+                    </Typography>
+                    <Typography
+                        variant="body2"
+                        fontWeight={600}
+                        sx={{ lineHeight: 1.2, px: 0.5 }}
+                    >
+                        {params.value}
+                    </Typography>
+                </Box>
+            </Box>
+
+            {/* <Chip label="IDCW" size="small" variant="outlined" /> */}
+        </Stack>
+    ),
+},
+
+
             {
                 field: "schemeCode",
                 headerName: "Scheme Code",

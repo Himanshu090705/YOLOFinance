@@ -32,7 +32,7 @@ export default function InsuranceGrid() {
   return (
     <Box sx={{ width: '100%', maxWidth: { sm: '100%', md: '1700px' } }}>
       <Typography component="h2" variant="h2" sx={{ mb: 2 }}>
-        Insurance
+        <i class="fa-solid fa-user-shield"></i>Insurance
       </Typography>
       <Grid container spacing={2} columns={12}>
         <Grid sx={{ width: "100%" }}>

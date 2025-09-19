@@ -59,6 +59,26 @@ app.get("/fetchInsurance", (req, res) => {
     });
 });
 
+// ✅ API endpoint to serve gov bonds data
+app.get("/fetchGovBonds", (req, res) => {
+    const filePath = path.join(__dirname, "gov-bonds.json"); // make sure the file is placed in dist/ or same folder after build
+    fs.readFile(filePath, "utf8", (err, data) => {
+        if (err) {
+            console.error("Error reading gov-bonds.json:", err);
+            res.status(500).json({ error: "Failed to load gov bonds data" });
+        } else {
+            try {
+                res.json(JSON.parse(data));
+            } catch (parseErr) {
+                console.error("Error parsing gov-bonds.json:", parseErr);
+                res.status(500).json({
+                    error: "Invalid gov bonds data format",
+                });
+            }
+        }
+    });
+});
+
 app.use(feedbackRoutes);
 
 app.listen(port, function () {

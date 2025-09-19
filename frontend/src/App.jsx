@@ -15,7 +15,7 @@ import NewsLetter from "./components/Home/NewsLetter";
 import Chatbot from "./components/Common/ChatBot";
 import { PaymentPage, InsurancePaymentPage} from "./components/Dashboard/components/PaymentPage";
 import Profile from "./components/Auth/Profile";
-import GoalDashboard from "./components/Dashboard/GoalDashboard";
+// import GoalDashboard from "./components/Dashboard/GoalDashboard";
 import SWPDashboard from "./components/Dashboard/SWPDashboard";
 import ReportsDashboard from "./components/Dashboard/ReportsDashboard";
 import CalcDashboard from "./components/Dashboard/CalcDashboard";
@@ -24,6 +24,8 @@ import AboutDashboard from "./components/Dashboard/AboutDashboard";
 import FeedbackDashboard from "./components/Dashboard/FeedbackDashboard";
 import { PrivateRoute } from "./PrivateRoutes";
 import NotFound from "./NotFound";
+import GovBondsDashboard from "./components/Dashboard/GovBondsDashboard";
+import GovBonds from "./components/Dashboard/GovBonds";
 
 
 const App = () => (
@@ -58,10 +60,10 @@ const App = () => (
           }
         />
         <Route
-          path="/GoalDashboard"
+          path="/GovBonds"
           element={
             <PrivateRoute>
-              <GoalDashboard />
+              <GovBonds />
             </PrivateRoute>
           }
         />

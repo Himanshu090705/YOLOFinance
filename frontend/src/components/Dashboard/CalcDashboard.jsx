@@ -222,7 +222,130 @@ export default function CalcDashboard() {
                                     label: "🧾 Income Tax Calculator",
                                     color: "warning",
                                 },
-                            ].map((item) => (
+                            ]
+//                             [
+//   {
+//     key: "sip",
+//     label: (
+//       <>
+//         <i className="fa-solid fa-chart-line" style={{ marginRight: 8 }}></i>
+//         SIP Calculator
+//       </>
+//     ),
+//     color: "primary",
+//   },
+//   {
+//     key: "swp",
+//     label: (
+//       <>
+//         <i className="fa-solid fa-hand-holding-dollar" style={{ marginRight: 8 }}></i>
+//         SWP Calculator
+//       </>
+//     ),
+//     color: "info",
+//   },
+//   {
+//     key: "lumpsum",
+//     label: (
+//       <>
+//         <i className="fa-solid fa-sack-dollar" style={{ marginRight: 8 }}></i>
+//         Lumpsum Calculator
+//       </>
+//     ),
+//     color: "secondary",
+//   },
+//   {
+//     key: "emi",
+//     label: (
+//       <>
+//         <i className="fa-solid fa-building-columns" style={{ marginRight: 8 }}></i>
+//         EMI Calculator
+//       </>
+//     ),
+//     color: "success",
+//   },
+//   {
+//     key: "goalPlanner",
+//     label: (
+//       <>
+//         <i className="fa-solid fa-bullseye" style={{ marginRight: 8 }}></i>
+//         Goal Planner
+//       </>
+//     ),
+//     color: "info",
+//   },
+//   {
+//     key: "currency",
+//     label: (
+//       <>
+//         <i className="fa-solid fa-coins" style={{ marginRight: 8 }}></i>
+//         Currency Converter
+//       </>
+//     ),
+//     color: "info",
+//   },
+//   {
+//     key: "retirementCorpus",
+//     label: (
+//       <>
+//         <i className="fa-solid fa-person-cane" style={{ marginRight: 8 }}></i>
+//         Retirement Corpus
+//       </>
+//     ),
+//     color: "info",
+//   },
+//   {
+//     key: "prepayment",
+//     label: (
+//       <>
+//         <i className="fa-solid fa-money-bill-trend-up" style={{ marginRight: 8 }}></i>
+//         Loan Prepayment
+//       </>
+//     ),
+//     color: "success",
+//   },
+//   {
+//     key: "debtPayoff",
+//     label: (
+//       <>
+//         <i className="fa-solid fa-credit-card" style={{ marginRight: 8 }}></i>
+//         Debt Payoff Calculator
+//       </>
+//     ),
+//     color: "error",
+//   },
+//   {
+//     key: "capitalGains",
+//     label: (
+//       <>
+//         <i className="fa-solid fa-file-invoice-dollar" style={{ marginRight: 8 }}></i>
+//         Capital Gains Tax
+//       </>
+//     ),
+//     color: "warning",
+//   },
+//   {
+//     key: "lifeInsurance",
+//     label: (
+//       <>
+//         <i className="fa-solid fa-shield-heart" style={{ marginRight: 8 }}></i>
+//         Life Insurance Calculator
+//       </>
+//     ),
+//     color: "warning",
+//   },
+//   {
+//     key: "tax",
+//     label: (
+//       <>
+//         <i className="fa-solid fa-receipt" style={{ marginRight: 8 }}></i>
+//         Income Tax Calculator
+//       </>
+//     ),
+//     color: "warning",
+//   },
+// ]
+.map((item) => (
                                 <Paper
                                     key={item.key}
                                     onClick={() => setSelectedCalc(item.key)}
